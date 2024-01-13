@@ -1,1 +1,1 @@
-# wedigr
+# ecore
