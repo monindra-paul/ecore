@@ -21,4 +21,34 @@ class ServiceController extends Controller
     {
         return view('frontend.services.cctv');
     }
+
+    public function website()
+    {
+        return view('frontend.services.website');
+    }
+
+    public function graphics()
+    {
+        return view('frontend.services.graphic');
+    }
+
+    public function dm()
+    {
+        return view('frontend.services.digitalmarketing');
+    }
+
+    public function software()
+    {
+        return view('frontend.services.software');
+    }
+
+    public function app()
+    {
+        return view('frontend.services.app');
+    }
+
+    public function cloud()
+    {
+        return view('frontend.services.cloud');
+    }
 }

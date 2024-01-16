@@ -126,42 +126,42 @@
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/websitedevelopment') }}" class="nav_link">
+                                                    <a href="{{ url('/website-development') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Web Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/graphicdesign') }}" class="nav_link">
+                                                    <a href="{{ url('/graphic-designing') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Graphic Designing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/digitalmarketing') }}" class="nav_link">
+                                                    <a href="{{ url('/digital-marketing') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Digital Marketing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="service-details.html" class="nav_link">
+                                                    <a href="{{ url('/software-development') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Software Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="service-details.html" class="nav_link">
+                                                    <a href="{{ url('/app-development') }}" class="nav_link">
                                                         <span class="text-link">
                                                             App Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="service-details.html" class="nav_link">
+                                                    <a href="{{ url('/cloud-services') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Cloud Services
                                                         </span>
@@ -169,16 +169,40 @@
                                                 </li>
                                             </ul>
                                         </li>
+                                        <li class="menu-item menu-item-has-children dropdown  nav-item">
+                                            <a href="#" class="nav_link">
+                                                <span class="text-link">
+                                                    Support
+                                                </span>
+                                            </a>
+                                            <ul class="sub_menu">
+                                                <li class="menu-item nav-item">
+                                                    <a href="{{ url('/remote-support') }}" class="nav_link">
+                                                        <span class="text-link">
+                                                            Remote Support
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item nav-item">
+                                                    <a href="{{ url('/network-security') }}" class="nav_link">
+                                                        <span class="text-link">
+                                                            Software & Drivers
+                                                        </span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
 
                                         <li class="menu-item  nav-item">
                                             <a href="contact.html" class="nav_link">
                                                 <span class="text-link">
-                                                    Portfolio
+                                                    Blog
                                                 </span>
                                             </a>
                                         </li>
                                         <li class="menu-item  nav-item">
-                                            <a href="{{ url('/contact') }}" class="nav_link">
+                                            <a href="{{ url('/contact-us') }}" class="nav_link">
                                                 <span class="text-link">
                                                     Contact
                                                 </span>
@@ -296,47 +320,72 @@
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/websitedevelopment') }}" class="nav_link">
+                                                    <a href="{{ url('/website-development') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Web Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/graphicdesign') }}" class="nav_link">
+                                                    <a href="{{ url('/graphic-designing') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Graphic Designing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/digitalmarketing') }}" class="nav_link">
+                                                    <a href="{{ url('/digital-marketing') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Digital Marketing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="service-details.html" class="nav_link">
+                                                    <a href="{{ url('/software-development') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Software Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="service-details.html" class="nav_link">
+                                                    <a href="{{ url('/app-development') }}" class="nav_link">
                                                         <span class="text-link">
                                                             App Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="service-details.html" class="nav_link">
+                                                    <a href="{{ url('/cloud-services') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Cloud Services
                                                         </span>
                                                     </a>
                                                 </li>
+                                            </ul>
+
+                                        </li>
+                                        <li class="menu-item menu-item-has-children dropdown  nav-item">
+                                            <a href="#" class="nav_link">
+                                                <span class="text-link">
+                                                    Services
+                                                </span>
+                                            </a>
+                                            <ul class="sub_menu">
+                                                <li class="menu-item nav-item">
+                                                    <a href="{{ url('/remote-support') }}" class="nav_link">
+                                                        <span class="text-link">
+                                                            Remote Support
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item nav-item">
+                                                    <a href="{{ url('/network-security') }}" class="nav_link">
+                                                        <span class="text-link">
+                                                            Software & Drivers
+                                                        </span>
+                                                    </a>
+                                                </li>
+
                                             </ul>
 
                                         </li>
@@ -350,7 +399,7 @@
                                         </li>
 
                                         <li class="menu-item  nav-item">
-                                            <a href="{{ url('/contact') }}" class="nav_link">
+                                            <a href="{{ url('/contact-us') }}" class="nav_link">
                                                 <span class="text-link">
                                                     Contact
                                                 </span>

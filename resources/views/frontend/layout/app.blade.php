@@ -62,6 +62,8 @@
 <script type='text/javascript' src="{{ 'assets-front/js/plugins/slick.js' }}"></script>
 <script type='text/javascript' src="{{ 'assets-front/include/validator.min.js' }}"></script>
 <script type='text/javascript' src="{{ 'assets-front/include/contact.js' }}"></script>
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+
 <!-- map script -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
 <script src="{{ 'assets-front/js/gmaps.js' }}"></script>

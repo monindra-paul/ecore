@@ -27,7 +27,7 @@
                                             <h1 class="animate_left">Best Website Design in Kolkata</h1>
 
                                             <div class="button_all animate_down">
-                                                <a href="{{ url('/websitedevelopment') }}" class="theme_btn">Know More</a>
+                                                <a href="{{ url('/website-development') }}" class="theme_btn">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -66,7 +66,7 @@
                                             <h1 class="animate_left">Best Digital Marketing Agency in Kolkata</h1>
 
                                             <div class="button_all animate_down">
-                                                <a href="{{ url('/digitalmarketing') }}" class="theme_btn">Know More</a>
+                                                <a href="{{ url('/digital-marketing') }}" class="theme_btn">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +104,7 @@
                                             <h1 class="animate_left">Best Graphic Design in Kolkata</h1>
 
                                             <div class="button_all animate_down">
-                                                <a href="{{ url('/graphicdesign') }}" class="theme_btn">Know More</a>
+                                                <a href="{{ url('/graphic-designing') }}" class="theme_btn">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -244,7 +244,7 @@
                             <div class="row gutter_15px pd_left_40">
                                 <div class="col-lg-5">
                                     <div class="theme_btn_all">
-                                        <a href="#" class="theme_btn color_two rotate big">
+                                        <a href="{{ url('/about-us') }}" class="theme_btn color_two rotate big">
                                             About Us <span> <i class=" fi-rr-arrow-small-up"></i></span>
                                         </a>
                                     </div>
@@ -302,7 +302,7 @@
                                             </div>
                                             <div class="steps trans">1</div>
                                             <h4 class="title_24 trans">
-                                                <a href="{{ url('/hardwaresupport') }}">
+                                                <a href="{{ url('/hardware-support') }}">
                                                     Hardware Support</a>
                                             </h4>
                                         </div>
@@ -313,7 +313,7 @@
                                             <p class="trans">
                                                 Troubleshooting is the process of diagnosing the source of a problem. It is
                                                 used to fix problems with hardware, software, and many other products.</p>
-                                            <a href="{{ url('/hardwaresupport') }}" class="rd_more">
+                                            <a href="{{ url('/hardware-support') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -341,7 +341,7 @@
                                             </div>
                                             <div class="steps trans">2</div>
                                             <h4 class="title_24 trans">
-                                                <a href="{{ url('/networksecurity') }}">Network & Security</a>
+                                                <a href="{{ url('/network-security') }}">Network & Security</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -351,7 +351,7 @@
                                             <p class="trans">
                                                 A computer network is a set of computers connected together for sharing
                                                 resources. Security is also sucure your network communications.</p>
-                                            <a href="{{ url('/networksecurity') }}" class="rd_more">
+                                            <a href="{{ url('/network-security') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -379,7 +379,7 @@
                                             </div>
                                             <div class="steps trans">3</div>
                                             <h4 class="title_24 trans">
-                                                <a href="service-details.html">CCTV Surveilance</a>
+                                                <a href="{{ url('/cctv-surveillance') }}">CCTV Surveillance</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -389,7 +389,7 @@
                                             <p class="trans">
                                                 Surveillance is the monitoring of behavior, activities from a distance by
                                                 means of electronic equipment, such as closed-circuit television (CCTV).</p>
-                                            <a href="service-details.html" class="rd_more">
+                                            <a href="{{ url('/cctv-surveillance') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -417,7 +417,7 @@
                                             </div>
                                             <div class="steps trans">4</div>
                                             <h4 class="title_24 trans">
-                                                <a href="service-details.html">Website Development</a>
+                                                <a href="{{ url('/website-development') }}">Website Development</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -427,7 +427,7 @@
                                             <p class="trans">
                                                 Web design is creates the overall look and feel when you're using a website.
                                                 It's the process of planning and building the elements of your website.</p>
-                                            <a href="service-details.html" class="rd_more">
+                                            <a href="{{ url('/website-development') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -455,7 +455,7 @@
                                             </div>
                                             <div class="steps trans">5</div>
                                             <h4 class="title_24 trans">
-                                                <a href="service-details.html">Digital Marketing</a>
+                                                <a href="{{ url('/digital-marketing') }}">Digital Marketing</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -465,7 +465,7 @@
                                             <p class="trans">
                                                 Social media marketing is a powerful way for businesses of all sizes to
                                                 reach prospects and customers. like Facebook, Instagram, & LinkedIn.</p>
-                                            <a href="service-details.html" class="rd_more">
+                                            <a href="{{ url('/digital-marketing') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -492,7 +492,7 @@
                                             </div>
                                             <div class="steps trans">6</div>
                                             <h4 class="title_24 trans">
-                                                <a href="service-details.html">Graphics Design</a>
+                                                <a href="{{ route('service.graphics') }}">Graphics Design</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -503,7 +503,7 @@
                                                 Graphic design can be used by companies to promote and sell products through
                                                 advertising, by websites to convey complicated information through
                                                 infographics. </p>
-                                            <a href="service-details.html" class="rd_more">
+                                            <a href="{{ route('service.graphics') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -528,7 +528,7 @@
                                             </div>
                                             <div class="steps trans">6</div>
                                             <h4 class="title_24 trans">
-                                                <a href="service-details.html">App Development</a>
+                                                <a href="{{ url('/app-development') }}">App Development</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -539,7 +539,7 @@
                                                 App development is the creation of software to run on mobile devices and
                                                 optimized to take advantage of those products' unique features and
                                                 accesibility.</p>
-                                            <a href="service-details.html" class="rd_more">
+                                            <a href="{{ url('/app-development') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -564,7 +564,7 @@
                                             </div>
                                             <div class="steps trans">6</div>
                                             <h4 class="title_24 trans">
-                                                <a href="service-details.html">Software Development</a>
+                                                <a href="{{ url('/software-development') }}">Software Development</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -575,7 +575,7 @@
                                                 Software development refers to a set of computer science activities
                                                 dedicated to the process of creating, designing, deploying and supporting
                                                 software. </p>
-                                            <a href="service-details.html" class="rd_more">
+                                            <a href="{{ url('/software-development') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -600,7 +600,7 @@
                                             </div>
                                             <div class="steps trans">6</div>
                                             <h4 class="title_24 trans">
-                                                <a href="service-details.html">Cloud Services</a>
+                                                <a href="{{ url('/cloud-services') }}">Cloud Services</a>
                                             </h4>
                                         </div>
                                         <div class="line_box">
@@ -611,7 +611,7 @@
                                                 cloud computing is the delivery of computing services including servers,
                                                 storage, databases, networking, software and analytics over the Internet.
                                             </p>
-                                            <a href="service-details.html" class="rd_more">
+                                            <a href="{{ url('/cloud-services') }}" class="rd_more">
                                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
