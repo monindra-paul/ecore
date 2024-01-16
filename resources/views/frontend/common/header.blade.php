@@ -184,7 +184,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/network-security') }}" class="nav_link">
+                                                    <a href="{{ url('/softwares-drivers') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Software & Drivers
                                                         </span>
@@ -367,7 +367,7 @@
                                         <li class="menu-item menu-item-has-children dropdown  nav-item">
                                             <a href="#" class="nav_link">
                                                 <span class="text-link">
-                                                    Services
+                                                    Support
                                                 </span>
                                             </a>
                                             <ul class="sub_menu">
@@ -379,7 +379,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/network-security') }}" class="nav_link">
+                                                    <a href="{{ url('/softwares-drivers') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Software & Drivers
                                                         </span>

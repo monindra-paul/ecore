@@ -45,10 +45,12 @@ Route::get('/cloud-services', [ServiceController::class, 'cloud'])->name('servic
 
 Route::get('/about-us', [PagesController::class, 'about'])->name('about');
 Route::get('/contact-us', [PagesController::class, 'contact'])->name('contact');
+Route::post('/contact-us', [PagesController::class, 'postContact'])->name('post.contact');
 
 
 
 Route::get('/remote-support', [SupportController::class, 'remoteSupport'])->name('support.remote');
+Route::get('/softwares-drivers', [SupportController::class, 'softwareDrivers'])->name('support.drivers');
 
 
 

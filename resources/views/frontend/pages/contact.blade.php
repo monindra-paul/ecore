@@ -111,7 +111,7 @@
                     <div class="col-lg-8 col-md-12">
                         <section class="contact_form_box_all">
                             <div class="contact_form_shortcode">
-                                <form id="contact-form" method="post" action="{{ url('/contact') }}" role="form">
+                                <form id="contact-form" method="post" action="{{ route('post.contact') }}" role="form">
                                     @csrf
                                     <div class="messages"></div>
                                     <div class="controls">
@@ -145,20 +145,15 @@
                                                         placeholder=" Enter Your Mobile Number">
                                                 </div>
                                             </div>
-                                            <!-- <div class="col-sm-12">
-                                                                                                  <div class="form-group">
-                                                                                                    @if ($errors->has('subject'))
-    <span class="text-danger">{{ $errors->first('subject') }}</span>
-    @endif
-                                                                                                    <input type="text" name="subject" placeholder=" Subject ">
-                                                                                                  </div>
-                                                                                                </div> -->
+
+
+                                            @if ($errors->has('subject'))
+                                                <span class="text-danger">{{ $errors->first('subject') }}</span>
+                                            @endif
                                             <div class="col-sm-6 form-group mb-1">
-                                                @if ($errors->has('subject'))
-                                                    <span class="text-danger">{{ $errors->first('subject') }}</span>
-                                                @endif
+
                                                 <select class="form-select form-select-sm"
-                                                    aria-label=".form-select-sm example" name="subject">
+                                                    aria-label=".form-select-sm example" name="subject" id="subject">
                                                     <option selected>Select Service</option>
                                                     <option value="Hardware Support">Hardware Support</option>
                                                     <option value="Network & Security">Network & Security</option>
@@ -174,10 +169,8 @@
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="form-group">
-                                                    @if ($errors->has('message'))
-                                                        <span class="text-danger">{{ $errors->first('message') }}</span>
-                                                    @endif
-                                                    <textarea name="message" placeholder="Additional Information... (Optional) " rows="3"
+
+                                                    <textarea name="problem" placeholder="Additional Information... (Optional) " rows="3"
                                                         data-error="Please, leave us a message."></textarea>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
@@ -185,12 +178,13 @@
 
 
                                             <div class="col-sm-12">
-                                                <div class="form-group mg_top apbtn">
-                                                    <button class="theme_btn" type="submit">Send Message</button>
-                                                </div>
                                                 @if (session('success'))
                                                     <div class="alert alert-success">{{ session('success') }}</div>
                                                 @endif
+                                                <div class="form-group mg_top apbtn">
+                                                    <button class="theme_btn" type="submit">Reach Message</button>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>

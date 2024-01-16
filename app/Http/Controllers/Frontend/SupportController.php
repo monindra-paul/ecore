@@ -11,4 +11,9 @@ class SupportController extends Controller
     {
         return view('frontend.support.remote');
     }
+
+    public function softwareDrivers()
+    {
+        return view('frontend.support.drivers');
+    }
 }
