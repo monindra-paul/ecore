@@ -46,8 +46,8 @@
                                 </button>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" id="mission-tabtab" data-bs-toggle="tab" data-bs-target="#mission"
-                                    type="button" role="tab" aria-controls="mission" aria-selected="false">
+                                <button class="nav-link" id="vision-tabtab" data-bs-toggle="tab" data-bs-target="#vision"
+                                    type="button" role="tab" aria-controls="vision" aria-selected="false">
                                     Drivers
                                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -203,14 +203,15 @@
                                     <div class="row">
                                         <div class="col-lg-4">
 
-                                            <a href="#">
-                                                <div class="icon_box_only trans type_one type_two">
+
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                <div class="icon_box_only trans type_one type_two ">
 
                                                     <div class="icon_box_in trans">
 
                                                         <div class="icon">
-                                                            <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
-                                                                trigger="loop" delay="1000" state="hover-slide"
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
                                                                 colors="primary:#30c9e8,secondary:#ebe6ef"
                                                                 style="width:100px;height:100px">
                                                             </lord-icon>
@@ -222,55 +223,66 @@
                                                         </div>
                                                         <div class="title_18">
                                                             <a href="#">
-                                                                Windows 10 Home
+                                                                Windows Operating System (OS)
                                                             </a>
                                                         </div>
-                                                        <p>Version : 18.0.89</p>
+                                                        <p>Microsoft</p>
 
+                                                        {{-- <button type="button" class="btn btn-primary"
+                                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                            Launch static backdrop modal
+                                                        </button> --}}
                                                     </div>
 
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="icon_box_only trans type_one type_two">
-                                                <div class="icon_box_in trans">
-                                                    <div class="icon">
-                                                        <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
-                                                            trigger="loop" delay="500"
-                                                            colors="primary:#30c9e8,secondary:#ebe6ef"
-                                                            style="width:100px;height:100px">
-                                                        </lord-icon>
-                                                    </div>
-                                                    <div class="title_18">
-                                                        <a href="#">
-                                                            On-Demand Self-Service
-                                                        </a>
-                                                    </div>
-                                                    <p>Version : 18.0.89</p>
 
+
+                                        <div class="col-lg-4">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                                                <div class="icon_box_only trans type_one type_two">
+                                                    <div class="icon_box_in trans">
+                                                        <div class="icon">
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
+                                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                style="width:100px;height:100px">
+                                                            </lord-icon>
+                                                        </div>
+                                                        <div class="title_18">
+                                                            <a href="#">
+                                                                Microsoft Office
+                                                            </a>
+                                                        </div>
+                                                        <p>Microsoft</p>
+
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="icon_box_only trans type_one type_two">
-                                                <div class="icon_box_in trans">
-                                                    <div class="icon">
-                                                        <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
-                                                            trigger="loop" delay="500"
-                                                            colors="primary:#30c9e8,secondary:#ebe6ef"
-                                                            style="width:100px;height:100px">
-                                                        </lord-icon>
-                                                    </div>
-                                                    <div class="title_18">
-                                                        <a href="#">
-                                                            On-Demand Self-Service
-                                                        </a>
-                                                    </div>
-                                                    <p>Version : 18.0.89</p>
 
+                                        <div class="col-lg-4">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                                                <div class="icon_box_only trans type_one type_two">
+                                                    <div class="icon_box_in trans">
+                                                        <div class="icon">
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
+                                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                style="width:100px;height:100px">
+                                                            </lord-icon>
+                                                        </div>
+                                                        <div class="title_18">
+                                                            <a href="#">
+                                                                Activator
+                                                            </a>
+                                                        </div>
+                                                        <p>Microsoft</p>
+
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </a>
                                         </div>
 
 
@@ -283,7 +295,7 @@
 
                             <div class="tab-pane" id="mission" role="tabpanel" aria-labelledby="mission-tabtab">
                                 <div class="tab_content_box">
-                                    <div class="content">
+                                    {{-- <div class="content">
                                         These are principles that not only
                                         company employees respect, but are
                                         principles that our customers appreciate
@@ -345,7 +357,101 @@
 
                                         </ul>
 
+                                    </div> --}}
+
+
+
+
+                                    <div class="d-flex align-items-start">
+                                        <div class="col-3">
+                                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
+                                                <button class="nav-link active" id="v-pills-home-tab"
+                                                    data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button"
+                                                    role="tab" aria-controls="v-pills-home"
+                                                    aria-selected="true">Home</button>
+                                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#v-pills-profile" type="button" role="tab"
+                                                    aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                                                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#v-pills-messages" type="button" role="tab"
+                                                    aria-controls="v-pills-messages"
+                                                    aria-selected="false">Messages</button>
+                                                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#v-pills-settings" type="button" role="tab"
+                                                    aria-controls="v-pills-settings"
+                                                    aria-selected="false">Settings</button>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-9">
+                                            <div class="tab-content" id="v-pills-tabContent">
+                                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                                    aria-labelledby="v-pills-home-tab">
+
+                                                    <table class="table col-12">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="col-1">#</th>
+                                                                <th class="col-3">First</th>
+                                                                <th class="col-3">Last</th>
+                                                                <th class="col-3">Handle</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">1</th>
+                                                                <td>Mark</td>
+                                                                <td>Otto</td>
+                                                                <td>
+                                                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
+                                                                        trigger="loop" delay="1000" state="hover-slide"
+                                                                        colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                        style="width:100px;height:100px">
+                                                                    </lord-icon>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">2</th>
+                                                                <td>Jacob</td>
+                                                                <td>Thornton</td>
+                                                                <td>
+                                                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
+                                                                        trigger="loop" delay="1000" state="hover-slide"
+                                                                        colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                        style="width:100px;height:100px">
+                                                                    </lord-icon>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">3</th>
+                                                                <td colspan="2">Larry the Bird</td>
+                                                                <td>
+                                                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
+                                                                        trigger="loop" delay="1000" state="hover-slide"
+                                                                        colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                        style="width:100px;height:100px">
+                                                                    </lord-icon>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                                    aria-labelledby="v-pills-profile-tab">222</div>
+                                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                                    aria-labelledby="v-pills-messages-tab">...</div>
+                                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                                    aria-labelledby="v-pills-settings-tab">.55..</div>
+                                            </div>
+                                        </div>
+
                                     </div>
+
+
+
                                 </div>
                             </div>
 
@@ -419,11 +525,11 @@
 
 
                     <!-- <div class="theme_btn_all">
-                                                                                                                                        <a href="#" class="theme_btn">
-                                                                                                                                          More About Us
-                                                                                                                                          <span> <i class="fi-rr-arrow-small-right"></i></span>
-                                                                                                                                        </a>
-                                                                                                                                      </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="#" class="theme_btn">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  More About Us
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span> <i class="fi-rr-arrow-small-right"></i></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div> -->
                     <!---============spacing==========--->
                     <div class="pd_bottom_70"></div>
                     <!---============spacing==========--->
@@ -443,192 +549,211 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="content-section bg_light_2">
-        <!---============spacing==========--->
-        <div class="pd_top_95"></div>
-        <!---============spacing==========--->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12  position-relative z_2">
-                    <div class="row text-center">
-                        <div class="col-lg-12 pd_right_70">
-                            <div class="section_title type_two">
-                                <h4 class="sm_title">FEATURES AND ADVANTAGES</h4>
-                                <div class="title_whole">
-                                    <h2 class="title">Cloud Features and Advantages</h2>
-                                </div>
-                                <!---============spacing==========--->
-                                <div class="pd_bottom_5"></div>
-                                <!---============spacing==========--->
-                            </div>
-                        </div>
-                    </div>
-                    <!---============spacing==========--->
-                    <div class="pd_bottom_40"></div>
-                    <!---============spacing==========--->
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="icon_box_only trans type_one type_two">
-                                <div class="icon_box_in trans">
-                                    <div class="icon">
-                                        <i class=" flaticon-agile"></i>
-                                    </div>
-                                    <div class="title_18">
-                                        <a href="#">
-                                            On-Demand Self-Service
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="icon_box_only trans type_one type_two">
-                                <div class="icon_box_in trans">
-                                    <div class="icon">
-                                        <i class=" flaticon-process"></i>
-                                    </div>
-                                    <div class="title_18">
-                                        <a href="#">
-                                            Resources Pooling</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="icon_box_only trans type_one type_two">
-                                <div class="icon_box_in trans">
-                                    <div class="icon">
-                                        <i class=" flaticon-money-bag"></i>
-                                    </div>
-                                    <div class="title_18">
-                                        <a href="#">
-                                            Board network Access</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="icon_box_only trans type_one type_two">
-                                    <div class="icon_box_in trans">
-                                        <div class="icon">
-                                            <i class=" flaticon-cyber-security"></i>
-                                        </div>
-                                        <div class="title_18">
-                                            <a href="#">
-                                                Easy Maintenance</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="icon_box_only trans type_one type_two">
-                                    <div class="icon_box_in trans">
-                                        <div class="icon">
-                                            <i class=" flaticon-agile"></i>
-                                        </div>
-                                        <div class="title_18">
-                                            <a href="#">
-                                                Availability</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="icon_box_only trans type_one type_two">
-                                    <div class="icon_box_in trans">
-                                        <div class="icon">
-                                            <i class=" flaticon-process"></i>
-                                        </div>
-                                        <div class="title_18">
-                                            <a href="#">
-                                                Security</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="icon_box_only trans type_one type_two">
-                                    <div class="icon_box_in trans">
-                                        <div class="icon">
-                                            <i class=" flaticon-money-bag"></i>
-                                        </div>
-                                        <div class="title_18">
-                                            <a href="#">
-                                                Measured Services</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="icon_box_only trans type_one type_two">
-                                    <div class="icon_box_in trans">
-                                        <div class="icon">
-                                            <i class=" flaticon-agile"></i>
-                                        </div>
-                                        <div class="title_18">
-                                            <a href="#">
-                                                Pay as you Use</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="icon_box_only trans type_one type_two">
-                                    <div class="icon_box_in trans">
-                                        <div class="icon">
-                                            <i class=" flaticon-cyber-security"></i>
-                                        </div>
-                                        <div class="title_18">
-                                            <a href="#">
-                                                Economical </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-
-
+                <div class="modal-body ">
+                    <table class="table col-12">
+                        <thead>
+                            <tr>
+                                <th class="col-1">#</th>
+                                <th class="col-3">Product Name</th>
+                                <th class="col-3">OS Bits</th>
+                                <th class="col-3">Version</th>
+                                <th class="col-3">Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>Otto</td>
+                                <td class="text-center">
+                                    <a href="{{ url('/') }}"> <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
+                                            trigger="loop" delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef" style="width:50px;height:50px">
+                                        </lord-icon>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>Thornton</td>
+                                <td class="text-center">
+                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
+                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
+                                        style="width:50px;height:50px">
+                                    </lord-icon>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry the Bird</td>
+                                <td>Larry the Bird</td>
+                                <td>Larry the Bird</td>
+                                <td class="text-center">
+                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
+                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
+                                        style="width:50px;height:50px">
+                                    </lord-icon>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
             </div>
         </div>
-        <!---============spacing==========--->
-        <div class="pd_bottom_70"></div>
-        <!---============spacing==========--->
-    </section>
+    </div>
+
+
+
+
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <table class="table col-12">
+                        <thead>
+                            <tr>
+                                <th class="col-1">#</th>
+                                <th class="col-3">Product Name</th>
+                                <th class="col-3">OS Bitdds</th>
+                                <th class="col-3">Version</th>
+                                <th class="col-3">Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>Otto</td>
+                                <td class="text-center">
+                                    <a href="{{ url('/') }}"> <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
+                                            trigger="loop" delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef" style="width:50px;height:50px">
+                                        </lord-icon>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>Thornton</td>
+                                <td class="text-center">
+                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
+                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
+                                        style="width:50px;height:50px">
+                                    </lord-icon>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry the Bird</td>
+                                <td>Larry the Bird</td>
+                                <td>Larry the Bird</td>
+                                <td class="text-center">
+                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
+                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
+                                        style="width:50px;height:50px">
+                                    </lord-icon>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <table class="table col-12">
+                        <thead>
+                            <tr>
+                                <th class="col-1">Id</th>
+                                <th class="col-3">Product Name</th>
+                                <th class="col-3">OS Bits</th>
+                                <th class="col-3">Version</th>
+                                <th class="col-3">Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>Otto</td>
+                                <td class="text-center">
+                                    <a href="{{ url('/') }}"> <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
+                                            trigger="loop" delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef" style="width:50px;height:50px">
+                                        </lord-icon>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>Thornton</td>
+                                <td class="text-center">
+                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
+                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
+                                        style="width:50px;height:50px">
+                                    </lord-icon>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry the Bird</td>
+                                <td>Larry the Bird</td>
+                                <td>Larry the Bird</td>
+                                <td class="text-center">
+                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
+                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
+                                        style="width:50px;height:50px">
+                                    </lord-icon>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\LoginController;
+use App\Http\Controllers\Admin\Software\OSController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PagesController;
 use App\Http\Controllers\Frontend\ServiceController;
@@ -67,5 +68,13 @@ Route::group(['prefix' => 'admin'], function () {
 
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
         Route::get('/logout', [DashboardController::class, 'logout'])->name('admin.logout');
+
+
+        Route::group(['prefix' => 'os'], function () {
+
+            Route::get('/show', [OSController::class, 'show'])->name('support.os.list');
+            Route::get('/create', [OSController::class, 'create'])->name('support.os.create');
+            Route::post('/store', [OSController::class, 'store'])->name('support.os.store');
+        });
     });
 });

@@ -5,10 +5,10 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="{{ asset('assets/images/logo-icon.png') }}" class="logo-icon" alt="logo icon">
+                    <img src="{{ asset('assets/images/ecore/logo_main.png') }}" class="logo-icon" alt="logo icon">
                 </div>
                 <div>
-                    <h4 class="logo-text">Wedigr</h4>
+                    <h4 class="logo-text">ECore</h4>
                 </div>
                 <div class="toggle-icon ms-auto"><i class='bx bx-first-page'></i>
                 </div>
@@ -94,6 +94,51 @@
                     </ul>
                 </li>
 
+
+
+                <li class="menu-label">Softwares & Drivers</li>
+                <li>
+                    <a class="has-arrow" href="javascript:;">
+                        <div class="parent-icon"><i class="bx bx-menu"></i>
+                        </div>
+                        <div class="menu-title">Microsoft</div>
+                    </a>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>
+                                Windows Operating System (OS)</a>
+                            <ul>
+                                <li> <a class="" href="{{ route('support.os.list') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="{{ route('support.os.create') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Office</a>
+                            <ul>
+                                <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="javascript:;"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Activator</a>
+                            <ul>
+                                <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="javascript:;"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
+
                 <li class="menu-label">Query</li>
                 <li>
                     <a href="javascript:;" class="">
@@ -103,6 +148,9 @@
                     </a>
 
                 </li>
+
+
+
 
 
 
