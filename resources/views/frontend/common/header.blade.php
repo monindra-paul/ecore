@@ -93,7 +93,7 @@
                                         <li class="menu-item  nav-item">
                                             <a href="{{ url('/about-us') }}" class="nav_link">
                                                 <span class="text-link">
-                                                    Why Us?
+                                                    Why Us
                                                 </span>
                                             </a>
                                         </li>
@@ -230,17 +230,7 @@
                                             </svg>
                                         </a>
                                     </div>
-                                    <div class="button">
-                                        <a href="#" class="theme_btn">
-                                            Get A Quote
-                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white"
-                                                    stroke-width="1.5" stroke-linecap="round"
-                                                    stroke-linejoin="round"></path>
-                                            </svg>
-                                        </a>
-                                    </div>
+
                                     <div class="contact-toggler">
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -285,7 +275,7 @@
                                         <li class="menu-item  menu-item">
                                             <a href="{{ url('/about-us') }}" class="nav_link">
                                                 <span class="text-link">
-                                                    Why Us?
+                                                    Why Us
                                                 </span>
                                             </a>
 
@@ -429,17 +419,7 @@
                                             </svg>
                                         </a>
                                     </div>
-                                    <div class="button">
-                                        <a href="#" class="theme_btn">
-                                            Get a Quote
-                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white"
-                                                    stroke-width="1.5" stroke-linecap="round"
-                                                    stroke-linejoin="round"></path>
-                                            </svg>
-                                        </a>
-                                    </div>
+
                                     <div class="contact-toggler">
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">

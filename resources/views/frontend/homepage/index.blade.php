@@ -677,7 +677,7 @@
                                             </div>
                                             <div class="title_18">
                                                 <a href="#">
-                                                    Demo & Presentation
+                                                    Presentation
                                                 </a>
                                             </div>
                                             <p>Get free demo and pre presentation for every projects</p>
@@ -692,7 +692,7 @@
                                             </div>
                                             <div class="title_18">
                                                 <a href="#">
-                                                    Analysis & Research</a>
+                                                    Analysis</a>
                                             </div>
                                             <p>We have best analyst and reseaech team for you..</p>
                                         </div>

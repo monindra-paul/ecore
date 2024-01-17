@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\OS;
 use Illuminate\Http\Request;
 
 class SupportController extends Controller
@@ -14,6 +15,7 @@ class SupportController extends Controller
 
     public function softwareDrivers()
     {
-        return view('frontend.support.drivers');
+        $allos = OS::all();
+        return view('frontend.support.drivers', compact('allos'));
     }
 }

@@ -525,11 +525,11 @@
 
 
                     <!-- <div class="theme_btn_all">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="#" class="theme_btn">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  More About Us
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span> <i class="fi-rr-arrow-small-right"></i></span>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="#" class="theme_btn">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              More About Us
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <span> <i class="fi-rr-arrow-small-right"></i></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div> -->
                     <!---============spacing==========--->
                     <div class="pd_bottom_70"></div>
                     <!---============spacing==========--->
@@ -554,60 +554,43 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">Downnload Operating System</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body ">
-                    <table class="table col-12">
-                        <thead>
-                            <tr>
-                                <th class="col-1">#</th>
-                                <th class="col-3">Product Name</th>
-                                <th class="col-3">OS Bits</th>
-                                <th class="col-3">Version</th>
-                                <th class="col-3">Download</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>Otto</td>
-                                <td class="text-center">
-                                    <a href="{{ url('/') }}"> <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
-                                            trigger="loop" delay="1000" state="hover-slide"
-                                            colors="primary:#30c9e8,secondary:#ebe6ef" style="width:50px;height:50px">
-                                        </lord-icon>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                                <td class="text-center">
-                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
-                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
-                                        style="width:50px;height:50px">
-                                    </lord-icon>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry the Bird</td>
-                                <td>Larry the Bird</td>
-                                <td>Larry the Bird</td>
-                                <td class="text-center">
-                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
-                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
-                                        style="width:50px;height:50px">
-                                    </lord-icon>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="modal-body">
+                    @if (!empty($allos))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    <th class="col-1">#</th>
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">OS Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($allos as $os)
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">{{ $os->id }}</th>
+                                        <td>{{ $os->name }}</td>
+                                        <td>{{ $os->bits }}</td>
+                                        <td>{{ $os->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $os->link }}">
+                                                <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                                    delay="1000" state="hover-slide"
+                                                    colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                    style="width:50px;height:50px">
+                                                </lord-icon>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
