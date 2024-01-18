@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\Admin\Software\MSOfficeController;
 use App\Http\Controllers\Admin\Software\OSController;
+use App\Http\Controllers\Admin\Software\PrintersControllers;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PagesController;
 use App\Http\Controllers\Frontend\ServiceController;
@@ -92,6 +93,18 @@ Route::group(['prefix' => 'admin'], function () {
             Route::get('/edit/{office}', [MSOfficeController::class, 'edit'])->name('support.office.edit');
             Route::get('/show/{office}', [MSOfficeController::class, 'update'])->name('support.office.update');
             Route::delete('/show/{office}', [MSOfficeController::class, 'destroy'])->name('support.office.delete');
+        });
+
+
+
+        Route::group(['prefix' => 'printers'], function () {
+
+            Route::get('/show', [PrintersControllers::class, 'show'])->name('support.printers.list');
+            Route::get('/create', [PrintersControllers::class, 'create'])->name('support.printers.create');
+            Route::post('/store', [PrintersControllers::class, 'store'])->name('support.printers.store');
+            Route::get('/edit/{printers}', [PrintersControllers::class, 'edit'])->name('support.printers.edit');
+            Route::get('/show/{printers}', [PrintersControllers::class, 'update'])->name('support.printers.update');
+            Route::delete('/show/{printers}', [PrintersControllers::class, 'destroy'])->name('support.printers.delete');
         });
     });
 });
