@@ -77,9 +77,11 @@
                                     @if ($errors->has('brand'))
                                         <span class="text-danger">{{ $errors->first('brand') }}</span>
                                     @endif
-                                    <div class="input-group"> <span class="input-group-text bg-transparent"><i
-                                                class='bx bxs-microphone'></i></span>
+                                    <div class="input-group">
                                         <select class="form-select mb-3" aria-label="Default select example" name="brand">
+                                            <span class="input-group-text bg-transparent"><i class='bx bxs-microphone'></i>
+                                            </span>
+
                                             {{-- <option selected>Open this select menu</option> --}}
                                             <option value="Xerox">Xerox</option>
                                             <option value="Hp">Hp</option>
