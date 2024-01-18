@@ -34,7 +34,7 @@
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="theme_btn_all">
-                                <a href="tel:+919064062315" class="theme_btn big color_two rotate">
+                                <a href="tel:03335575768" class="theme_btn big color_two rotate">
                                     Call Now <span> <i class=" fi-rr-arrow-small-up"></i></span>
                                 </a>
                             </div>

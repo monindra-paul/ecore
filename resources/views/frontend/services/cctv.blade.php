@@ -33,7 +33,7 @@
         <div class="row text-center mt-3">
             <div class="col-lg-12">
                 <div class="theme_btn_all">
-                    <a href="#" class="theme_btn big color_two rotate">
+                    <a href="tel:03335575768" class="theme_btn big color_two rotate">
                         Call Now <span> <i class=" fi-rr-arrow-small-up"></i></span>
                     </a>
                 </div>

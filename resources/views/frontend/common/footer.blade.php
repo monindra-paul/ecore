@@ -29,7 +29,7 @@
                 </div>
                 <div class="content">
                     <h6 class="tite">Need Help?</h6>
-                    <div class="title_20"><a href="tel:+000(123)45688">+000(123)456 88</a></div>
+                    <div class="title_20"><a href="tel:03335575768">033 - 3557 5768</a></div>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/hardware-support') }}">
                                                     Hardware Support
                                                 </a>
                                             </div>
@@ -93,7 +93,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/network-security') }}">
                                                     Network & Security
                                                 </a>
                                             </div>
@@ -103,7 +103,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/cctv-survelliance') }}">
                                                     CCTV Survelliance
                                                 </a>
                                             </div>
@@ -113,7 +113,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/web-developmet') }}">
                                                     Web Development
                                                 </a>
                                             </div>
@@ -123,7 +123,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/graphic-designing') }}">
                                                     Graphic Designing
                                                 </a>
                                             </div>
@@ -133,7 +133,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/digital-marketing') }}">
                                                     Digital Marketing
                                                 </a>
                                             </div>
@@ -143,7 +143,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/app-developmet') }}">
                                                     App Development
                                                 </a>
                                             </div>
@@ -169,8 +169,8 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
-                                                    Portfolio
+                                                <a class="links color_white" href="{{ url('/remote-support') }}">
+                                                    Remote Support
                                                 </a>
                                             </div>
                                         </li>
@@ -180,7 +180,7 @@
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
                                                 <a class="links color_white" href="#">
-                                                    Order any Service
+                                                    Shop Now
                                                 </a>
                                             </div>
                                         </li>
@@ -189,7 +189,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/about-us') }}">
                                                     About Us
                                                 </a>
                                             </div>
@@ -199,7 +199,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="#">
+                                                <a class="links color_white" href="{{ url('/contact-us') }}">
                                                     Contact
                                                 </a>
                                             </div>
@@ -274,7 +274,7 @@
                                             alt="img" />
                                     </div>
                                     <a class="links color_white" href="#">
-                                        Copyright 2023, ECore TechServ. All Rights Reserved
+                                        Copyright {{ date('Y') }}, ECore TechServ. All Rights Reserved
                                     </a>
                                 </div>
                             </li>
@@ -290,7 +290,8 @@
                                         <i class=" fi-rr-clock"></i>
                                     </div>
                                     <a class="links color_white" href="#">
-                                        Working Hours : Sun-monday, 09am-5pm
+                                        Working Hours : Monday - Saturday
+                                        ( 10:00 AM-8:00 PM )
                                     </a>
                                 </div>
                             </li>
@@ -327,12 +328,13 @@
         </div>
         <div class="mobile-header-info-wrap">
             <div class="single-mobile-header-info">
-                <a href="tel:9806071234" class="cnt"><i class="fi-rs-headphones"></i>9806071234</a>
+                <a href="tel:03335575768" class="cnt"><i class="fi-rs-headphones"></i>033 - 3557 5768
+                </a>
             </div>
 
             <div class="single-mobile-header-info cont_over">
-                <a href="mailto:sendmail@example.com" class="cnt"><i
-                        class="fi-rs-envelope"></i>sendmail@example.com</a>
+                <a href="mailto:info@ecoretechserv.com" class="cnt"><i
+                        class="fi-rs-envelope"></i>info@ecoretechserv.com</a>
             </div>
             <div class="single-mobile-header-info">
                 <a href="#" class="theme_btn tp_one">Contact</a>
@@ -385,21 +387,23 @@
                 <h2 class="title_no_a_28"> Need Any Help? Or Looking For an Agent</h2>
                 <div class="contact_panel">
                     <div class="c_pan">
-                        <a href="tel:9806071234">
-                            <i class="fi-rr-phone-call"></i> 9806071234 </a>
+                        <a href="tel:03335575768">
+                            <i class="fi-rr-phone-call"></i>033 - 3557 5768
+
+                        </a>
                     </div>
                     <div class="c_pan">
-                        <a href="mailto:sendmail@example.com">
-                            <i class="fi-rr-envelope"></i> sendmail@example.com </a>
+                        <a href="mailto:info@ecoretechserv.com">
+                            <i class="fi-rr-envelope"></i> info@ecoretechserv.com </a>
                     </div>
                     <div class="c_pan">
                         <a class="wk_hours">
-                            <i class="fi-rr-time-check"></i> Working Hours : <span> Sun-monday,
-                                09am-5pm </span> </a>
+                            <i class="fi-rr-time-check"></i> Working Hours : <span> Monday - Saturday
+                                ( 10:00 AM-8:00 PM ) </span> </a>
                     </div>
                 </div>
                 <div class="c_pan">
-                    © 2023 ECore TechServ. All Rights Reserved.
+                    © {{ date('Y') }} ECore TechServ. All Rights Reserved.
                 </div>
             </div>
 

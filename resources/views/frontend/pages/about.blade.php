@@ -139,6 +139,7 @@
                                     aria-labelledby="aboutuss-tabtab">
                                     <div class="tab_content_box">
                                         <div class="content">
+
                                             Our business depends on your IT systems.
                                             We’re confident that we are the only IT
                                             solutions service business in India. Our
@@ -152,127 +153,23 @@
                                             of professional IT specialists who make
                                             up the company’s core team to fixing
                                             immediate IT problems.
+
                                         </div>
-                                        <div class="d-flex">
-                                            <ul>
-                                                <li>
-                                                    <svg width="25" height="25" viewBox="0 0 25 25"
-                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="12.5" cy="12.5" r="12.5" fill="#36DB9F">
-                                                        </circle>
-                                                        <g>
-                                                            <path
-                                                                d="M11.8363 18.7066C12.2244 19.0994 13.0886 18.9692 13.1817 18.3516C13.7607 14.5175 16.6577 11.2829 18.85 8.23494C19.4579 7.39031 18.0602 6.58795 17.4602 7.42252C15.4568 10.2075 12.9317 13.138 11.9439 16.5174C10.815 15.3637 9.68161 14.221 8.41548 13.2072C7.61364 12.5649 6.46665 13.6965 7.27713 14.3455C8.92674 15.6668 10.3523 17.2076 11.8363 18.7066Z"
-                                                                fill="white"></path>
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath>
-                                                                <rect width="12" height="12" fill="white"
-                                                                    transform="translate(7 7)"></rect>
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                    <span> IT Support </span>
-                                                </li>
-                                                <li>
-                                                    <svg width="25" height="25" viewBox="0 0 25 25"
-                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="12.5" cy="12.5" r="12.5" fill="#36DB9F">
-                                                        </circle>
-                                                        <g>
-                                                            <path
-                                                                d="M11.8363 18.7066C12.2244 19.0994 13.0886 18.9692 13.1817 18.3516C13.7607 14.5175 16.6577 11.2829 18.85 8.23494C19.4579 7.39031 18.0602 6.58795 17.4602 7.42252C15.4568 10.2075 12.9317 13.138 11.9439 16.5174C10.815 15.3637 9.68161 14.221 8.41548 13.2072C7.61364 12.5649 6.46665 13.6965 7.27713 14.3455C8.92674 15.6668 10.3523 17.2076 11.8363 18.7066Z"
-                                                                fill="white"></path>
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath>
-                                                                <rect width="12" height="12" fill="white"
-                                                                    transform="translate(7 7)"></rect>
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                    <span> CCTV Survelliance </span>
-                                                </li>
-                                                <li>
-                                                    <svg width="25" height="25" viewBox="0 0 25 25"
-                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="12.5" cy="12.5" r="12.5" fill="#36DB9F">
-                                                        </circle>
-                                                        <g>
-                                                            <path
-                                                                d="M11.8363 18.7066C12.2244 19.0994 13.0886 18.9692 13.1817 18.3516C13.7607 14.5175 16.6577 11.2829 18.85 8.23494C19.4579 7.39031 18.0602 6.58795 17.4602 7.42252C15.4568 10.2075 12.9317 13.138 11.9439 16.5174C10.815 15.3637 9.68161 14.221 8.41548 13.2072C7.61364 12.5649 6.46665 13.6965 7.27713 14.3455C8.92674 15.6668 10.3523 17.2076 11.8363 18.7066Z"
-                                                                fill="white"></path>
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath>
-                                                                <rect width="12" height="12" fill="white"
-                                                                    transform="translate(7 7)"></rect>
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                    <span> Network Security</span>
-                                                </li>
-                                            </ul>
-                                            <ul>
-                                                <li>
-                                                    <svg width="25" height="25" viewBox="0 0 25 25"
-                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="12.5" cy="12.5" r="12.5" fill="#36DB9F">
-                                                        </circle>
-                                                        <g>
-                                                            <path
-                                                                d="M11.8363 18.7066C12.2244 19.0994 13.0886 18.9692 13.1817 18.3516C13.7607 14.5175 16.6577 11.2829 18.85 8.23494C19.4579 7.39031 18.0602 6.58795 17.4602 7.42252C15.4568 10.2075 12.9317 13.138 11.9439 16.5174C10.815 15.3637 9.68161 14.221 8.41548 13.2072C7.61364 12.5649 6.46665 13.6965 7.27713 14.3455C8.92674 15.6668 10.3523 17.2076 11.8363 18.7066Z"
-                                                                fill="white"></path>
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath>
-                                                                <rect width="12" height="12" fill="white"
-                                                                    transform="translate(7 7)"></rect>
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                    <span>
-                                                        Website Development</span>
-                                                </li>
-                                                <li>
-                                                    <svg width="25" height="25" viewBox="0 0 25 25"
-                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="12.5" cy="12.5" r="12.5" fill="#36DB9F">
-                                                        </circle>
-                                                        <g>
-                                                            <path
-                                                                d="M11.8363 18.7066C12.2244 19.0994 13.0886 18.9692 13.1817 18.3516C13.7607 14.5175 16.6577 11.2829 18.85 8.23494C19.4579 7.39031 18.0602 6.58795 17.4602 7.42252C15.4568 10.2075 12.9317 13.138 11.9439 16.5174C10.815 15.3637 9.68161 14.221 8.41548 13.2072C7.61364 12.5649 6.46665 13.6965 7.27713 14.3455C8.92674 15.6668 10.3523 17.2076 11.8363 18.7066Z"
-                                                                fill="white"></path>
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath>
-                                                                <rect width="12" height="12" fill="white"
-                                                                    transform="translate(7 7)"></rect>
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                    <span> Graphic Designing</span>
-                                                </li>
-                                                <li>
-                                                    <svg width="25" height="25" viewBox="0 0 25 25"
-                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle cx="12.5" cy="12.5" r="12.5" fill="#36DB9F">
-                                                        </circle>
-                                                        <g>
-                                                            <path
-                                                                d="M11.8363 18.7066C12.2244 19.0994 13.0886 18.9692 13.1817 18.3516C13.7607 14.5175 16.6577 11.2829 18.85 8.23494C19.4579 7.39031 18.0602 6.58795 17.4602 7.42252C15.4568 10.2075 12.9317 13.138 11.9439 16.5174C10.815 15.3637 9.68161 14.221 8.41548 13.2072C7.61364 12.5649 6.46665 13.6965 7.27713 14.3455C8.92674 15.6668 10.3523 17.2076 11.8363 18.7066Z"
-                                                                fill="white"></path>
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath>
-                                                                <rect width="12" height="12" fill="white"
-                                                                    transform="translate(7 7)"></rect>
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                    <span>Digital Marketing</span>
-                                                </li>
-                                            </ul>
+
+                                        <div class="">
+                                            <p><i style="font-size: 20px; color:rgb(2, 140, 170);"
+                                                    class="fas fa-quote-left"></i>&nbsp;
+                                                Technology
+                                                is our future. Technology
+                                                refers to the knowledge, techniques, and systems in order to serve a bigger
+                                                purpose and to solving problems and making life easier. &nbsp; <i
+                                                    style="font-size: 20px; color:rgb(2, 140, 170);"
+                                                    class="fas fa-quote-right"></i></p>
+                                            <div class=" d-flex justify-content-end">
+                                                <p style="color: #00c1e7; font-weight:500; ">--- &nbsp; &nbsp; Amar Paul
+                                                </p>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -415,11 +312,11 @@
 
 
                         <!-- <div class="theme_btn_all">
-                            <a href="#" class="theme_btn">
-                              More About Us
-                              <span> <i class="fi-rr-arrow-small-right"></i></span>
-                            </a>
-                          </div> -->
+                                                                                                                                                                                                                                                                                                                    <a href="#" class="theme_btn">
+                                                                                                                                                                                                                                                                                                                      More About Us
+                                                                                                                                                                                                                                                                                                                      <span> <i class="fi-rr-arrow-small-right"></i></span>
+                                                                                                                                                                                                                                                                                                                    </a>
+                                                                                                                                                                                                                                                                                                                  </div> -->
                         <!---============spacing==========--->
                         <div class="pd_bottom_70"></div>
                         <!---============spacing==========--->
@@ -747,7 +644,7 @@
                             <h4 class="sm_title">Company Statistics Analysis</h4>
                             <div class="title_whole">
                                 <h2 class="title">
-                                    Great Achievement For Insurance
+                                    Great Achievement For Our IT Services
                                 </h2>
                             </div>
                         </div>
@@ -767,10 +664,10 @@
                                 </div>
                             </div>
                             <h4>
-                                <span class="count">8563</span>
+                                <span class="count">50</span>
                                 <small> + </small>
                             </h4>
-                            <h6 class="title_no_a_18">Saticfied Custimer</h6>
+                            <h6 class="title_no_a_18">Active Clients</h6>
                         </div>
                         <!---============spacing==========--->
                         <div class="pd_bottom_20"></div>
@@ -784,10 +681,10 @@
                                 </div>
                             </div>
                             <h4>
-                                <span class="count">2630</span>
+                                <span class="count">250</span>
                                 <small> + </small>
                             </h4>
-                            <h6 class="title_no_a_18">Experience Members</h6>
+                            <h6 class="title_no_a_18">Projects Done</h6>
                         </div>
                         <!---============spacing==========--->
                         <div class="pd_bottom_20"></div>
@@ -801,10 +698,10 @@
                                 </div>
                             </div>
                             <h4>
-                                <span class="count">100</span>
-                                <small> % </small>
+                                <span class="count">10</span>
+                                <small> + </small>
                             </h4>
-                            <h6 class="title_no_a_18">Satisfaction Rate</h6>
+                            <h6 class="title_no_a_18">Team Advisors</h6>
                         </div>
                         <!---============spacing==========--->
                         <div class="pd_bottom_20"></div>
@@ -818,10 +715,10 @@
                                 </div>
                             </div>
                             <h4>
-                                <span class="count">25</span>
+                                <span class="count">5</span>
                                 <small> + </small>
                             </h4>
-                            <h6 class="title_no_a_18">Years Experience</h6>
+                            <h6 class="title_no_a_18">Glorious Years</h6>
                         </div>
                         <!---============spacing==========--->
                         <div class="pd_bottom_20"></div>
@@ -835,10 +732,10 @@
                                 </div>
                             </div>
                             <h4>
-                                <span class="count">963</span>
-                                <small> + </small>
+                                <span class="count">95</span>
+                                <small> % </small>
                             </h4>
-                            <h6 class="title_no_a_18">Awards Winning</h6>
+                            <h6 class="title_no_a_18">Satisfyed Clients</h6>
                         </div>
                         <!---============spacing==========--->
                         <div class="pd_bottom_20"></div>
@@ -1064,28 +961,40 @@
                             <div class="theme_carousel owl-theme owl-carousel"
                                 data-options='{"loop": true, "margin": 10,  "autoheight":true, "lazyload":true, "nav": false, "dots": false, "autoplay": true, "autoplayTimeout": 1500, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "240" :{ "items" : "2" } , "550" :{ "items" : "2" } , "768" :{ "items" : "3" } , "1024":{ "items" : "4" }, "1200":{ "items" : "6" }}}'>
                                 <div class="image">
-                                    <img src="{{ 'assets-front/images/client-1.png' }}" class="img-fluid w_auto m-auto"
-                                        alt="img" />
+                                    <img src="{{ 'assets-front/images/ecore/clients/merlin.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
                                 </div>
                                 <div class="image">
-                                    <img src="{{ 'assets-front/images/client-2.png' }}" class="img-fluid w_auto m-auto"
-                                        alt="img" />
+                                    <img src="{{ 'assets-front/images/ecore/clients/shadowfax.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
                                 </div>
                                 <div class="image">
-                                    <img src="{{ 'assets-front/images/client-3.png' }}" class="img-fluid w_auto m-auto"
-                                        alt="img" />
+                                    <img src="{{ 'assets-front/images/ecore/clients/wow-momo.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
                                 </div>
                                 <div class="image">
-                                    <img src="{{ 'assets-front/images/client-4.png' }}" class="img-fluid w_auto m-auto"
-                                        alt="img" />
+                                    <img src="{{ 'assets-front/images/ecore/clients/smart-point.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
                                 </div>
                                 <div class="image">
-                                    <img src="{{ 'assets-front/images/client-5.png' }}" class="img-fluid w_auto m-auto"
-                                        alt="img" />
+                                    <img src="{{ 'assets-front/images/ecore/clients/drsteel.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
                                 </div>
                                 <div class="image">
-                                    <img src="{{ 'assets-front/images/client-6.png' }}" class="img-fluid w_auto m-auto"
-                                        alt="img" />
+                                    <img src="{{ 'assets-front/images/ecore/clients/biba.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
+                                </div>
+                                <div class="image">
+                                    <img src="{{ 'assets-front/images/ecore/clients/gypmart.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
+                                </div>
+                                <div class="image">
+                                    <img src="{{ 'assets-front/images/ecore/clients/gyp-techno.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
+                                </div>
+                                <div class="image">
+                                    <img src="{{ 'assets-front/images/ecore/clients/maha-ayurvedas.webp' }}"
+                                        class="img-fluid w_auto m-auto" alt="img" />
                                 </div>
                             </div>
                         </div>
@@ -1100,6 +1009,405 @@
         <!--client-->
         <!--testimonial-->
 
+
+
+
+
+
+
+
+        <section class="testimonial-section">
+            <!---============spacing==========--->
+            <div class="pd_top_90"></div>
+            <!---============spacing==========--->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section_title text-center type_one">
+                            <h4 class="sm_title"> Check Your Favorite Insurance</h4>
+                            <div class="title_whole">
+                                <h2 class="title"> Get Started Favorite Insurance</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---============spacing==========--->
+                <div class="pd_bottom_40"></div>
+                <!---============spacing==========--->
+                <div class="testimonial_carousel  position-relative position_one nav_false dot_true">
+                    <div class="theme_carousel owl-theme owl-carousel owl-loaded owl-drag"
+                        data-options="{&quot;loop&quot;: true , &quot;margin&quot;: 20, &quot;autoheight&quot;:true, &quot;lazyload&quot;:true, &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;autoplay&quot;: false, &quot;autoplayTimeout&quot;: 6000,  &quot;smartSpeed&quot;: 300, &quot;responsive&quot;:{ &quot;0&quot; :{ &quot;items&quot;: &quot;1&quot; }, &quot;320&quot; :{ &quot;items&quot; : &quot;1&quot; }, &quot;500&quot; :{ &quot;items&quot; : &quot;1&quot; }, &quot;768&quot; :{ &quot;items&quot; : &quot;2&quot; } , &quot;992&quot;:{ &quot;items&quot; : &quot;3&quot; }, &quot;1200&quot;:{ &quot;items&quot; : &quot;3&quot; }}}">
+
+
+
+
+
+
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-2340px, 0px, 0px); transition: all 0.3s ease 0s; width: 4680px;">
+                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Fleix Everard</h4>
+                                                <p>HR, Blue Soft Sol</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Boris Elbert</h4>
+                                                <p>Green Tech</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Ivor Herbert</h4>
+                                                <p>Manager, Airlines</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Fleix Everard</h4>
+                                                <p>HR, Blue Soft Sol</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Boris Elbert</h4>
+                                                <p>Green Tech</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Ivor Herbert</h4>
+                                                <p>Manager, Airlines</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Fleix Everard</h4>
+                                                <p>HR, Blue Soft Sol</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Boris Elbert</h4>
+                                                <p>Green Tech</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Ivor Herbert</h4>
+                                                <p>Manager, Airlines</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Fleix Everard</h4>
+                                                <p>HR, Blue Soft Sol</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Boris Elbert</h4>
+                                                <p>Green Tech</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
+                                    <div class="testimonial_box type_two ">
+                                        <div class="auth d-flex align-items-center clearfix">
+                                            <div class="image_box">
+                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="cont">
+                                                <h4 class="title_no_a_24">Ivor Herbert</h4>
+                                                <p>Manager, Airlines</p>
+                                            </div>
+                                        </div>
+                                        <div class="title_no_a_22 t_comment">
+                                            <sup>“</sup>Sed perspiciatis unonis
+                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
+                                            eaupsa abillo inven veritatis
+                                            <sub>“</sub>
+                                        </div>
+                                        <div class="box">
+                                            <h6>Jacob Leonardo</h6>
+                                            <p>
+                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
+                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
+                                                    class="fa fa-star empty"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="owl-nav">
+                            <button type="button" role="presentation" class="owl-prev"><i
+                                    class="fi-rs-arrow-small-left"></i>
+                            </button>
+                            <button type="button" role="presentation" class="owl-next"><i
+                                    class="fi-rs-arrow-small-right"></i>
+                            </button>
+                        </div>
+                        {{-- <div class="owl-dots">
+                            <button role="button" class="owl-dot"><span></span>
+                            </button>
+                            <button role="button" class="owl-dot active"><span></span>
+                            </button>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+            <!---============spacing==========--->
+            <div class="pd_top_80"></div>
+            <!---============spacing==========--->
+        </section>
         <!--testimonial-->
     </div>
 @endsection

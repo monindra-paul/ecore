@@ -1,4 +1,7 @@
 @extends('frontend.layout.app')
+@section('title')
+    <title>Best Website Design & Development Company in Kolkata</title>
+@endsection
 @section('mainsection')
     <section class="content-section">
         <!---============spacing==========--->
@@ -22,7 +25,7 @@
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="theme_btn_all">
-                                <a href="#" class="theme_btn big color_two rotate">
+                                <a href="tel:03335575768" class="theme_btn big color_two rotate">
                                     Call Now <span> <i class=" fi-rr-arrow-small-up"></i></span>
                                 </a>
                             </div>
@@ -34,7 +37,7 @@
                                 </div>
                                 <div class="content">
                                     <h6 class="tite">Call Us</h6>
-                                    <div class="title_20"><a href="tel:+000(123)45688">(033) 3577 8706</a></div>
+                                    <div class="title_20"><a href="tel:03335575768">(033) 355 75768</a></div>
                                 </div>
                             </div>
                         </div>
