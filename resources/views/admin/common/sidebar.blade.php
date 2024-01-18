@@ -118,9 +118,10 @@
                     <ul>
                         <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Office</a>
                             <ul>
-                                <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
+                                <li> <a class="" href="{{ route('support.office.list') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
-                                <li> <a class="" href="javascript:;"><i
+                                <li> <a class="" href="{{ route('support.office.create') }}"><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>
                             </ul>
                         </li>
@@ -131,12 +132,58 @@
                                 <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
                                 <li> <a class="" href="javascript:;"><i
-                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                                            class="bx bx-right-arrow-alt"></i>Create</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
 
+
+
+                <li>
+                    <a class="has-arrow" href="javascript:;">
+                        <div class="parent-icon"><i class="bx bx-menu"></i>
+                        </div>
+                        <div class="menu-title">Printers</div>
+                    </a>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>
+                                Printers</a>
+                            <ul>
+                                <li> <a class="" href="{{ route('support.os.list') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="{{ route('support.os.create') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Office</a>
+                            <ul>
+                                <li> <a class="" href="{{ route('support.office.list') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="{{ route('support.office.create') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i
+                                    class="bx bx-right-arrow-alt"></i>Activator</a>
+                            <ul>
+                                <li> <a class="" href="javascript:;"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="javascript:;"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
 
 
                 <li class="menu-label">Query</li>

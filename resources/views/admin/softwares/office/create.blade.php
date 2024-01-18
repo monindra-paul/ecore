@@ -12,7 +12,7 @@
                             <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                             </li>
                             <li class="breadcrumb-item " aria-current="page">Microsoft</li>
-                            <li class="breadcrumb-item " aria-current="page">OS</li>
+                            <li class="breadcrumb-item " aria-current="page">MS Office</li>
                             <li class="breadcrumb-item active" aria-current="page">Create</li>
                         </ol>
                     </nav>
@@ -38,14 +38,14 @@
                             <div class="card-title d-flex align-items-center">
                                 <div><i class="bx bxs-user me-1 font-22 text-danger"></i>
                                 </div>
-                                <h5 class="mb-0 text-danger">Create OS Link</h5>
+                                <h5 class="mb-0 text-danger">Create MS Office Link</h5>
                             </div>
                             <hr>
-                            <form class="row g-3" action="{{ route('support.os.store') }}" method="post">
+                            <form class="row g-3" action="{{ route('support.office.store') }}" method="post">
                                 @csrf
                                 <div class="col-md-12">
 
-                                    <label for="name" class="form-label">Operating System Name</label>
+                                    <label for="name" class="form-label">MS Office Name</label>
                                     @if ($errors->has('name'))
                                         <span class="text-danger">{{ $errors->first('name') }}</span>
                                     @endif
@@ -54,20 +54,20 @@
                                             <i class='bx bxs-user'></i>
                                         </span>
                                         <input type="text" class="form-control border-start-0" id="name"
-                                            name="name" placeholder="OS name" />
+                                            name="name" placeholder="MS Office name" />
                                     </div>
                                 </div>
 
                                 <div class="col-12">
 
-                                    <label for="bits" class="form-label">OS Bits</label>
+                                    <label for="bits" class="form-label">Office Bits</label>
                                     @if ($errors->has('bits'))
                                         <span class="text-danger">{{ $errors->first('bits') }}</span>
                                     @endif
                                     <div class="input-group"> <span class="input-group-text bg-transparent"><i
                                                 class='bx bxs-microphone'></i></span>
                                         <input type="text" class="form-control border-start-0" id="bits"
-                                            name="bits" placeholder="OS Bits" />
+                                            name="bits" placeholder="Office Bits" />
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -79,7 +79,7 @@
                                     <div class="input-group"> <span class="input-group-text bg-transparent"><i
                                                 class='bx bxs-message'></i></span>
                                         <input type="text" class="form-control border-start-0" id="version"
-                                            name="version" placeholder="Email Address" />
+                                            name="version" placeholder="Version" />
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -91,12 +91,12 @@
                                     <div class="input-group"> <span class="input-group-text bg-transparent"><i
                                                 class='bx bxs-lock'></i></span>
                                         <input type="text" class="form-control border-start-0" id="link"
-                                            name="link" placeholder="Choose Password" />
+                                            name="link" placeholder="Link" />
                                     </div>
                                 </div>
 
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-danger px-5">Create OS</button>
+                                    <button type="submit" class="btn btn-danger px-5">Create MS Office</button>
                                 </div>
                             </form>
                         </div>

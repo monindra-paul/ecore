@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/dark-theme.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/semi-dark.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/header-colors.css') }}" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>ECore TechServ - Admin Panel</title>
 </head>
 
@@ -159,6 +160,8 @@
 </script>
 <!--app JS-->
 <script src="{{ asset('assets/js/app.js') }}"></script>
+
+@yield('customJs')
 </body>
 
 

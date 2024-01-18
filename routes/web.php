@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\LoginController;
+use App\Http\Controllers\Admin\Software\MSOfficeController;
 use App\Http\Controllers\Admin\Software\OSController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PagesController;
@@ -75,6 +76,22 @@ Route::group(['prefix' => 'admin'], function () {
             Route::get('/show', [OSController::class, 'show'])->name('support.os.list');
             Route::get('/create', [OSController::class, 'create'])->name('support.os.create');
             Route::post('/store', [OSController::class, 'store'])->name('support.os.store');
+            Route::get('/edit/{os}', [OSController::class, 'edit'])->name('support.os.edit');
+            Route::get('/show/{os}', [OSController::class, 'update'])->name('support.os.update');
+            Route::delete('/show/{os}', [OSController::class, 'destroy'])->name('support.os.delete');
+        });
+
+
+
+
+        Route::group(['prefix' => 'ms-office'], function () {
+
+            Route::get('/show', [MSOfficeController::class, 'show'])->name('support.office.list');
+            Route::get('/create', [MSOfficeController::class, 'create'])->name('support.office.create');
+            Route::post('/store', [MSOfficeController::class, 'store'])->name('support.office.store');
+            Route::get('/edit/{office}', [MSOfficeController::class, 'edit'])->name('support.office.edit');
+            Route::get('/show/{office}', [MSOfficeController::class, 'update'])->name('support.office.update');
+            Route::delete('/show/{office}', [MSOfficeController::class, 'destroy'])->name('support.office.delete');
         });
     });
 });

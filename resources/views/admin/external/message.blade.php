@@ -3,7 +3,7 @@
         <div class="d-flex align-items-center">
             <div class="font-35 text-white"><i class="bx bxs-check-circle"></i>
             </div>
-            <div class="ms-3">
+            <div class="ms-3" style="color: white">
                 {{ Session::get('success') }}
             </div>
         </div>
@@ -17,7 +17,7 @@
         <div class="d-flex align-items-center">
             <div class="font-35 text-white"><i class="bx bxs-message-square-x"></i>
             </div>
-            <div class="ms-3">
+            <div class="ms-3" style="color: white">
                 {{ Session::get('error') }}
             </div>
         </div>

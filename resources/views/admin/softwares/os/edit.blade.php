@@ -13,14 +13,13 @@
                             </li>
                             <li class="breadcrumb-item " aria-current="page">Microsoft</li>
                             <li class="breadcrumb-item " aria-current="page">OS</li>
-                            <li class="breadcrumb-item active" aria-current="page">Create</li>
+                            <li class="breadcrumb-item active" aria-current="page">Edit</li>
                         </ol>
                     </nav>
                 </div>
                 <div class="ms-auto">
                     <div class="btn-group">
                         <a href="{{ route('support.os.list') }}" type="button" class="btn btn-primary">List</a>
-
                     </div>
                 </div>
             </div>
@@ -38,13 +37,12 @@
                             <div class="card-title d-flex align-items-center">
                                 <div><i class="bx bxs-user me-1 font-22 text-danger"></i>
                                 </div>
-                                <h5 class="mb-0 text-danger">Create OS Link</h5>
+                                <h5 class="mb-0 text-danger">Edit OS {{ $os->name }}</h5>
                             </div>
                             <hr>
-                            <form class="row g-3" action="{{ route('support.os.store') }}" method="post">
-                                @csrf
-                                <div class="col-md-12">
+                            <form class="row g-3" action="{{ route('support.os.update', $os->id) }}" method="get">
 
+                                <div class="col-md-12">
                                     <label for="name" class="form-label">Operating System Name</label>
                                     @if ($errors->has('name'))
                                         <span class="text-danger">{{ $errors->first('name') }}</span>
@@ -54,7 +52,7 @@
                                             <i class='bx bxs-user'></i>
                                         </span>
                                         <input type="text" class="form-control border-start-0" id="name"
-                                            name="name" placeholder="OS name" />
+                                            name="name" placeholder="OS name" value="{{ $os->name }}" />
                                     </div>
                                 </div>
 
@@ -67,7 +65,7 @@
                                     <div class="input-group"> <span class="input-group-text bg-transparent"><i
                                                 class='bx bxs-microphone'></i></span>
                                         <input type="text" class="form-control border-start-0" id="bits"
-                                            name="bits" placeholder="OS Bits" />
+                                            name="bits" placeholder="OS Bits" value="{{ $os->bits }}" />
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -79,7 +77,7 @@
                                     <div class="input-group"> <span class="input-group-text bg-transparent"><i
                                                 class='bx bxs-message'></i></span>
                                         <input type="text" class="form-control border-start-0" id="version"
-                                            name="version" placeholder="Email Address" />
+                                            name="version" placeholder="Version" value="{{ $os->version }}" />
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -91,12 +89,12 @@
                                     <div class="input-group"> <span class="input-group-text bg-transparent"><i
                                                 class='bx bxs-lock'></i></span>
                                         <input type="text" class="form-control border-start-0" id="link"
-                                            name="link" placeholder="Choose Password" />
+                                            name="link" placeholder="Provide the Link" value="{{ $os->link }}" />
                                     </div>
                                 </div>
 
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-danger px-5">Create OS</button>
+                                    <button type="submit" class="btn btn-danger px-5">Update OS</button>
                                 </div>
                             </form>
                         </div>

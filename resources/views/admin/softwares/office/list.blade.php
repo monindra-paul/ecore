@@ -12,14 +12,14 @@
                             <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                             </li>
                             <li class="breadcrumb-item" aria-current="page">Microsoft</li>
-                            <li class="breadcrumb-item" aria-current="page">OS</li>
+                            <li class="breadcrumb-item" aria-current="page">MS Office</li>
                             <li class="breadcrumb-item active" aria-current="page">Show</li>
                         </ol>
                     </nav>
                 </div>
                 <div class="ms-auto">
                     <div class="btn-group">
-                        <a href="{{ route('support.os.create') }}" type="button" class="btn btn-primary">Create</a>
+                        <a href="{{ route('support.office.create') }}" type="button" class="btn btn-primary">Create</a>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                 @include('admin.external.message')
                 <div class="col">
 
-                    <h6 class="mb-0 text-uppercase">Windows Operating System (OS)</h6>
+                    <h6 class="mb-0 text-uppercase">MS Office</h6>
                     <hr />
                     <div class="card">
                         <div class="card-body">
@@ -43,16 +43,16 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @if ($allos->isNotEmpty())
-                                        @foreach ($allos as $os)
+                                    @if ($office->isNotEmpty())
+                                        @foreach ($office as $ms)
                                             <tr>
-                                                <th scope="row">{{ $os->id }}</th>
-                                                <td>{{ $os->name }}</td>
-                                                <td>{{ $os->bits }}</td>
-                                                <td>{{ $os->version }}</td>
+                                                <th scope="row">{{ $ms->id }}</th>
+                                                <td>{{ $ms->name }}</td>
+                                                <td>{{ $ms->bits }}</td>
+                                                <td>{{ $ms->version }}</td>
                                                 <td class="">
 
-                                                    <a href="{{ route('support.os.edit', $os->id) }}" class="pr-2">
+                                                    <a href="{{ route('support.office.edit', $ms->id) }}" class="pr-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" height="18"
                                                             width="18"
                                                             viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -60,7 +60,7 @@
                                                                 d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z" />
                                                         </svg>
                                                     </a>
-                                                    <a href="" onclick="deleteOS({{ $os->id }})"
+                                                    <a href="" onclick="deleteOffice({{ $ms->id }})"
                                                         class="pl-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" height="18"
                                                             width="18"
@@ -89,8 +89,8 @@
 @endsection
 @section('customJs')
     <script>
-        function deleteOS(id) {
-            var url = '{{ route('support.os.delete', 'ID') }}';
+        function deleteOffice(id) {
+            var url = '{{ route('support.office.delete', 'ID') }}';
             var newUrl = url.replace("ID", id);
 
             if (confirm("Are You Sure to Delete?")) {
@@ -106,7 +106,7 @@
                     success: function(response) {
 
                         if (response["status"]) {
-                            window.location.href = "{{ route('support.os.list') }}";
+                            window.location.href = "{{ route('support.office.list') }}";
                         }
                     }
                 });
