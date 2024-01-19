@@ -151,15 +151,15 @@
                         <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>
                                 Printers</a>
                             <ul>
-                                <li> <a class="" href="{{ route('support.os.list') }}"><i
+                                <li> <a class="" href="{{ route('support.printers.list') }}"><i
                                             class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
-                                <li> <a class="" href="{{ route('support.os.create') }}"><i
+                                <li> <a class="" href="{{ route('support.printers.create') }}"><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>
                             </ul>
                         </li>
                     </ul>
-                    <ul>
+                    {{-- <ul>
                         <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Office</a>
                             <ul>
                                 <li> <a class="" href="{{ route('support.office.list') }}"><i
@@ -182,7 +182,7 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> --}}
                 </li>
 
 

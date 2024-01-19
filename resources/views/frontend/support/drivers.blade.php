@@ -435,8 +435,7 @@
 
 
                                     <div class="row">
-                                        <div class="col-lg-4">
-
+                                        <div class="col-lg-3">
 
                                             <a href="#" data-bs-toggle="modal" data-bs-target="#epsonModal">
                                                 <div class="icon_box_only trans type_one type_two ">
@@ -447,7 +446,7 @@
                                                             <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
                                                                 trigger="loop" delay="500"
                                                                 colors="primary:#30c9e8,secondary:#ebe6ef"
-                                                                style="width:100px;height:100px">
+                                                                style="width:60px;height:60px">
                                                             </lord-icon>
                                                             {{-- <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
                                                                 trigger="loop" delay="500"
@@ -473,46 +472,170 @@
                                         </div>
 
 
-                                        <div class="col-lg-4">
-                                            <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                                        <div class="col-lg-3">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#hpModal">
                                                 <div class="icon_box_only trans type_one type_two">
                                                     <div class="icon_box_in trans">
                                                         <div class="icon">
                                                             <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
                                                                 trigger="loop" delay="500"
                                                                 colors="primary:#30c9e8,secondary:#ebe6ef"
-                                                                style="width:100px;height:100px">
+                                                                style="width:60px;height:60px">
                                                             </lord-icon>
                                                         </div>
                                                         <div class="title_18">
                                                             <a href="#">
-                                                                Microsoft Office
+                                                                Hp
                                                             </a>
                                                         </div>
-                                                        <p>Microsoft</p>
+                                                        <p>Printer</p>
 
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
 
-                                        <div class="col-lg-4">
-                                            <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                                        <div class="col-lg-3">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#brotherModal">
                                                 <div class="icon_box_only trans type_one type_two">
                                                     <div class="icon_box_in trans">
                                                         <div class="icon">
                                                             <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
                                                                 trigger="loop" delay="500"
                                                                 colors="primary:#30c9e8,secondary:#ebe6ef"
-                                                                style="width:100px;height:100px">
+                                                                style="width:60px;height:60px">
                                                             </lord-icon>
                                                         </div>
                                                         <div class="title_18">
                                                             <a href="#">
-                                                                Activator
+                                                                Brother
                                                             </a>
                                                         </div>
-                                                        <p>Microsoft</p>
+                                                        <p>Printer</p>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="col-lg-3">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#canonModal">
+                                                <div class="icon_box_only trans type_one type_two">
+                                                    <div class="icon_box_in trans">
+                                                        <div class="icon">
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
+                                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                style="width:60px;height:60px">
+                                                            </lord-icon>
+                                                        </div>
+                                                        <div class="title_18">
+                                                            <a href="#">
+                                                                Canon
+                                                            </a>
+                                                        </div>
+                                                        <p>Printer</p>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#bizhubModal">
+                                                <div class="icon_box_only trans type_one type_two">
+                                                    <div class="icon_box_in trans">
+                                                        <div class="icon">
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
+                                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                style="width:60px;height:60px">
+                                                            </lord-icon>
+                                                        </div>
+                                                        <div class="title_18">
+                                                            <a href="#">
+                                                                BizHub
+                                                            </a>
+                                                        </div>
+                                                        <p>Printer</p>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="col-lg-3">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#kyoceraModal">
+                                                <div class="icon_box_only trans type_one type_two">
+                                                    <div class="icon_box_in trans">
+                                                        <div class="icon">
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
+                                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                style="width:60px;height:60px">
+                                                            </lord-icon>
+                                                        </div>
+                                                        <div class="title_18">
+                                                            <a href="#">
+                                                                Kyocera
+                                                            </a>
+                                                        </div>
+                                                        <p>Printer</p>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="col-lg-3">
+                                            <a href="" data-bs-toggle="modal"
+                                                data-bs-target="#konicaMinoltaModal">
+                                                <div class="icon_box_only trans type_one type_two">
+                                                    <div class="icon_box_in trans">
+                                                        <div class="icon">
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
+                                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                style="width:60px;height:60px">
+                                                            </lord-icon>
+                                                        </div>
+                                                        <div class="title_18">
+                                                            <a href="#">
+                                                                Konica Minolta
+                                                            </a>
+                                                        </div>
+                                                        <p>Printer</p>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#xeroxModal">
+                                                <div class="icon_box_only trans type_one type_two">
+                                                    <div class="icon_box_in trans">
+                                                        <div class="icon">
+                                                            <lord-icon src="https://cdn.lordicon.com/bgitlnnj.json"
+                                                                trigger="loop" delay="500"
+                                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                                style="width:60px;height:60px">
+                                                            </lord-icon>
+                                                        </div>
+                                                        <div class="title_18">
+                                                            <a href="#">
+                                                                Xerox
+                                                            </a>
+                                                        </div>
+                                                        <p>Printer</p>
 
                                                     </div>
                                                 </div>
@@ -597,11 +720,11 @@
 
 
                     <!-- <div class="theme_btn_all">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="#" class="theme_btn">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      More About Us
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <span> <i class="fi-rr-arrow-small-right"></i></span>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="#" class="theme_btn">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      More About Us
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <span> <i class="fi-rr-arrow-small-right"></i></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div> -->
                     <!---============spacing==========--->
                     <div class="pd_bottom_70"></div>
                     <!---============spacing==========--->
@@ -620,13 +743,13 @@
 
 
 
-
+    {{-- os models --}}
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Downnload Operating System</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Operating System</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -678,66 +801,54 @@
     </div>
 
 
-
+    {{-- ms-office models --}}
 
     <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Microsoft Office</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body ">
                     <table class="table col-12">
-                        <thead>
-                            <tr>
-                                <th class="col-1">#</th>
-                                <th class="col-3">Product Name</th>
-                                <th class="col-3">OS Bitdds</th>
-                                <th class="col-3">Version</th>
-                                <th class="col-3">Download</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>Otto</td>
-                                <td class="text-center">
-                                    <a href="{{ url('/') }}"> <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json"
-                                            trigger="loop" delay="1000" state="hover-slide"
-                                            colors="primary:#30c9e8,secondary:#ebe6ef" style="width:50px;height:50px">
-                                        </lord-icon>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                                <td class="text-center">
-                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
-                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
-                                        style="width:50px;height:50px">
-                                    </lord-icon>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry the Bird</td>
-                                <td>Larry the Bird</td>
-                                <td>Larry the Bird</td>
-                                <td class="text-center">
-                                    <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop" delay="1000"
-                                        state="hover-slide" colors="primary:#30c9e8,secondary:#ebe6ef"
-                                        style="width:50px;height:50px">
-                                    </lord-icon>
-                                </td>
-                            </tr>
-                        </tbody>
+                        @if (!empty($office))
+                            <thead>
+                                <tr>
+
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($office as $off)
+                                    <tr>
+
+                                        <td>{{ $off->name }}</td>
+                                        <td>{{ $off->bits }}</td>
+                                        <td>{{ $off->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $off->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                                delay="1000" state="hover-slide"
+                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                style="width:50px;height:50px">
+                                            </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                @endforeach
+
+                            </tbody>
+                        @endif
                     </table>
                 </div>
                 <div class="modal-footer">
@@ -748,6 +859,7 @@
         </div>
     </div>
 
+    {{-- activetor model --}}
 
     <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -821,12 +933,17 @@
 
 
 
+
+
+
+    {{-- printers model --}}
+
     <div class="modal fade" id="epsonModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Downnload Epson Printers Drivers</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Epson Printers Drivers</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -883,6 +1000,428 @@
 
 
 
+
+    <div class="modal fade" id="hpModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Epson Printers Drivers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (!empty($hp))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    {{-- <th class="col-1">SN.</th> --}}
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Model No</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($hp as $hps)
+                                <tbody>
+                                    <tr>
+                                        {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                        <td>{{ $hps->name }}</td>
+                                        <td>{{ $hps->model_no }}</td>
+                                        <td>{{ $hps->bits }}</td>
+                                        <td>{{ $hps->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $hps->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                                delay="1000" state="hover-slide"
+                                                colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                style="width:50px;height:50px">
+                                            </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="brotherModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Brother Printers Drivers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (!empty($brother))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    {{-- <th class="col-1">SN.</th> --}}
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Model No</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($brother as $bro)
+                                <tbody>
+                                    <tr>
+                                        {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                        <td>{{ $bro->name }}</td>
+                                        <td>{{ $bro->model_no }}</td>
+                                        <td>{{ $bro->bits }}</td>
+                                        <td>{{ $bro->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $bro->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                            delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef"
+                                            style="width:50px;height:50px">
+                                        </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="canonModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Canon Printers Drivers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (!empty($canon))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    {{-- <th class="col-1">SN.</th> --}}
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Model No</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($canon as $cn)
+                                <tbody>
+                                    <tr>
+                                        {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                        <td>{{ $cn->name }}</td>
+                                        <td>{{ $cn->model_no }}</td>
+                                        <td>{{ $cn->bits }}</td>
+                                        <td>{{ $cn->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $cn->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                            delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef"
+                                            style="width:50px;height:50px">
+                                        </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="bizhubModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Biz Hub Printers Drivers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (!empty($bizhub))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    {{-- <th class="col-1">SN.</th> --}}
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Model No</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($bizhub as $bz)
+                                <tbody>
+                                    <tr>
+                                        {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                        <td>{{ $bz->name }}</td>
+                                        <td>{{ $bz->model_no }}</td>
+                                        <td>{{ $bz->bits }}</td>
+                                        <td>{{ $bz->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $bz->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                            delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef"
+                                            style="width:50px;height:50px">
+                                        </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="modal fade" id="kyoceraModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Kyocera Printers Drivers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (!empty($kyocera))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    {{-- <th class="col-1">SN.</th> --}}
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Model No</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($kyocera as $kc)
+                                <tbody>
+                                    <tr>
+                                        {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                        <td>{{ $kc->name }}</td>
+                                        <td>{{ $kc->model_no }}</td>
+                                        <td>{{ $kc->bits }}</td>
+                                        <td>{{ $kc->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $kc->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                            delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef"
+                                            style="width:50px;height:50px">
+                                        </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="konicaMinoltaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Konica Minolta Printers Drivers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (!empty($konicaMinolta))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    {{-- <th class="col-1">SN.</th> --}}
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Model No</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($konicaMinolta as $km)
+                                <tbody>
+                                    <tr>
+                                        {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                        <td>{{ $km->name }}</td>
+                                        <td>{{ $km->model_no }}</td>
+                                        <td>{{ $km->bits }}</td>
+                                        <td>{{ $km->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $km->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                            delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef"
+                                            style="width:50px;height:50px">
+                                        </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="xeroxModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Xerox Printers Drivers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (!empty($xerox))
+                        <table class="table col-12">
+                            <thead>
+                                <tr>
+                                    {{-- <th class="col-1">SN.</th> --}}
+                                    <th class="col-3">Product Name</th>
+                                    <th class="col-3">Model No</th>
+                                    <th class="col-3">Supported Bits</th>
+                                    <th class="col-3">Version</th>
+                                    <th class="col-3">Download</th>
+                                </tr>
+                            </thead>
+                            @foreach ($xerox as $xz)
+                                <tbody>
+                                    <tr>
+                                        {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                        <td>{{ $xz->name }}</td>
+                                        <td>{{ $xz->model_no }}</td>
+                                        <td>{{ $xz->bits }}</td>
+                                        <td>{{ $xz->version }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ $xz->link }}">
+                                                {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                            delay="1000" state="hover-slide"
+                                            colors="primary:#30c9e8,secondary:#ebe6ef"
+                                            style="width:50px;height:50px">
+                                        </lord-icon> --}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#030a6d"
+                                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            @endforeach
+                        </table>
+                    @endif
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

@@ -804,7 +804,7 @@
 
 
 
-            <section class="pricing-section bg_light_1">
+            {{-- <section class="pricing-section bg_light_1">
                 <!---============spacing==========--->
                 <div class="pd_top_90"></div>
                 <!---============spacing==========--->
@@ -1119,7 +1119,7 @@
                 <!---============spacing==========--->
                 <div class="pd_bottom_70"></div>
                 <!---============spacing==========--->
-            </section>
+            </section> --}}
 
 
         </div>

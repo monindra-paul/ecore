@@ -8095,7 +8095,7 @@ body ul.portfolio_filter.color_two li:hover {
 }
 
 .price_box.type_one .center .d-flex {
-  justify-content: center;
+  /* justify-content: center; */
   margin-bottom: 20px;
 }
 
@@ -8125,7 +8125,7 @@ body ul.portfolio_filter.color_two li:hover {
 }
 
 .price_box.type_one .center .d-flex small {
-  font-size: 20px;
+  font-size: 17px;
   font-family: var(--font-family-main);
   color: var(--heading-color-one);
   font-weight: 700;

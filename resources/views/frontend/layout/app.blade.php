@@ -7,6 +7,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- PWA  -->
+    <meta name="theme-color" content="#6777ef" />
+    <link rel="apple-touch-icon" href="{{ asset('assets-front/images/ecore/logo/logo.png') }}">
+    <link rel="manifest" href="{{ asset('/manifest.json') }}">
     @yield('title')
     <!-- Fav Icon -->
     <link rel="icon" href="{{ asset('assets-front/images/ecore/logo/logo.png') }}" type="image/x-icon">
@@ -39,6 +44,8 @@
         media='all' />
     <link rel='stylesheet' href="{{ 'assets-front//css/plugins/flaticon_vankine.css' }}" type='text/css'
         media='all' />
+
+
     <!-- Icon Styles -->
 </head>
 
@@ -70,6 +77,25 @@
 <script src="{{ 'assets-front/js/map-helper.js' }}"></script>
 <!-- main-js -->
 <script type='text/javascript' src="{{ 'assets-front/js/main.js' }}"></script>
+
+
+<script src="{{ asset('/sw.js') }}"></script>
+<script>
+    if ("serviceWorker" in navigator) {
+        // Register a service worker hosted at the root of the
+        // site using the default scope.
+        navigator.serviceWorker.register("/sw.js").then(
+            (registration) => {
+                console.log("Service worker registration succeeded:", registration);
+            },
+            (error) => {
+                console.error(`Service worker registration failed: ${error}`);
+            },
+        );
+    } else {
+        console.error("Service workers are not supported.");
+    }
+</script>
 </body>
 
 </html>
