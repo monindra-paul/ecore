@@ -42,7 +42,7 @@
                             {{ $bill_no?->name }}
                         </td>
                         <td>
-                            {{ $bill_no->mobile }}
+                            {{ $bill_no?->mobile }}
                         </td>
                         <td>
                             {{ $bill_no?->problem }}

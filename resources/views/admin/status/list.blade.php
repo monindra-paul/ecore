@@ -5,7 +5,7 @@
         <div class="page-content">
             <!--breadcrumb-->
             <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-                <div class="breadcrumb-title pe-3">Bill</div>
+                <div class="breadcrumb-title pe-3">Generate Bills</div>
                 <div class="ps-3">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb mb-0 p-0">
@@ -66,19 +66,54 @@
                                                 @if ($bill->current_status == 'Pending')
                                                     <td>
                                                         <span class="badge bg-warning">{{ $bill->current_status }}</span>
+                                                        @if ($bill->delivery_status == 'Yes')
+                                                            <span class="badge bg-success">Delivered</span>
+                                                        @endif
+                                                        @if ($bill->delivery_status == 'In Process')
+                                                            <span class="badge bg-primary">Out for Delivery</span>
+                                                        @endif
                                                     </td>
                                                 @endif
                                                 @if ($bill->current_status == 'Ready')
                                                     <td>
                                                         <span class="badge bg-success">{{ $bill->current_status }}</span>
+                                                        @if ($bill->delivery_status == 'Yes')
+                                                            <span class="badge bg-success">Delivered</span>
+                                                        @endif
+                                                        @if ($bill->delivery_status == 'In Process')
+                                                            <span class="badge bg-primary">Out for Delivery</span>
+                                                        @endif
                                                     </td>
                                                 @endif
+
+
                                                 @if ($bill->current_status == 'Not Repaired')
+                                                    <td>
+
+                                                        <span class="badge bg-danger">{{ $bill->current_status }}</span>
+                                                        @if ($bill->delivery_status == 'Yes')
+                                                            <span class="badge bg-success">Delivered</span>
+                                                        @endif
+                                                        @if ($bill->delivery_status == 'In Process')
+                                                            <span class="badge bg-primary">Out for Delivery</span>
+                                                        @endif
+                                                    </td>
+                                                @endif
+
+
+
+                                                {{-- @if ($bill->current_status == 'Not Repaired')
                                                     <td>
 
                                                         <span class="badge bg-danger">{{ $bill->current_status }}</span>
                                                     </td>
                                                 @endif
+                                                @if ($bill->delivery_status == 'Yes')
+                                                    <td>
+
+                                                        <span class="badge bg-danger">Delivered</span>
+                                                    </td>
+                                                @endif --}}
                                                 <td>{{ $bill->bill_no }}</td>
                                                 <td>{{ $bill->name }}</td>
                                                 <td>{{ $bill->mobile }}</td>
