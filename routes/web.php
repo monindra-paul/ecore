@@ -9,10 +9,12 @@ use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\Admin\Software\MSOfficeController;
 use App\Http\Controllers\Admin\Software\OSController;
 use App\Http\Controllers\Admin\Software\PrintersControllers;
+use App\Http\Controllers\Admin\ViewStatusController as AdminViewStatusController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PagesController;
 use App\Http\Controllers\Frontend\ServiceController;
 use App\Http\Controllers\Frontend\SupportController;
+use App\Http\Controllers\Frontend\ViewStatusController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,6 +56,12 @@ Route::post('/contact-us', [PagesController::class, 'postContact'])->name('post.
 
 Route::get('/remote-support', [SupportController::class, 'remoteSupport'])->name('support.remote');
 Route::get('/softwares-drivers', [SupportController::class, 'softwareDrivers'])->name('support.drivers');
+Route::get('/view-status', [ViewStatusController::class, 'index'])->name('support.status');
+Route::post('/view-status', [ViewStatusController::class, 'status'])->name('support.status.fetched');
+
+
+
+
 
 
 
@@ -105,6 +113,17 @@ Route::group(['prefix' => 'admin'], function () {
             Route::get('/edit/{printers}', [PrintersControllers::class, 'edit'])->name('support.printers.edit');
             Route::get('/show/{printers}', [PrintersControllers::class, 'update'])->name('support.printers.update');
             Route::delete('/show/{printers}', [PrintersControllers::class, 'destroy'])->name('support.printers.delete');
+        });
+
+
+        Route::prefix('bill')->group(function () {
+
+            Route::get('/show', [AdminViewStatusController::class, 'show'])->name('bill.list');
+            Route::get('/create', [AdminViewStatusController::class, 'create'])->name('bill.create');
+            Route::post('/store', [AdminViewStatusController::class, 'store'])->name('bill.store');
+            Route::get('/edit/{bills}', [AdminViewStatusController::class, 'edit'])->name('bill.edit');
+            Route::get('/show/{bills}', [AdminViewStatusController::class, 'update'])->name('bill.update');
+            Route::delete('/show/{bills}', [AdminViewStatusController::class, 'destroy'])->name('bill.delete');
         });
     });
 });

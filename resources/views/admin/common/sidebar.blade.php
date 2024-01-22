@@ -78,18 +78,17 @@
                     </ul>
                 </li>
 
-                <li class="menu-label">Projects</li>
+                <li class="menu-label">Services Status</li>
                 <li>
                     <a href="javascript:;" class="has-arrow">
                         <div class="parent-icon"><i class='bx bx-cart-alt'></i>
                         </div>
-                        <div class="menu-title">Projects</div>
+                        <div class="menu-title">Bill</div>
                     </a>
                     <ul>
-                        <li> <a href="ecommerce-products.html"><i class="bx bx-right-arrow-alt"></i>All Projects</a>
+                        <li> <a href="{{ route('bill.list') }}"><i class="bx bx-right-arrow-alt"></i>Show</a>
                         </li>
-                        <li> <a href="ecommerce-products-details.html"><i class="bx bx-right-arrow-alt"></i>Create
-                                Projects</a>
+                        <li> <a href="{{ route('bill.create') }}"><i class="bx bx-right-arrow-alt"></i>Create</a>
                         </li>
                     </ul>
                 </li>
