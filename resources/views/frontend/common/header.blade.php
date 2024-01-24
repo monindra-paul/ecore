@@ -190,6 +190,13 @@
                                                         </span>
                                                     </a>
                                                 </li>
+                                                <li class="menu-item nav-item">
+                                                    <a href="{{ url('/view-status') }}" class="nav_link">
+                                                        <span class="text-link">
+                                                            View Status
+                                                        </span>
+                                                    </a>
+                                                </li>
 
                                             </ul>
                                         </li>
@@ -372,6 +379,13 @@
                                                     <a href="{{ url('/softwares-drivers') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Software & Drivers
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item nav-item">
+                                                    <a href="{{ url('/view-status') }}" class="nav_link">
+                                                        <span class="text-link">
+                                                            View Status
                                                         </span>
                                                     </a>
                                                 </li>
