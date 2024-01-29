@@ -76,6 +76,33 @@
         @if (app('request')->input('bill_no') != null)
             @if (app('request')->input('bill_no') == $bill_no?->bill_no)
                 <div id="payment" class="woocommerce-checkout-payment">
+                    <div class="row">
+                        <div class="col-6">
+
+                            <h4 class="text-center">Status of Bill No. <span
+                                    class="text-danger">{{ $bill_no?->bill_no }}</span>
+                        </div>
+                        @if ($bill_no?->updated_at != null)
+                            <div class="col-6">
+                                <h4 class="text-center">Last Updated On
+                                    <span class="text-danger">
+                                        {{ \Carbon\Carbon::parse($bill_no?->updated_at)->format('d M, Y') }}
+                                    </span>
+                                </h4>
+                                <a href="{{ route('download.pdf', ['bill_no' => $bill_no]) }}" target="_blank">Download
+                                    Status
+                                    as PDF</a>
+
+
+                            </div>
+                        @endif
+                    </div>
+                    </h4>
+                    {{-- <h4 class="text-center">Service Created On
+                        {{ \Carbon\Carbon::parse($bill_no?->created_at)->format('d M, Y') }}
+                    </h4> --}}
+
+
                     <ul class="accordion-box">
 
                         <li class="accordion block active-block">
@@ -85,6 +112,7 @@
                             </div>
                             <div class="acc-content current" style="display: block;">
                                 <div class="payment-info">
+
                                     <div class="row gutter_30px clearfix mr_top_20">
 
                                         <div class="col-lg-6 col-md-6 col-sm-12 column">

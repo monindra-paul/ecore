@@ -58,7 +58,7 @@ Route::get('/remote-support', [SupportController::class, 'remoteSupport'])->name
 Route::get('/softwares-drivers', [SupportController::class, 'softwareDrivers'])->name('support.drivers');
 Route::get('/view-status', [ViewStatusController::class, 'index'])->name('support.status');
 Route::post('/view-status', [ViewStatusController::class, 'status'])->name('support.status.fetched');
-
+Route::get('/download-pdf/{bill_no}', [ViewStatusController::class, 'downloadPdf'])->name('download.pdf');
 
 
 

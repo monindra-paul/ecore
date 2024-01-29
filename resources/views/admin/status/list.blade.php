@@ -31,7 +31,7 @@
                     <h6 class="mb-0 text-uppercase">Bills</h6>
 
                     <hr />
-                    {{-- <form action="" method="get">
+                    <form action="" method="get">
                         <div class="col">
                             <div class="position-relative">
                                 <input type="text" class="form-control ps-5" value="{{ Request::get('keyword') }}"
@@ -41,7 +41,7 @@
 
                             </div>
                         </div>
-                    </form> --}}
+                    </form>
                     <div class="card mt-2">
                         <div class="card-body">
                             <table class="table mb-0">
@@ -53,8 +53,8 @@
                                         <th scope="col">Name</th>
                                         <th scope="col">Mobile No.</th>
                                         <th scope="col">Device Type</th>
-                                        <th scope="col">Device/Model No.</th>
                                         <th scope="col">Amount</th>
+                                        <th scope="col">Last Update</th>
                                         <th scope="col">Action</th>
                                     </tr>
                                 </thead>
@@ -118,8 +118,9 @@
                                                 <td>{{ $bill->name }}</td>
                                                 <td>{{ $bill->mobile }}</td>
                                                 <td>{{ $bill->item_type }}</td>
-                                                <td>{{ $bill->device_no }}</td>
                                                 <td>{{ $bill->amount }}</td>
+                                                <td>{{ \Carbon\Carbon::parse($bill->updated_at)->format('d M, Y') }}
+                                                </td>
                                                 <td class="">
 
                                                     <a href="{{ route('bill.edit', $bill->id) }}" class="pr-2">
