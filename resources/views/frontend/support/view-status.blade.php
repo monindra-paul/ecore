@@ -82,21 +82,19 @@
                             <h4 class="text-center">Status of Bill No. <span
                                     class="text-danger">{{ $bill_no?->bill_no }}</span>
                         </div>
-                        @if ($bill_no?->updated_at != null)
-                            <div class="col-6">
-                                <h4 class="text-center">Last Updated On
-                                    <span class="text-danger">
-                                        {{ \Carbon\Carbon::parse($bill_no?->updated_at)->format('d M, Y') }}
-                                    </span>
-                                </h4>
+
+                        <div class="col-6">
+                            <h4 class="text-center">Last Updated On
+                                <span class="text-danger">
+                                    {{ \Carbon\Carbon::parse($bill_no?->updated_at)->format('d M, Y') }}
+                                </span>
+                            </h4>
 
 
 
-                            </div>
-                        @endif
-                        <a href="{{ route('download.pdf', ['bill_no' => $bill_no]) }}" target="_blank">Download
-                            Status
-                            as PDF</a>
+                        </div>
+
+
                     </div>
                     </h4>
                     {{-- <h4 class="text-center">Service Created On
@@ -116,7 +114,7 @@
 
                                     <div class="row gutter_30px clearfix mr_top_20">
 
-                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                        <div class="col-lg-5 col-md-6 col-sm-12 column">
                                             <label for="">Current Status</label>
 
                                             @if ($bill_no?->current_status == 'Ready')
@@ -138,7 +136,7 @@
 
 
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                        <div class="col-lg-4 col-md-6 col-sm-12 column pb-3">
                                             <label for="">Delivery Status</label>
 
                                             @if ($bill_no?->delivery_status == 'Yes')
@@ -157,6 +155,38 @@
                                                     style="background-color: rgb(241, 0, 0);border:none; padding-left:55px;padding-right:55px;">Not
                                                     Delivered</button>
                                             @endif
+                                        </div>
+                                        <div class="col-lg-3 col-md-12 col-sm-12 column ">
+                                            <div class="row">
+                                                <div class="col-6">
+
+
+                                                    <a id="dw-pdf-i"
+                                                        href="{{ route('download.pdf', ['bill_no' => $bill_no]) }}">
+                                                        <span class="text-center ml-3">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" height="50"
+                                                                width="50"
+                                                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                                <path fill="#25db00"
+                                                                    d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 232V334.1l31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31V232c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
+                                                            </svg>
+                                                        </span>
+
+                                                        <p class="text-center align-item-center justify-content-center">
+                                                            {{-- Download <br>PDF</p> --}}
+                                                    </a>
+
+
+
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <span>
+                                                        {!! QrCode::size(80)->generate(route('download.pdf', ['bill_no' => $bill_no])) !!}
+
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
 
                                     </div>

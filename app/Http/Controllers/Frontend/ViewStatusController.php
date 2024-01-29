@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\ViewStatus;
 use Barryvdh\DomPDF\PDF;
 use Illuminate\Http\Request;
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 
 
@@ -60,5 +61,21 @@ class ViewStatusController extends Controller
         $pdf = app('dompdf.wrapper')->loadView('frontend.support.pdf', compact('bill_no'))->setPaper('a4', 'portrait');
 
         return $pdf->download('EC-Service_Status.pdf');
+    }
+
+
+
+    public function qrcode(Request $request)
+    {
+
+        $bill_no = ViewStatus::find($request->bill_no);
+
+        return QrCode::size(100)
+            ->backgroundColor(255, 255, 0)
+            ->color(0, 0, 255)
+            ->margin(1)
+            ->generate(
+                $bill_no,
+            );
     }
 }

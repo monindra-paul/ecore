@@ -17362,3 +17362,8 @@ input[type=range i]:focus::-webkit-slider-thumb {
   border-radius: 25px;
   font-size: 16px;
 }
+
+#dw-pdf-i {
+  margin-top: 10px;
+  align-items: center;
+}

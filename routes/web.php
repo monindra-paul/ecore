@@ -59,7 +59,7 @@ Route::get('/softwares-drivers', [SupportController::class, 'softwareDrivers'])-
 Route::get('/view-status', [ViewStatusController::class, 'index'])->name('support.status');
 Route::post('/view-status', [ViewStatusController::class, 'status'])->name('support.status.fetched');
 Route::get('/download-pdf/{bill_no}', [ViewStatusController::class, 'downloadPdf'])->name('download.pdf');
-
+Route::get('/view-status', [ViewStatusController::class, 'qrcode'])->name('support.qrcode');
 
 
 
