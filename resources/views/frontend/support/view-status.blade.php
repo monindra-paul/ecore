@@ -89,13 +89,14 @@
                                         {{ \Carbon\Carbon::parse($bill_no?->updated_at)->format('d M, Y') }}
                                     </span>
                                 </h4>
-                                <a href="{{ route('download.pdf', ['bill_no' => $bill_no]) }}" target="_blank">Download
-                                    Status
-                                    as PDF</a>
+
 
 
                             </div>
                         @endif
+                        <a href="{{ route('download.pdf', ['bill_no' => $bill_no]) }}" target="_blank">Download
+                            Status
+                            as PDF</a>
                     </div>
                     </h4>
                     {{-- <h4 class="text-center">Service Created On

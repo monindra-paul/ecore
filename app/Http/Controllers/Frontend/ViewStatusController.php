@@ -31,8 +31,6 @@ class ViewStatusController extends Controller
             return view('frontend.support.view-status', array('bill_no' => null, 'error' => 'Enter a Bill No.'));
         }
 
-
-
         return view('frontend.support.view-status', compact('bill_no'));
     }
 
@@ -46,8 +44,9 @@ class ViewStatusController extends Controller
 
         // dd($bill_no);
 
-        $bill_no = ViewStatus::find($request->bill_no)->first();
+        $bill_no = ViewStatus::find($request->bill_no);
 
+        // dd($bill_no);
 
         // dd($bill_no);
         // $data['bill_no'] = $bill_no;
