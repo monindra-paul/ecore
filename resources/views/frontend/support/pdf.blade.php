@@ -1,8 +1,15 @@
+@php
+    $currentYear = date('y');
+    $previousYear = $currentYear - 1;
+@endphp
+
+
 <div id="payment" class="woocommerce-checkout-payment">
     <div class="row">
         <div class="col-6">
 
-            <h4 class="text-center">Status of Bill No. <span class="text-danger">{{ $bill_no?->bill_no }}</span>
+            <h4 class="text-center">Status of Bill No. <span
+                    class="text-danger">EC/{{ $previousYear }}-{{ $currentYear }}/JS/{{ $bill_no?->bill_no }}</span>
         </div>
 
         <div class="col-6">

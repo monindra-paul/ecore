@@ -486,7 +486,9 @@
                                 alt="notification" /> Need Any
                             type of
                             Website
-                            <a class="rd_more" style="margin-left: 10px" href="#">Order Now</a>
+                            <a class="rd_more" style="margin-left: 10px" data-bs-toggle="modal"
+                                data-bs-target="#webform" href="">Order
+                                Now</a>
                         </div>
                     </div>
                 </div>
@@ -789,4 +791,75 @@
         <div class="pd_bottom_90"></div>
         <!---============spacing==========--->
     </section>
+
+
+
+
+
+
+
+    <div class="modal fade" id="webform" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Submit your query against website development.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="row">
+
+                            <div class="col-6">
+                                <label for="name">Your Name</label>
+                                <input type="text">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="mobile">Your Mobile No.</label>
+                                <input type="text">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="email">Your Email Address</label>
+                                <input type="text">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="type">Type of website</label>
+                                <select class="form-select form-select-sm" aria-label=".form-select-sm" name="subject"
+                                    id="subject">
+                                    <option selected>Select Service</option>
+                                    <option value="Hardware Support">Hardware Support</option>
+                                    <option value="Network & Security">Network & Security</option>
+                                    <option value="CCTV Survelliance">CCTV Survelliance</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Graphic Designing">Graphic Designing</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Graphic Design">Graphic Design</option>
+                                    <option value="Software Development">Software Development</option>
+                                    <option value="App Development">App Development</option>
+                                    <option value="Cloud Services">Cloud Services</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Send Us</button>
+                    {{-- <button type="button" class="btn btn-primary">Understood</button> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- 
+    <div class="modal-dialog modal-dialog-centered" id="webform">
+        <label for="">Name</label>
+        <input type="text">
+    </div> --}}
 @endsection

@@ -2,10 +2,6 @@
 @section('mainsection')
     <div class="container">
 
-
-
-
-
         <div class="payment-info m-3" style="justify-content: center; align-items: center;">
             <div class="row gutter_30px clearfix">
                 <h4>Please Submit Your Bill No Here & Get the Full Details:</h4>
@@ -16,8 +12,11 @@
                         <span class="text-danger">{{ $errors->first('bill_no') }}</span>
                     @endif
                     <div class="col-lg-12 col-md-6 col-sm-12 column">
+                        <p>Enter your last 3 digit of your bill no. Example: <strike> EC/23-24/JS/ </strike> <b><span
+                                    style="color: rgb(3, 116, 237); ">001</span></b>
+                        </p>
                         <div class="field-input">
-                            <input type="text" name="bill_no" placeholder="Enter Your Bill No."
+                            <input type="text" name="bill_no" placeholder="Example: 001"
                                 value="{{ app('request')->input('bill_no') }}">
                         </div>
                     </div>
@@ -70,6 +69,10 @@
         </div> --}}
 
 
+        @php
+            $currentYear = date('y');
+            $previousYear = $currentYear - 1;
+        @endphp
 
 
 
@@ -80,7 +83,7 @@
                         <div class="col-6">
 
                             <h4 class="text-center">Status of Bill No. <span
-                                    class="text-danger">{{ $bill_no?->bill_no }}</span>
+                                    class="text-danger">EC/{{ $previousYear }}-{{ $currentYear }}/JS/{{ $bill_no?->bill_no }}</span>
                         </div>
 
                         <div class="col-6">

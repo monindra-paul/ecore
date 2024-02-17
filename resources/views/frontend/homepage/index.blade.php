@@ -1,4 +1,7 @@
 @extends('frontend.layout.app')
+@section('title')
+    <title> ECoreTechServ - The Soul of Future Technology</title>
+@endsection
 @section('mainsection')
     <div id="wrapper_full" class="content_all_warpper">
         <!----==============content_all_warpper==============--->
