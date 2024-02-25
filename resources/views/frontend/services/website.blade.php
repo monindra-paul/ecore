@@ -49,8 +49,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="image">
-                        <img src="{{ asset('assets-front/images/about/content-image-2.png') }}" class="img-fluid"
-                            alt="img" />
+                        <img src="{{ asset('assets-front/images/ecore/web/best-website-development-kolkata.svg') }}"
+                            class="img-fluid" alt="img" />
                     </div>
                 </div>
             </div>
@@ -855,6 +855,23 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     {{-- 

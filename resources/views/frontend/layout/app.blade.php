@@ -11,8 +11,11 @@
     <link rel="apple-touch-icon" href="{{ asset('assets-front/images/ecore/logo/logo.png') }}">
     <link rel="manifest" href="{{ asset('/manifest.json') }}">
     @yield('title')
+    @yield('description')
+    @yield('keyword')
     <!-- Fav Icon -->
-    <link rel="icon" href="{{ asset('assets-front/images/ecore/logo/logo.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets-front/images/ecore/logo/ecore-favicon-round2.webp') }}"
+        type="image/x-icon">
     <!-- Fav Icon -->
     <!-- Googel Fonts -->
     <link rel='stylesheet'
@@ -42,6 +45,17 @@
         media='all' />
     <link rel='stylesheet' href="{{ 'assets-front//css/plugins/flaticon_vankine.css' }}" type='text/css'
         media='all' />
+
+
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+
+
+
 
 
     <!-- Icon Styles -->
@@ -147,6 +161,39 @@
         console.error("Service workers are not supported.");
     }
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

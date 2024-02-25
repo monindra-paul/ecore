@@ -18,7 +18,17 @@
                             alt="img" />
                     </div>
                 </div>
+
+
                 <div class="col-lg-6">
+                    <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                        <ul class="breadcrumb m-auto">
+                            <li><a href="#">Home</a> </li>
+                            <li class="">Services</li>
+                            <li class=""><a href="#">CCTV Surveillance</a></li>
+                        </ul>
+                    </div>
+
                     <div class="section_title type_two">
                         <h4 class="sm_title">Cloud Services</h4>
                         <div class="title_whole">
@@ -43,6 +53,7 @@
                         </div>
 
                     </div>
+
 
                     <!---============spacing==========--->
                     <div class="pd_bottom_40 d_md_none"></div>

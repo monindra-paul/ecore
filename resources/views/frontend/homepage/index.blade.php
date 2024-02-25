@@ -1,14 +1,32 @@
 @extends('frontend.layout.app')
 @section('title')
-    <title> ECoreTechServ - The Soul of Future Technology</title>
+    <title>Top IT Support & Services Company in Kolkata | ECore TechServ - The Soul of Future Technology</title>
 @endsection
+
+@section('description')
+    <meta name="description"
+        content="ECore TechServ provides top it support & services in kolkata. Get your one stop solution for Website Development, Graphic Designing, Digital Marketing, CCTV Survelliance & Hardware Support. ">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="IT Support Company,IT Support Company in Kolkata, IT Services in Kolkata, Website Development Company in Kolkata, CCTV Survelliance service provider.">
+@endsection
+
 @section('mainsection')
     <div id="wrapper_full" class="content_all_warpper">
+
+
+
+
+
+
+
         <!----==============content_all_warpper==============--->
         <!--content start-->
         <div id="content" class="site-content">
             <!---slider-->
-            <section class="slider style_two">
+            {{-- <section class="slider style_two">
                 <div class="owl-carousel owl_nav_block owl_dots_none theme_carousel owl-theme"
                     data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true,  "autoplayHoverPause":true , "autoplayTimeout": 7000, "smartSpeed": 1800, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
                     <!---sldier-->
@@ -30,7 +48,8 @@
                                             <h1 class="animate_left">Best Website Design in Kolkata</h1>
 
                                             <div class="button_all animate_down">
-                                                <a href="{{ url('/website-development') }}" class="theme_btn">Know More</a>
+                                                <a href="{{ url('/website-development') }}" class="theme_btn">Know
+                                                    More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -128,8 +147,47 @@
 
 
                 </div>
-            </section>
+            </section> --}}
             <!---slider-end--->
+
+
+
+
+
+            <!-- ***** Main Banner Area Start ***** -->
+            <section class="section main-banner" id="top" data-section="section1">
+                <video autoplay muted loop id="bg-video">
+                    <source src="{{ asset('assets-front/images/ecore/course-video.mp4') }}" type="video/mp4" />
+                </video>
+
+                <div class="video-overlay header-text">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center9">
+                                <div class="caption">
+                                    <h6>Great Welcome To</h6>
+                                    <h1 style="color: #fff">ECORE TECHSERV</h1>
+                                    <h6>The Soulk of Future Technology</h6>
+                                    <p>Our business depends on your IT systems. We’re confident that we are the only IT
+                                        solutions service business in India.</a>.</p>
+                                    <div class="main-button-red">
+                                        <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ***** Main Banner Area End ***** -->
+
+
+
+
+
+
+
+
 
 
 
