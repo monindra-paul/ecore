@@ -26,7 +26,7 @@
         <!--content start-->
         <div id="content" class="site-content">
             <!---slider-->
-            {{-- <section class="slider style_two">
+            <section class="slider style_two">
                 <div class="owl-carousel owl_nav_block owl_dots_none theme_carousel owl-theme"
                     data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true,  "autoplayHoverPause":true , "autoplayTimeout": 7000, "smartSpeed": 1800, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
                     <!---sldier-->
@@ -147,7 +147,7 @@
 
 
                 </div>
-            </section> --}}
+            </section>
             <!---slider-end--->
 
 
@@ -155,7 +155,7 @@
 
 
             <!-- ***** Main Banner Area Start ***** -->
-            <section class="section main-banner" id="top" data-section="section1">
+            {{-- <section class="section main-banner" id="top" data-section="section1">
                 <video autoplay muted loop id="bg-video">
                     <source src="{{ asset('assets-front/images/ecore/course-video.mp4') }}" type="video/mp4" />
                 </video>
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Main Banner Area End ***** -->
 
 
@@ -277,8 +277,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="image">
-                                <img src="{{ asset('assets-front/images/about/about-2-11.png') }}" class="img-fluid"
-                                    alt="img" />
+                                <img src="{{ asset('assets-front/images/ecore/home/our-mission-home-page2.svg') }}"
+                                    class="img-fluid" alt="img" />
                             </div>
                             <!---============spacing==========--->
                             <div class="pd_bottom_40"></div>
@@ -793,34 +793,19 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3 mr_left_minus_240">
+                        <div class="col-lg-3 ">
                             <div class="image_box_only  type_one  mr_top_minus_10">
-                                <svg width="584" height="361" viewBox="0 0 584 361" fill="none"
+                                {{-- <svg width="584" height="361" viewBox="0 0 584 361" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M511.94 27.9446C450.328 34.2751 426.172 86.6367 388.192 42.1471C376.849 28.8672 369.496 15.8049 356.881 7.85635C320.869 -14.8308 288.183 39.7147 254.098 21.6142C232.361 10.0692 201.495 -12.2949 160.749 11.4556C139.809 23.6643 131.75 43.9955 121.113 68.4992C98.9077 119.645 51.9621 120.301 18.0526 171.855C-10.8735 215.844 -1.72306 261.738 34.5651 282.861C76.3006 307.166 118.003 290.991 175.305 284.117C225.771 278.064 241.38 321.316 288.013 349.769C320.203 369.405 356.398 361.394 387.85 339.164C428.965 310.102 443.933 276.977 463.164 237.902C484.401 194.736 514.067 182.433 539.686 166.375C618.882 116.728 578.36 21.1282 511.94 27.9446Z"
                                         fill="#2D947A"></path>
-                                </svg>
+                                </svg> --}}
                                 <div class="image one">
-                                    <img src="{{ asset('assets-front/images/about/content-image-1.png') }}"
-                                        width="250" height="490" decoding="async"
-                                        data-src="{{ asset('assets-front/images/about/content-image-1.png') }}"
-                                        alt="img" data-ll-status="loaded"
-                                        class="entered litespeed-loaded"><noscript><img width="375" height="490"
-                                            decoding="async"
-                                            src="{{ asset('assets-front/images/about/content-image-1.png') }}"
-                                            alt="img" /></noscript>
+                                    <img
+                                        src="{{ asset('assets-front/images/ecore/home/Grow-your-business-with-our-features23.svg') }}" />
                                 </div>
-                                <div class="image two">
-                                    <img src="../../wp/vankine/v1/wp-content/uploads/2022/12/service-8-min.jpg"
-                                        width="648" height="648" decoding="async"
-                                        data-src="../../wp/vankine/v1/wp-content/uploads/2022/12/service-8-min.jpg"
-                                        alt="img" data-ll-status="loaded"
-                                        class="entered litespeed-loaded"><noscript><img width="648" height="648"
-                                            decoding="async"
-                                            src="../../wp/vankine/v1/wp-content/uploads/2022/12/service-8-min.jpg"
-                                            alt="img" /></noscript>
-                                </div>
+
                             </div>
                         </div>
 
@@ -1138,7 +1123,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ec_custom_adv">
                             <div class="image_box position-relative z_2 m-t3">
-                                <img src="{{ asset('assets-front/images/ecore/hardware/adv.png') }} "
+                                <img src="{{ asset('assets-front/images/ecore/home/what-we-care.svg') }} "
                                     class="img-fluid mt-5" alt="img" />
                             </div>
                             <!---============spacing==========--->

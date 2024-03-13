@@ -40,8 +40,8 @@
                     <!---============spacing==========--->
                 </div>
                 <div class="col-lg-6">
-                    <div class="image">
-                        <img src="{{ asset('assets-front/images/about/content-image-2.png') }}" class="img-fluid"
+                    <div class="image ml-5">
+                        <img src="{{ asset('assets-front/images/ecore/network/network.png') }}" class="img-fluid m-5"
                             alt="img" />
                     </div>
                 </div>
@@ -204,8 +204,8 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <img src="{{ asset('assets-front/images/service/service-1-min-1.jpg') }}" class="img-fluid"
-                            alt="service" />
+                        <img src="{{ asset('assets-front/images/ecore/network/computer-network-1.webp') }}"
+                            class="img-fluid" alt="service" />
                     </div>
 
 
@@ -326,8 +326,8 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="image_box_only  type_four">
                         <div class="image">
-                            <img src="{{ asset('assets-front/images/h3-ch-1-min.png') }}" alt="img"
-                                class="img-fluid" />
+                            <img src="{{ asset('assets-front/images/ecore/network/computer-network-benefits.webp') }}"
+                                alt="img" class="img-fluid" />
                         </div>
                         <div class="abso_content">
 
@@ -348,7 +348,8 @@
         <div class="pd_bottom_80"></div>
         <!---============spacing==========--->
         <div class="ab_img_right_bottom z_0">
-            <img src="{{ asset('assets-front/images/bg-2-2.png') }}" class="img-fluid" alt="img">
+            {{-- <img src="{{ asset('assets-front/images/ecore/network/computer-network-benefits.webp') }}" class="img-fluid" --}}
+            {{-- alt="img"> --}}
         </div>
     </section>
 
@@ -776,10 +777,11 @@
                                 <i class=" flaticon-travel-insurance trans"></i>
                             </div>
                             <div class="content d-flex align-items-center">
-                                <img src="assets/images/service/service-1-min-1.jpg" class="img-fluid" alt="service" />
+                                {{-- <img src="{{ asset('assets-front/images/ecore/network/server-client.webp') }}" --}}
+                                {{-- class="img-fluid" alt="service" /> --}}
                                 <div class="left">
                                     <div class="title_26">
-                                        <a href="service-details.html">
+                                        <a href="#">
                                             Server Client
                                         </a>
                                     </div>
@@ -811,7 +813,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <img src="{{ asset('assets-front/images/service/service-1-min-1.jpg') }}" class="img-fluid"
+                        <img src="{{ asset('assets-front/images/ecore/network/server-client.webp') }}" class="img-fluid"
                             alt="service" />
                     </div>
 
@@ -940,8 +942,8 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="image_box_only  type_four">
                         <div class="image">
-                            <img src="{{ asset('assets-front/images/h3-ch-1-min.png') }}" alt="img"
-                                class="img-fluid" />
+                            <img src="{{ asset('assets-front/images/ecore/network/server-client-benefits.webp') }}"
+                                alt="img" class="img-fluid" />
                         </div>
                         <div class="abso_content">
 

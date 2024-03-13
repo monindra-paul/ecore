@@ -45,7 +45,7 @@
                         <div class="col-lg-6">
 
                             <div class="image">
-                                <img src="{{ asset('assets-front/images/about/content-image-2.png') }}" class="img-fluid"
+                                <img src="{{ asset('assets-front/images/ecore/dm/1814.png') }}" class="img-fluid"
                                     alt="img" />
                             </div>
                         </div>

@@ -185,8 +185,10 @@
                                                 </div>
                                                 <div class="col-6">
                                                     <span>
-                                                        {!! QrCode::size(80)->generate(route('download.pdf', ['bill_no' => $bill_no])) !!}
+                                                        {{-- {!! QrCode::size(80)->generate(route('download.pdf', ['bill_no' => $bill_no])) !!} --}}
 
+                                                        <img src="{{ asset('assets-front/images/ecore/status/QrCode.jpeg') }}"
+                                                            alt="upiqr" srcset="">
                                                     </span>
                                                 </div>
                                             </div>

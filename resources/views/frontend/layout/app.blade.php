@@ -21,6 +21,16 @@
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=DM+Sans%3A400%2C400i%2C500%2C500i%2C700%2C700i&amp;subset=latin%2Clatin-ext'
         type='text/css' media='all' />
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- Googel Fonts -->
     <!-- Plugins -->
     <link rel='stylesheet' href="{{ 'assets-front/css/plugins/bootstrap.min.css' }}" type='text/css' media='all' />

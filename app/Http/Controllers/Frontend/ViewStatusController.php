@@ -59,7 +59,6 @@ class ViewStatusController extends Controller
         // dd($bill_no);
 
         $pdf = app('dompdf.wrapper')->loadView('frontend.support.pdf', compact('bill_no'))->setPaper('a4', 'portrait');
-
         return $pdf->download('EC-Service_Status.pdf');
     }
 
