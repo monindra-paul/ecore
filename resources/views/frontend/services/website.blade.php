@@ -49,8 +49,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="image">
-                        <img src="{{ asset('assets-front/images/ecore/web/best-website-development-kolkata.svg') }}"
-                            class="img-fluid" alt="img" />
+                        <img src="{{ asset('assets-front/images/ecore/web/website-ecore2.webp') }}" class="img-fluid"
+                            alt="img" />
                     </div>
                 </div>
             </div>
@@ -315,8 +315,8 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ec_custom_adv">
                     <div class="image_box position-relative z_2 m-t3">
-                        <img src="{{ asset('assets-front/images/ecore/hardware/adv.png') }} " class="img-fluid mt-5"
-                            alt="img" />
+                        <img src="{{ asset('assets-front/images/ecore/web/website-ecore-adv.webp') }} "
+                            class="img-fluid mt-5" alt="img" />
                     </div>
                     <!---============spacing==========--->
                     <div class="pd_bottom_20"></div>
@@ -782,7 +782,8 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="image">
-                        <img src="{{ asset('assets-front/images/an-1-min.png') }}" class="img-fluid" alt="img" />
+                        <img src="{{ asset('assets-front/images/ecore/web/website-ecore-host.webp') }}" class="img-fluid"
+                            alt="img" />
                     </div>
                 </div>
             </div>

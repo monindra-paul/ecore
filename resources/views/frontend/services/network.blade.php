@@ -1415,7 +1415,7 @@
                                 <img src="assets/images/service/service-1-min-1.jpg" class="img-fluid" alt="service" />
                                 <div class="left">
                                     <div class="title_26">
-                                        <a href="service-details.html">
+                                        <a href="#">
                                             Network Security
                                         </a>
                                     </div>
@@ -1447,8 +1447,8 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <img src="{{ asset('assets-front/images/service/service-1-min-1.jpg') }}" class="img-fluid"
-                            alt="service" />
+                        <img src="{{ asset('assets-front/images/ecore/network/network-sequrity-ec.webp') }}"
+                            class="img-fluid" alt="service" />
                     </div>
 
 
@@ -1591,8 +1591,8 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="image_box_only  type_four">
                         <div class="image">
-                            <img src="{{ asset('assets-front/images/h3-ch-1-min.png') }}" alt="img"
-                                class="img-fluid" />
+                            <img src="{{ asset('assets-front/images/ecore/network/network-sequrity-ec-2.webp') }}"
+                                alt="img" class="img-fluid" />
                         </div>
                         <div class="abso_content">
 

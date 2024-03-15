@@ -45,7 +45,7 @@
                         <div class="col-lg-6">
 
                             <div class="image">
-                                <img src="{{ asset('assets-front/images/ecore/dm/1814.png') }}" class="img-fluid"
+                                <img src="{{ asset('assets-front/images/ecore/dm/dm-ecore.webp') }}" class="img-fluid"
                                     alt="img" />
                             </div>
                         </div>
@@ -57,7 +57,7 @@
 
 
 
-            <section class="content-section bg_light_2">
+            <section class="content-section ">
                 <!---============spacing==========--->
                 <div class="pd_top_15"></div>
                 <!---============spacing==========--->
@@ -340,7 +340,7 @@
                                         alt="img" />
                                 </div>
                                 <div class="m_image">
-                                    <img src="{{ asset('assets-front/images/about/about-h-6-min.png') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/dm/dm-ecore-support.webp') }}"
                                         class="img-fluid" alt="img" />
                                 </div>
                                 <div class="fun_facts type_two color_two">
@@ -476,7 +476,7 @@
                     <div class="row align-items-start">
                         <div class="col-lg-5 col-md-5 col-sm-12">
                             <div class="image_box">
-                                <img src="{{ asset('assets-front/images/about/about-1.png') }}" class="img-fluid"
+                                <img src="{{ asset('assets-front/images/ecore/dm/dm-ecore-seo.webp') }}" class="img-fluid"
                                     alt="img" />
                             </div>
                         </div>

@@ -828,8 +828,8 @@
                     <div class="row align-items-start">
                         <div class="col-lg-5 col-md-5 col-sm-12">
                             <div class="image_box">
-                                <img src="{{ asset('assets-front/images/about/about-1.png') }}" class="img-fluid"
-                                    alt="img" />
+                                <img src="{{ asset('assets-front/images/ecore/home/business-understand.webp') }}"
+                                    class="img-fluid" alt="img" />
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 pd_left_30">
