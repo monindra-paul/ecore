@@ -43,7 +43,7 @@ Route::get('/cctv-surveillance', [ServiceController::class, 'cctv'])->name('serv
 Route::get('/website-development', [ServiceController::class, 'website'])->name('service.website');
 Route::get('/graphic-designing', [ServiceController::class, 'graphics'])->name('service.graphics');
 Route::get('/digital-marketing', [ServiceController::class, 'dm'])->name('service.dm');
-Route::get('/software-development', [ServiceController::class, 'software'])->name('service.software');
+Route::get('/software-development-in-kolkata', [ServiceController::class, 'software'])->name('service.software');
 Route::get('/app-development', [ServiceController::class, 'app'])->name('service.app');
 Route::get('/cloud-services', [ServiceController::class, 'cloud'])->name('service.cloud');
 

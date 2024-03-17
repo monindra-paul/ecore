@@ -14,7 +14,7 @@
                 <div class="col-lg-6">
 
                     <div class="image">
-                        <img src="{{ asset('assets-front/images/about/content-image-2.png') }}" class="img-fluid"
+                        <img src="{{ asset('assets-front/images/ecore/cloud/cloud.webp') }}" class="img-fluid"
                             alt="img" />
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ec_custom_adv">
                     <div class="image_box position-relative z_2 m-t3">
-                        <img src="{{ asset('assets-front/images/ecore/app/image2-home7.png') }} " class="img-fluid mt-5"
+                        <img src="{{ asset('assets-front/images/ecore/cloud/cloud-mid.webp') }} " class="img-fluid mt-5"
                             alt="img" />
                     </div>
                     <!---============spacing==========--->
@@ -613,7 +613,7 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="image_box_only  type_four">
                         <div class="image">
-                            <img src="{{ asset('assets-front/images/h3-ch-1-min.png') }}" alt="img"
+                            <img src="{{ asset('assets-front/images/ecore/cloud/cloud-2.webp') }}" alt="img"
                                 class="img-fluid" />
                         </div>
                         <div class="abso_content">

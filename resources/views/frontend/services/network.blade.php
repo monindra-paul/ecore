@@ -559,6 +559,7 @@
                                 </svg>
                                 <small>Low power loss</small>
                             </div>
+                            
                             <div class="d-flex align-items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -569,26 +570,7 @@
                                         <path
                                             d="M15.0692 7.88074L9.6525 13.2973C9.48999 13.4598 9.27667 13.5416 9.06335 13.5416C8.85004 13.5416 8.63672 13.4598 8.47421 13.2973L5.76593 10.589C5.44 10.2632 5.44 9.73651 5.76593 9.41074C6.09171 9.08481 6.61829 9.08481 6.94421 9.41074L9.06335 11.5299L13.8909 6.70245C14.2167 6.37653 14.7433 6.37653 15.0692 6.70245C15.395 7.02823 15.395 7.55481 15.0692 7.88074Z"
                                             fill="#FAFAFA"></path>
-                                    </g>
-                                    <defs>
-                                        <clipPath>
-                                            <rect width="20" height="20" fill="white"></rect>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <small>Long distance network</small>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g>
-                                        <path class="one"
-                                            d="M10 0C4.48578 0 0 4.48578 0 10C0 15.5142 4.48578 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48578 15.5142 0 10 0Z"
-                                            fill="#2196F3"></path>
-                                        <path
-                                            d="M15.0692 7.88074L9.6525 13.2973C9.48999 13.4598 9.27667 13.5416 9.06335 13.5416C8.85004 13.5416 8.63672 13.4598 8.47421 13.2973L5.76593 10.589C5.44 10.2632 5.44 9.73651 5.76593 9.41074C6.09171 9.08481 6.61829 9.08481 6.94421 9.41074L9.06335 11.5299L13.8909 6.70245C14.2167 6.37653 14.7433 6.37653 15.0692 6.70245C15.395 7.02823 15.395 7.55481 15.0692 7.88074Z"
-                                            fill="#FAFAFA"></path>
-                                    </g>
+                                    </g> 
                                     <defs>
                                         <clipPath>
                                             <rect width="20" height="20" fill="white"></rect>
@@ -2132,7 +2114,7 @@
                                 alt="img" />
                         </div>
                         <div class="m_image">
-                            <img src="{{ asset('assets-front/images/about/about-h-6-min.png') }}" class="img-fluid"
+                            <img src="{{ asset('assets-front/images/ecore/network/adv-th.webp') }}" class="img-fluid"
                                 alt="img" />
                         </div>
 

@@ -40,45 +40,18 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="icon_box_only type_four position_two trans">
-                                <div class="icon">
-                                    <img src="{{ 'assets-front/images/icon-image-2.png' }}" alt="img"
-                                        class="img-fluid" />
-                                </div>
-                                <div class="content">
-                                    <div class="title_18">
-                                        <a href="#"> IT Solutions </a>
-                                    </div>
-                                </div>
-                                <a class="link" href="#">
-                                    <svg width="30" height="32" viewBox="0 0 30 32" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="15" cy="17" r="15" fill="var(--color-set-two-three-6)">
-                                        </circle>
-                                        <g clip-path="url(#clip0_117_2846)">
-                                            <path
-                                                d="M15.0757 24.3888C15.8841 25.207 17.6847 24.9358 17.8785 23.6492C19.0847 15.6614 25.1202 8.92269 29.6876 2.57279C30.954 0.813155 28.042 -0.858436 26.7921 0.88025C22.6184 6.68227 17.3578 12.7875 15.2998 19.828C12.948 17.4244 10.5867 15.0437 7.94892 12.9317C6.27842 11.5936 3.88886 13.951 5.57736 15.3031C9.01404 18.0559 11.984 21.2659 15.0757 24.3888Z"
-                                                fill="var(--color-set-two-three-5)"></path>
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_117_2846">
-                                                <rect width="25" height="25" fill="white" transform="translate(5)">
-                                                </rect>
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                </a>
-                            </div>
+                            <div class="icon_box_only type_four position_two trans " style="background-color: #0070e7">
 
-                            <div class="fun_facts type_two">
-                                <h4>
+                                <h4 class="text-white" style="font-size: 30px">
                                     <span class="count">05</span>
                                     <small> + </small>
                                 </h4>
-                                <h6 class="title_no_a_26">Years Of Experience</h6>
+                                <h6 class="title_no_a_25 text-white">Years Of Experience</h6>
                             </div>
+
+
                             <div class="m_image">
-                                <img src="{{ 'assets-front/images/about/about-1-min.png' }}" alt="img"
+                                <img src="{{ 'assets-front/images/ecore/about/ab.webp' }}" alt="img"
                                     class="img-fluid" />
                             </div>
                         </div>
@@ -312,11 +285,11 @@
 
 
                         <!-- <div class="theme_btn_all">
-                                                                                                                                                                                                                                                                                                                    <a href="#" class="theme_btn">
-                                                                                                                                                                                                                                                                                                                      More About Us
-                                                                                                                                                                                                                                                                                                                      <span> <i class="fi-rr-arrow-small-right"></i></span>
-                                                                                                                                                                                                                                                                                                                    </a>
-                                                                                                                                                                                                                                                                                                                  </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="#" class="theme_btn">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      More About Us
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <span> <i class="fi-rr-arrow-small-right"></i></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div> -->
                         <!---============spacing==========--->
                         <div class="pd_bottom_70"></div>
                         <!---============spacing==========--->
@@ -422,7 +395,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="image_box position-relative z_2 m-t3">
-                            <img src="assets-front/images/ecore/hardware/adv.png " class="img-fluid mt-5"
+                            <img src="assets-front/images/ecore/about/choose-us.webp " class="img-fluid mt-5"
                                 alt="img" />
                         </div>
                         <!---============spacing==========--->
@@ -546,7 +519,7 @@
                         <!---============spacing==========--->
                         <div class="process_box type_one">
                             <div class="image_box">
-                                <img src="{{ 'assets-front/images/process/process-1-1.png' }}" class="img-fluid"
+                                <img src="{{ 'assets-front/images/ecore/about/intro.webp' }}" class="img-fluid"
                                     alt="img" />
                                 <p>Step 01</p>
                             </div>
@@ -570,7 +543,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="process_box type_one">
                             <div class="image_box">
-                                <img src="{{ 'assets-front/images/process/process-1-2.png' }}" class="img-fluid"
+                                <img src="{{ 'assets-front/images/ecore/about/ana.webp' }}" class="img-fluid"
                                     alt="img" />
                                 <p>Step 02</p>
                             </div>
@@ -597,7 +570,7 @@
                         <!---============spacing==========--->
                         <div class="process_box type_one">
                             <div class="image_box">
-                                <img src="{{ 'assets-front/images/process/process-1-3.png' }}" class="img-fluid"
+                                <img src="{{ 'assets-front/images/ecore/about/exe.webp' }}" class="img-fluid"
                                     alt="img" />
                                 <p>Step 03</p>
                             </div>
@@ -940,6 +913,10 @@
             <!---============spacing==========--->
         </section>
         <!--team-->
+
+
+
+
         <!--client-->
         <section class="client-section">
             <!---============spacing==========--->

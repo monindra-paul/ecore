@@ -12,7 +12,7 @@
                 <div class="col-lg-6">
 
                     <div class="image">
-                        <img src="{{ asset('assets-front/images/about/content-image-2.png') }}" class="img-fluid"
+                        <img src="{{ asset('assets-front/images/ecore/software/software-home.webp') }}" class="img-fluid"
                             alt="img" />
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <div class="section_title type_one">
                         <h4 class="sm_title">Our Benefits</h4>
                         <div class="title_whole">
-                            <h2 class="title">GWe Offer Mordern Solution
+                            <h2 class="title">We Offer Mordern Solution
                                 For Growing Your Business!</h2>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="image_box_only  type_four">
                         <div class="image">
-                            <img src="{{ asset('assets-front/images/h3-ch-1-min.png') }}" alt="img"
+                            <img src="{{ asset('assets-front/images/ecore/software/software-sol.webp') }}" alt="img"
                                 class="img-fluid" />
                         </div>
                         <div class="abso_content">

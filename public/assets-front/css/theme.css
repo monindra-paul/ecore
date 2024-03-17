@@ -2891,19 +2891,44 @@ pre {
   padding: 150px 0 100px 0;
 }
 
+
+
+
 .single_banner.style_one .image_bg {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  z-index: 1;
+
+}
+
+.single_banner.style_one .image_bg img {
+  height: 865px;
+  /* width: 500px; */
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+
+.single_banner.style_one .image_bg2 {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
+
 }
 
-.single_banner.style_one .image_bg img {
+.single_banner.style_one .image_bg2 img {
   height: 865px;
   width: 500px;
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+
+
+
+
 
 .single_banner.style_one .content_box {
   position: relative;
@@ -8125,7 +8150,7 @@ body ul.portfolio_filter.color_two li:hover {
 }
 
 .price_box.type_one .center .d-flex small {
-  font-size: 17px;
+  font-size: 14px;
   font-family: var(--font-family-main);
   color: var(--heading-color-one);
   font-weight: 700;

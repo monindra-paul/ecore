@@ -25,7 +25,93 @@
         <!----==============content_all_warpper==============--->
         <!--content start-->
         <div id="content" class="site-content">
-            <!---slider-->
+
+
+
+
+            <section class="single_banner style_one">
+                <div class="image_bg">
+                    <img src="{{ asset('assets-front/images/ecore/2.png') }}" class="img-fluid" alt="img">
+                </div>
+                <div class="image_bg2">
+                    <img src="{{ asset('assets-front/images/slider/banner-single-4-bg.png') }}" class="img-fluid"
+                        alt="img">
+                </div>
+                <div class="content_box">
+                    <div class="large-container">
+                        <div class="row align-items-center pl-3">
+                            <div class="col-lg-5" style="padding-left: 35px;">
+                                <div class="section_title type_one">
+                                    <div class="title_whole">
+                                        <h2 class="title">
+                                            Welcome to <br> <span style="color:#008bf9;"> ECore TechServ</span>
+                                        </h2>
+                                    </div>
+                                    <p>
+                                        Sit amet consectetur volutpat luctus ultrices sagittis justo. Integer
+                                        nibh nisi adipiscingrna eleifend nunc consecteture
+                                    </p>
+                                </div>
+                                <div class="newsteller_simple">
+                                    <div class="input_group">
+                                        <form method="post">
+                                            <input type="email" name="EMAIL" placeholder="Your email address"
+                                                required="">
+                                            <input type="submit" value="Sign up">
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="review_box d-flex align-items-center">
+                                    <div class="rimage">
+                                        <img src="{{ asset('assets-front/images/slider/review-girls.png') }}"
+                                            class="img-fluid" alt="img">
+                                    </div>
+                                    <div class="section_title type_one">
+                                        <div class="title_whole">
+                                            <h2 class="title"> Excellent 12,534+ reviews</h2>
+                                        </div>
+                                        <p>4.8 of 5 <small><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                                    class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                                    class="fa fa-star"></i></small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-6">
+                                <div class="image">
+                                    <img src="{{ asset('assets-front/images/slider/banner-single-4-1.jpg') }}"
+                                        class="img-fluid" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_title abso type_one">
+                    <div class="title_whole">
+                        <h2 class="title"> INSURANCE</h2>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {{-- <!---slider-->
             <section class="slider style_two">
                 <div class="owl-carousel owl_nav_block owl_dots_none theme_carousel owl-theme"
                     data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true,  "autoplayHoverPause":true , "autoplayTimeout": 7000, "smartSpeed": 1800, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
@@ -148,7 +234,7 @@
 
                 </div>
             </section>
-            <!---slider-end--->
+            <!---slider-end---> --}}
 
 
 
