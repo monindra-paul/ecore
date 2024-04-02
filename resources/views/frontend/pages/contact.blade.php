@@ -1,6 +1,51 @@
 @extends('frontend.layout.app')
+
+
+@section('title')
+    <title>Contact Us | ECore TechServ - The Soul of Future Technology</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content="Contact us with your any it related problem. We will support you with our best abilities">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="Contact us, ECore TechServ">
+@endsection
+
+
+
 @section('mainsection')
     <div id="content" class="site-content">
+
+
+        <section class="page_header_default pg_bg_cover alignment_center">
+            <div class="bakground_cover" style="background-image:url({{ asset('assets-front/images/page-image-1-min.jpg') }})"></div>
+            <div class="page_header_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_title_inner">
+                                <div class="title">
+                                    <span class="main_tit">Contact Us</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 vankine">
+                            <ul class="breadcrumb m-auto">
+                                <li><a href="{{url('/')}}">Home</a> </li>
+                                <li class="">Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         <!---contact-->
         <section class="contact-section">
             <!---============spacing==========--->
@@ -8,6 +53,7 @@
             <!---============spacing==========--->
             <div class="container">
                 <div class="row">
+                   
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="contact_box_content">
                             <div class="icon trans">
@@ -18,7 +64,7 @@
                             </div>
                             <div class="contact-infor">
                                 <h6 class="title_no_a_24">Location</h6>
-                                <span>61, Ranikuthi, Regent Place, Tollygunge, Kolkata, West Bengal 700040
+                                <span>61, Regent Place, Ranikuthi,  Tollygunge, Kolkata, W.B 700040
                                 </span>
                             </div>
                         </div>
@@ -55,7 +101,7 @@
                             </div>
                             <div class="contact-infor">
                                 <h6 class="title_no_a_24">Call Us</h6>
-                                <a href="tel:03335575768">033 - 3557 5768
+                                <a href="tel:+919875681413">+91 9875681413
                                 </a>
                                 <a href="tel:03335575768">033 - 3557 5768</a>
                             </div>
@@ -94,14 +140,28 @@
                         <!---============spacing==========--->
                         <div class="social-icons">
                             <ul>
-                                <li><a href="#" class="m_icon"> <i class="fab fa-facebook"></i>
-                                    </a></li>
-                                <li><a href="#" class="m_icon"> <i class="fab fa-twitter"></i>
-                                    </a></li>
-                                <li><a href="#" class="m_icon"> <i class="fab fa-skype"></i>
-                                    </a></li>
-                                <li><a href="#" class="m_icon"> <i class="fab fa-instagram"></i>
-                                    </a></li>
+                                <li>
+                                    <a href="https://www.facebook.com/ecoretechserv" class="m_icon" target="blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://x.com/ecoretechserv" class="m_icon" target="blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.instagram.com/ecoretechserv/" class="m_icon" target="blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.linkedin.com/company/ecoretechserv/" class="m_icon" target="blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <!---============spacing==========--->

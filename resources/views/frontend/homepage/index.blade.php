@@ -1,25 +1,22 @@
 @extends('frontend.layout.app')
+
 @section('title')
-    <title>Top IT Support & Services Company in Kolkata | ECore TechServ - The Soul of Future Technology</title>
+    <title>Best Website Designing Company in Kolkata | ECore TechServ - The Soul of Future Technology</title>
 @endsection
 
 @section('description')
     <meta name="description"
-        content="ECore TechServ provides top it support & services in kolkata. Get your one stop solution for Website Development, Graphic Designing, Digital Marketing, CCTV Survelliance & Hardware Support. ">
+        content="ECore TechServ provides best Website Designing services in kolkata. Get your one stop solution for Website Development, IT Support, Graphics Designing, Digital Marketing, CCTV Survelliance Security, Hardware & Network Support. ">
 @endsection
 
 @section('keyword')
     <meta name="keywords"
-        content="IT Support Company,IT Support Company in Kolkata, IT Services in Kolkata, Website Development Company in Kolkata, CCTV Survelliance service provider.">
+        content="Website Designing, Website Development Company in Kolkata, Website Designing Company in Kolkata,IT Support Company,IT Support Company in Kolkata, IT Services in Kolkata,  CCTV Survelliance service provider.">
 @endsection
+
 
 @section('mainsection')
     <div id="wrapper_full" class="content_all_warpper">
-
-
-
-
-
 
 
         <!----==============content_all_warpper==============--->
@@ -34,41 +31,40 @@
                     <img src="{{ asset('assets-front/images/ecore/2.png') }}" class="img-fluid" alt="img">
                 </div>
                 <div class="image_bg2">
-                    <img src="{{ asset('assets-front/images/slider/banner-single-4-bg.png') }}" class="img-fluid"
-                        alt="img">
+                    {{-- <img src="{{ asset('assets-front/images/slider/banner-single-4-bg.png') }}" class="img-fluid" --}}
+                        {{-- alt="img"> --}}
                 </div>
                 <div class="content_box">
                     <div class="large-container">
                         <div class="row align-items-center pl-3">
-                            <div class="col-lg-5" style="padding-left: 35px;">
+                            <div class="col-lg-6" style="padding-left: 35px;">
                                 <div class="section_title type_one">
                                     <div class="title_whole">
                                         <h2 class="title">
-                                            Welcome to <br> <span style="color:#008bf9;"> ECore TechServ</span>
+                                           Best<span style="color:#008bf9;"> Website Designing </span>Company <br> <span style="color:#008bf9;">in Kolkata</span>
                                         </h2>
                                     </div>
                                     <p>
-                                        Sit amet consectetur volutpat luctus ultrices sagittis justo. Integer
-                                        nibh nisi adipiscingrna eleifend nunc consecteture
+                                        ECore TechServ provides best Website Designing services in kolkata. Get your one stop solution for Website Development, IT Support, Graphic Designing, Digital Marketing, CCTV Survelliance & Hardware Support.
                                     </p>
                                 </div>
                                 <div class="newsteller_simple">
                                     <div class="input_group">
-                                        <form method="post">
-                                            <input type="email" name="EMAIL" placeholder="Your email address"
-                                                required="">
-                                            <input type="submit" value="Sign up">
-                                        </form>
+                                        
+
+                                        <a href="{{url('/about-us')}}" id="home-ec-btn" class="btn  aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">About Us</a>
+                                        
+                                        <a href="{{url('/remote-support')}}" id="home-ec-btn2" class="btn  aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">Get Support</a>
                                     </div>
                                 </div>
                                 <div class="review_box d-flex align-items-center">
                                     <div class="rimage">
-                                        <img src="{{ asset('assets-front/images/slider/review-girls.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/home/google-icon.webp') }}"
                                             class="img-fluid" alt="img">
                                     </div>
                                     <div class="section_title type_one">
                                         <div class="title_whole">
-                                            <h2 class="title"> Excellent 12,534+ reviews</h2>
+                                            <h2 class="title"> Excellent 500+ reviews</h2>
                                         </div>
                                         <p>4.8 of 5 <small><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
                                                     class="fa fa-star"></i> <i class="fa fa-star"></i> <i
@@ -76,10 +72,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-1"></div>
+                            
                             <div class="col-lg-6">
                                 <div class="image">
-                                    <img src="{{ asset('assets-front/images/slider/banner-single-4-1.jpg') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/home/ecore-home2.webp') }}"
                                         class="img-fluid" alt="img">
                                 </div>
                             </div>
@@ -88,7 +84,7 @@
                 </div>
                 <div class="section_title abso type_one">
                     <div class="title_whole">
-                        <h2 class="title"> INSURANCE</h2>
+                        <h2 class="title"> ECore</h2>
                     </div>
                 </div>
             </section>
@@ -277,7 +273,7 @@
 
 
 
-            <section class="content-section bg_light_2">
+            <section class="content-section ">
                 <!---============spacing==========--->
 
                 <!---============spacing==========--->
@@ -1526,6 +1522,11 @@
                 <div class="pd_bottom_60"></div>
                 <!---============spacing==========--->
             </section>
+
+
+
+
+
 
 
 

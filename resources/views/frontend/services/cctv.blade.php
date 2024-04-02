@@ -1,7 +1,19 @@
 @extends('frontend.layout.app')
 @section('title')
-    <title>CCTV Service in Kolkata - ECore TechServ Provides Best CCTV Services in Kolkata</title>
+    <title>ECore Techserv CCTV Surveillance Service Protect Your Are 24 X 7 - ECore TechServ Provides Best CCTV Services in Kolkata</title>
 @endsection
+
+@section('description')
+    <meta name="description"
+        content="Protect your area with ecore techserv cctv surveillance. Get your high quality cctv from us. ">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="CCTV Surveillance sevices in kolkata, Hight quality cctv camera providers in kolkata, Protect your area with ECore TechServ.">
+@endsection
+
+
 @section('mainsection')
     <div id="wrapper_full" class="content_all_warpper">
         <!----==============content_all_warpper==============--->
@@ -21,7 +33,7 @@
                         </div>
                         <div class="col-lg-12 vankine">
                             <ul class="breadcrumb m-auto">
-                                <li><a href="#">Home</a> </li>
+                                <li><a href="{{url('/')}}">Home</a> </li>
                                 <li class="">Services</li>
                                 <li class="">CCTV Surveillance</li>
                             </ul>

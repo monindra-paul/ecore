@@ -1,4 +1,22 @@
 @extends('frontend.layout.app')
+
+
+
+@section('title')
+    <title>ECore TechServ provides the best Logo Designing, Social Media Post , T-Shirt Designing, Graphics Designing in Kolkata</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content="ECore TechServ's Graphics Designing Services fullfill your designing requirments like - Logo Designing, Social Media Post Designing, T-Shirt Designing etc.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="Graphics Designing in Kolkata, Logo Designing, T-Shirt Designing, Illustration, Social media post designing.">
+@endsection
+
+
 @section('mainsection')
     <section class="content-section">
         <!---============spacing==========--->
@@ -15,6 +33,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                        <ul class="breadcrumb m-auto">
+                            <li><a href="{{url('/')}}">Home</a> </li>
+                            <li class="">Services</li>
+                            <li class=""><a href="#">Graphic Designing</a></li>
+                        </ul>
+                    </div>
                     <div class="section_title type_two">
                         <h4 class="sm_title">Graphic Designing</h4>
                         <div class="title_whole">

@@ -1,4 +1,25 @@
 @extends('frontend.layout.app')
+
+
+
+@section('title')
+    <title>Why Us | ECore TechServ - The Soul of Future Technology</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content="ECore TechServ is a company in Kolkata who is provide Website development, Graphics designing, Hardware & Networking Support, Digital Markeing services with efficiently.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="ECore TechServ, Website Designing, Website Development Company in Kolkata, Website Designing Company in Kolkata,IT Support Company,IT Support Company in Kolkata, IT Services in Kolkata,  CCTV Survelliance service provider.">
+@endsection
+
+
+
+
+
 @section('mainsection')
     <div id="content" class="site-content">
         <!---about-->
@@ -57,6 +78,13 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 pd_left_30">
+                        <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                            <ul class="breadcrumb m-auto">
+                                <li><a href="{{url('/')}}">Home</a> </li>
+                                
+                                <li class=""><a href="#">Why Us</a></li>
+                            </ul>
+                        </div>
                         <div class="section_title type_one">
                             <h4 class="sm_title">About Company</h4>
                             <div class="title_whole">

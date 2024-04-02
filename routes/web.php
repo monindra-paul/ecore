@@ -37,20 +37,21 @@ use App\Http\Controllers\Frontend\ViewStatusController;
 // });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/hardware-support', [ServiceController::class, 'hardware'])->name('services.hardware');
-Route::get('/network-security', [ServiceController::class, 'network'])->name('sevice.network');
-Route::get('/cctv-surveillance', [ServiceController::class, 'cctv'])->name('service.cctv');
-Route::get('/website-development', [ServiceController::class, 'website'])->name('service.website');
-Route::get('/graphic-designing', [ServiceController::class, 'graphics'])->name('service.graphics');
-Route::get('/digital-marketing', [ServiceController::class, 'dm'])->name('service.dm');
+Route::get('/hardware-support-in-kolkata', [ServiceController::class, 'hardware'])->name('services.hardware');
+Route::get('/network-security-in-kolkata', [ServiceController::class, 'network'])->name('sevice.network');
+Route::get('/cctv-surveillance-in-kolkata', [ServiceController::class, 'cctv'])->name('service.cctv');
+Route::get('/website-development-in-kolkata', [ServiceController::class, 'website'])->name('service.website');
+Route::get('/graphic-designing-in-kolkata', [ServiceController::class, 'graphics'])->name('service.graphics');
+Route::get('/digital-marketing-in-kolkata', [ServiceController::class, 'dm'])->name('service.dm');
 Route::get('/software-development-in-kolkata', [ServiceController::class, 'software'])->name('service.software');
-Route::get('/app-development', [ServiceController::class, 'app'])->name('service.app');
-Route::get('/cloud-services', [ServiceController::class, 'cloud'])->name('service.cloud');
+Route::get('/app-development-in-kolkata', [ServiceController::class, 'app'])->name('service.app');
+Route::get('/cloud-services-in-kolkata', [ServiceController::class, 'cloud'])->name('service.cloud');
 
 
 Route::get('/about-us', [PagesController::class, 'about'])->name('about');
 Route::get('/contact-us', [PagesController::class, 'contact'])->name('contact');
 Route::post('/contact-us', [PagesController::class, 'postContact'])->name('post.contact');
+Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
 
 
 

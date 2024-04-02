@@ -17829,3 +17829,35 @@ html[xmlns] .flexslider .slides {
     right: 10px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#home-ec-btn {
+  background-color: #008BF9;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#home-ec-btn2 {
+  background-color: #000b5f;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+#home-ec-btn:hover {
+  background-color: orange;
+}

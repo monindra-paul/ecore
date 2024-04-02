@@ -1,7 +1,21 @@
 @extends('frontend.layout.app')
+
+
 @section('title')
-    <title>Best Website Design & Development Company in Kolkata</title>
+    <title>Best Website Design & Development Company in Kolkata | ECore TechServ - The Soul of Future Technology.</title>
 @endsection
+
+@section('description')
+    <meta name="description"
+        content="ECore TechServ provides the best website designing & website development services in kolkata with high quality.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="Website Designing, Website Development Company in Kolkata, Website Designing Company in Kolkata,IT Support Company,IT Support Company in Kolkata, IT Services in Kolkata,  CCTV Survelliance service provider.">
+@endsection
+
+
 @section('mainsection')
     <section class="content-section">
         <!---============spacing==========--->
@@ -11,6 +25,13 @@
             <div class="row align-items-center">
 
                 <div class="col-lg-6">
+                    <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                        <ul class="breadcrumb m-auto">
+                            <li><a href="{{url('/')}}">Home</a> </li>
+                            <li class="">Services</li>
+                            <li class=""><a href="#">Website Development</a></li>
+                        </ul>
+                    </div>
                     <div class="section_title type_two">
                         <h4 class="sm_title">Website Development</h4>
                         <div class="title_whole">
@@ -434,7 +455,7 @@
                                     <i class=" flaticon-salary trans"></i>
                                 </div>
                                 <div class="title_22">
-                                    <a href="service.html">Business website
+                                    <a href="#">Business website
                                     </a>
                                 </div>
                             </div>
@@ -451,7 +472,7 @@
                                     <i class=" flaticon-management trans"></i>
                                 </div>
                                 <div class="title_22">
-                                    <a href="service.html">eCommerce Website</a>
+                                    <a href="#">eCommerce Website</a>
                                 </div>
                             </div>
                             <div class="content">
@@ -467,7 +488,7 @@
                                     <i class=" flaticon-business-trip trans"></i>
                                 </div>
                                 <div class="title_22">
-                                    <a href="service.html">Blog Website</a>
+                                    <a href="#">Blog Website</a>
                                 </div>
                             </div>
                             <div class="content">
@@ -528,7 +549,7 @@
                                     </div>
                                     <div class="steps trans">1</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">Expand Business
+                                        <a href="#">Expand Business
                                         </a>
                                     </h4>
                                     <p class="trans">
@@ -551,7 +572,7 @@
                                     </div>
                                     <div class="steps trans">2</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">Better Relationship
+                                        <a href="#">Better Relationship
                                         </a>
                                     </h4>
                                     <p class="trans">
@@ -574,7 +595,7 @@
                                     </div>
                                     <div class="steps trans">3</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">Advertisement
+                                        <a href="#">Advertisement
                                         </a>
                                     </h4>
                                     <p class="trans">
@@ -596,7 +617,7 @@
                                     </div>
                                     <div class="steps trans">4</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">Increase Customer
+                                        <a href="#">Increase Customer
                                         </a>
                                     </h4>
                                     <p class="trans">

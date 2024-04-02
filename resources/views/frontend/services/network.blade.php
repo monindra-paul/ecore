@@ -8,6 +8,13 @@
             <div class="row align-items-center">
 
                 <div class="col-lg-6">
+                    <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                        <ul class="breadcrumb m-auto">
+                            <li><a href="{{url('/')}}">Home</a> </li>
+                            <li class="">Services</li>
+                            <li class=""><a href="#">Network Security</a></li>
+                        </ul>
+                    </div>
                     <div class="section_title type_two">
                         <h4 class="sm_title">Network Security</h4>
                         <div class="title_whole">
@@ -172,7 +179,7 @@
                                     alt="service" />
                                 <div class="left">
                                     <div class="title_26">
-                                        <a href="service-details.html">
+                                        <a href="#">
                                             Network Solutions
                                         </a>
                                     </div>
@@ -184,7 +191,7 @@
                                     </p>
                                 </div>
                                 <div class="right">
-                                    <a href="service-details.html" class="link">
+                                    <a href="#" class="link">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -775,7 +782,7 @@
                                     </p>
                                 </div>
                                 <div class="right">
-                                    <a href="service-details.html" class="link">
+                                    <a href="#" class="link">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -1409,7 +1416,7 @@
                                     </p>
                                 </div>
                                 <div class="right">
-                                    <a href="service-details.html" class="link">
+                                    <a href="#" class="link">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"

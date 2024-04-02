@@ -16,60 +16,7 @@
         <!----=============Header=============---->
         <div class="header_area " id="header_contents">
             <header class="header-area header-style-1 htype_two">
-                <!-- <div class="top_bar">
-                    <div class="large-container">
-                        <div class="row align-items-center">
-
-                            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                                <div class="top_md d-flex align-items-center">
-                                    <div class="text workings">
-                                        <i aria-hidden="false" class="far fa-clock"></i> <span>
-                                            Sun-monday, 09am-5pm </span>
-                                    </div>
-                                    <div class="call">
-                                        <a href="tel:03335778706">
-                                            <small>Call : </small>
-                                            (033) 3577 8706</a>
-                                    </div>
-                                    <div class="mail">
-                                        <a href="mailto:example@gmail.com">
-                                            <small>Mail : </small>
-                                            info@ecoretecserv.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                                <div class="top_rt d-flex align-items-center">
-
-                                    <div class="social-icons">
-                                        <ul class="d-inline-block">
-                                            <li>
-                                                <a class="m_icon" href="#">
-                                                    <i class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="m_icon" href="#">
-                                                    <i class="fab fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="m_icon" href="#">
-                                                    <i class="fab fa-skype"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="m_icon" href="#">
-                                                    <i class="fab fa-telegram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+              
                 <div class="main_header_content default_header">
                     <div class="large-container">
                         <div class="row align-items-center">
@@ -105,63 +52,63 @@
                                             </a>
                                             <ul class="sub_menu">
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/hardware-support') }}" class="nav_link">
+                                                    <a href="{{ url('/hardware-support-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Hardware Support
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/network-security') }}" class="nav_link">
+                                                    <a href="{{ url('/network-security-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Network & Security
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/cctv-surveillance') }}" class="nav_link">
+                                                    <a href="{{ url('/cctv-surveillance-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             CCTV Survelliance
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/website-development') }}" class="nav_link">
+                                                    <a href="{{ url('/website-development-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Web Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/graphic-designing') }}" class="nav_link">
+                                                    <a href="{{ url('/graphic-designing-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Graphic Designing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/digital-marketing') }}" class="nav_link">
+                                                    <a href="{{ url('/digital-marketing-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Digital Marketing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/software-development') }}" class="nav_link">
+                                                    <a href="{{ url('/software-development-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Software Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/app-development') }}" class="nav_link">
+                                                    <a href="{{ url('/app-development-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             App Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/cloud-services') }}" class="nav_link">
+                                                    <a href="{{ url('/cloud-services-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Cloud Services
                                                         </span>
@@ -202,7 +149,7 @@
                                         </li>
 
                                         <li class="menu-item  nav-item">
-                                            <a href="contact.html" class="nav_link">
+                                            <a href="#" class="nav_link">
                                                 <span class="text-link">
                                                     Blog
                                                 </span>
@@ -263,7 +210,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-2 col-lg-12 col-md-5 col-sm-5 col-xs-5">
                                 <div class="logobox">
-                                    <a href="index.html" class="logo navbar-brand">
+                                    <a href="{{url('/')}}" class="logo navbar-brand">
                                         <img src="{{ asset('assets-front/images/ecore/logo/ecore-logo.webp') }}"
                                             alt="ecore" class="logo_default" width="120px">
                                     </a>
@@ -296,63 +243,63 @@
                                             </a>
                                             <ul class="sub_menu">
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/hardware-support') }}" class="nav_link">
+                                                    <a href="{{ url('/hardware-support-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Hardware Support
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/network-security') }}" class="nav_link">
+                                                    <a href="{{ url('/network-security-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Network & Security
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/cctv-surveillance') }}" class="nav_link">
+                                                    <a href="{{ url('/cctv-surveillance-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             CCTV Survelliance
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/website-development') }}" class="nav_link">
+                                                    <a href="{{ url('/website-development-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Web Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/graphic-designing') }}" class="nav_link">
+                                                    <a href="{{ url('/graphic-designing-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Graphic Designing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/digital-marketing') }}" class="nav_link">
+                                                    <a href="{{ url('/digital-marketing-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Digital Marketing
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/software-development') }}" class="nav_link">
+                                                    <a href="{{ url('/software-development-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Software Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/app-development') }}" class="nav_link">
+                                                    <a href="{{ url('/app-development-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             App Development
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item nav-item">
-                                                    <a href="{{ url('/cloud-services') }}" class="nav_link">
+                                                    <a href="{{ url('/cloud-services-in-kolkata') }}" class="nav_link">
                                                         <span class="text-link">
                                                             Cloud Services
                                                         </span>

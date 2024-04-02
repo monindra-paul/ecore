@@ -1,7 +1,21 @@
 @extends('frontend.layout.app')
+
+
 @section('title')
     <title>Best Cloud Based Service Providers in Kolkata - Cloud Service Provider</title>
 @endsection
+
+@section('description')
+    <meta name="description"
+        content="ECore TechServ is a company in Kolkata who is provide Website development, Graphics designing, Hardware & Networking Support, Digital Markeing services with efficiently.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="Website Designing, Website Development Company in Kolkata, Website Designing Company in Kolkata,IT Support Company,IT Support Company in Kolkata, IT Services in Kolkata,  CCTV Survelliance service provider.">
+@endsection
+
+
 
 @section('mainsection')
     <section class="content-section">
@@ -23,7 +37,7 @@
                 <div class="col-lg-6">
                     <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
                         <ul class="breadcrumb m-auto">
-                            <li><a href="#">Home</a> </li>
+                            <li><a href="{{url('/')}}">Home</a> </li>
                             <li class="">Services</li>
                             <li class=""><a href="#">CCTV Surveillance</a></li>
                         </ul>
@@ -396,7 +410,7 @@
                                     alt="service" /> --}}
                                 <div class="left">
                                     <div class="title_26">
-                                        <a href="service-details.html">
+                                        <a href="#">
                                             Cloud Computing
 
                                         </a>
@@ -428,7 +442,7 @@
                                     alt="service" /> --}}
                                 <div class="left">
                                     <div class="title_26">
-                                        <a href="service-details.html">Cloud Storage</a>
+                                        <a href="#">Cloud Storage</a>
                                     </div>
                                     <p class="trans">
                                         Cloud storage allows you to save data and files in an off-site location that you
@@ -458,7 +472,7 @@
                                     alt="service" /> --}}
                                 <div class="left">
                                     <div class="title_26">
-                                        <a href="service-details.html">Remote Desktop
+                                        <a href="#">Remote Desktop
                                         </a>
                                     </div>
                                     <p class="trans">

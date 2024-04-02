@@ -1,5 +1,24 @@
 @extends('frontend.layout.app')
-<title>Best Digital Marketing Agency in Kolkata - Digital Marketing Agency</title>
+
+
+@section('title')
+    <title>Best Digital Marketing Agency in Kolkata - Digital Marketing Agency</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content="ECore TechServ Provides best digital marketing services in kolkata.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="Digital Marketing Services, Digital marketing in Kolkata.">
+@endsection
+
+
+
+
+
 @section('mainsection')
     <div id="wrapper_full" class="content_all_warpper">
         <!----==============content_all_warpper==============--->
@@ -12,6 +31,14 @@
                 <div class="auto-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
+                            <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                                <ul class="breadcrumb m-auto">
+                                    <li><a href="{{url('/')}}">Home</a> </li>
+                                    <li class="">Services</li>
+                                    <li class=""><a href="#">DIGITAL MARKETING</a></li>
+                                </ul>
+                            </div>
+        
                             <div class="section_title type_two">
                                 <h4 class="sm_title">DIGITAL MARKETING</h4>
                                 <div class="title_whole">

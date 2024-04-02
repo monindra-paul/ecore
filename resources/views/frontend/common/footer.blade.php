@@ -83,7 +83,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="{{ url('/hardware-support') }}">
+                                                <a class="links color_white" href="{{ url('/hardware-support-in-kolkata') }}">
                                                     Hardware Support
                                                 </a>
                                             </div>
@@ -93,7 +93,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="{{ url('/network-security') }}">
+                                                <a class="links color_white" href="{{ url('/network-security-in-kolkata') }}">
                                                     Network & Security
                                                 </a>
                                             </div>
@@ -103,7 +103,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="{{ url('/cctv-survelliance') }}">
+                                                <a class="links color_white" href="{{ url('/cctv-survelliance-in-kolkata') }}">
                                                     CCTV Survelliance
                                                 </a>
                                             </div>
@@ -113,7 +113,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="{{ url('/web-developmet') }}">
+                                                <a class="links color_white" href="{{ url('/website-developmet-in-kolkata') }}">
                                                     Web Development
                                                 </a>
                                             </div>
@@ -123,7 +123,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="{{ url('/graphic-designing') }}">
+                                                <a class="links color_white" href="{{ url('/graphic-designing-in-kolkata') }}">
                                                     Graphic Designing
                                                 </a>
                                             </div>
@@ -133,7 +133,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="{{ url('/digital-marketing') }}">
+                                                <a class="links color_white" href="{{ url('/digital-marketing-in-kolkata') }}">
                                                     Digital Marketing
                                                 </a>
                                             </div>
@@ -143,7 +143,7 @@
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
-                                                <a class="links color_white" href="{{ url('/app-developmet') }}">
+                                                <a class="links color_white" href="{{ url('/app-development-in-kolkata') }}">
                                                     App Development
                                                 </a>
                                             </div>
@@ -204,6 +204,16 @@
                                                 </a>
                                             </div>
                                         </li>
+                                         <li>
+                                            <div class="d-flex align-items-center">
+                                                <div class="icon trans">
+                                                    <i class="fi-rr-arrow-small-right color_white"></i>
+                                                </div>
+                                                <a class="links color_white" href="{{ url('/faq') }}">
+                                                    FAQ
+                                                </a>
+                                            </div>
+                                        </li>
 
                                     </ul>
                                 </div>
@@ -231,23 +241,25 @@
                         <div class="social-icons">
                             <ul>
                                 <li>
-                                    <a href="#" class="m_icon">
+                                    <a href="https://www.facebook.com/ecoretechserv" class="m_icon" target="blank">
                                         <i class="fab fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="m_icon">
+                                    <a href="https://x.com/ecoretechserv" class="m_icon" target="blank">
                                         <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
+                                
                                 <li>
-                                    <a href="#" class="m_icon">
-                                        <i class="fab fa-skype"></i>
+                                    <a href="https://www.instagram.com/ecoretechserv/" class="m_icon" target="blank">
+                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
+                                
                                 <li>
-                                    <a href="#" class="m_icon">
-                                        <i class="fab fa-instagram"></i>
+                                    <a href="https://www.linkedin.com/company/ecoretechserv/" class="m_icon" target="blank">
+                                        <i class="fab fa-linkedin"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -290,8 +302,8 @@
                                         <i class=" fi-rr-clock"></i>
                                     </div>
                                     <a class="links color_white" href="#">
-                                        Working Hours : Monday - Saturday
-                                        ( 10:00 AM-8:00 PM )
+                                        Working Hours : Monday - Friday
+                                        ( 11:00 AM-7:00 PM )
                                     </a>
                                 </div>
                             </li>
@@ -398,8 +410,8 @@
                     </div>
                     <div class="c_pan">
                         <a class="wk_hours">
-                            <i class="fi-rr-time-check"></i> Working Hours : <span> Monday - Saturday
-                                ( 10:00 AM-8:00 PM ) </span> </a>
+                            <i class="fi-rr-time-check"></i> Working Hours : <span> Monday - Friday
+                                ( 11:00 AM-7:00 PM ) </span> </a>
                     </div>
                 </div>
                 <div class="c_pan">

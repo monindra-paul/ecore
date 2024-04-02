@@ -15,6 +15,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                        <ul class="breadcrumb m-auto">
+                            <li><a href="{{url('/')}}">Home</a> </li>
+                            <li class="">Services</li>
+                            <li class=""><a href="#">Hardware Support</a></li>
+                        </ul>
+                    </div>
                     <div class="section_title type_two">
                         <h4 class="sm_title">Hardware Support</h4>
                         <div class="title_whole">
@@ -526,7 +533,7 @@
                                                     <i class=" flaticon-salary trans"></i>
                                                 </div>
                                                 <div class="title_22">
-                                                    <a href="service.html">Gaming Board
+                                                    <a href="#">Gaming Board
                                                     </a>
                                                 </div>
                                             </div>
@@ -543,7 +550,7 @@
                                                     <i class=" flaticon-management trans"></i>
                                                 </div>
                                                 <div class="title_22">
-                                                    <a href="service.html">Graphics Card</a>
+                                                    <a href="#">Graphics Card</a>
                                                 </div>
                                             </div>
                                             {{-- <div class="content">
@@ -559,7 +566,7 @@
                                                     <i class=" flaticon-business-trip trans"></i>
                                                 </div>
                                                 <div class="title_22">
-                                                    <a href="service.html">High FSB RAM</a>
+                                                    <a href="#">High FSB RAM</a>
                                                 </div>
                                             </div>
 
@@ -573,7 +580,7 @@
                                                     <i class=" flaticon-business-trip trans"></i>
                                                 </div>
                                                 <div class="title_22">
-                                                    <a href="service.html">Cololer Master</a>
+                                                    <a href="#">Cololer Master</a>
                                                 </div>
                                             </div>
 

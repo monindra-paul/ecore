@@ -1,5 +1,51 @@
 @extends('frontend.layout.app')
+
+@section('title')
+    <title>Software & Drivers | ECore TechServ - The Soul of Future Technology</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content="Download your any Microsoft Operating System(OS), Microsoft Office & Software Here.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="Microsoft OS, Microsoft Office,Adobe Software, Photoshop, Illustrator">
+@endsection
+
+
+
 @section('mainsection')
+
+
+
+<section class="page_header_default pg_bg_cover alignment_center">
+    <div class="bakground_cover" style="background-image:url({{ asset('assets-front/images/page-image-1-min.jpg') }})"></div>
+    <div class="page_header_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner_title_inner">
+                        <div class="title">
+                            <span class="main_tit">Softwares & Drivers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 vankine">
+                    <ul class="breadcrumb m-auto">
+                        <li><a href="{{url('/')}}">Home</a> </li>
+                        <li class="#">Softwares & Drivers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
     <section class="about-section position-relative">
         <!---============spacing==========--->
         <div class="pd_top_90"></div>

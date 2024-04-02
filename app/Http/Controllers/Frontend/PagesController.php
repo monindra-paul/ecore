@@ -51,4 +51,11 @@ class PagesController extends Controller
             return redirect()->back()->with('error', 'Something Went Wrong');
         }
     }
+
+
+
+    public function faq()
+    {
+        return view('frontend.pages.faq');
+    }
 }

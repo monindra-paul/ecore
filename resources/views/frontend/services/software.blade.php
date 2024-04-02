@@ -17,6 +17,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                        <ul class="breadcrumb m-auto">
+                            <li><a href="{{url('/')}}">Home</a> </li>
+                            <li class="">Services</li>
+                            <li class=""><a href="#">Software Development</a></li>
+                        </ul>
+                    </div>
                     <div class="section_title type_two">
                         <h4 class="sm_title">Software Development</h4>
                         <div class="title_whole">

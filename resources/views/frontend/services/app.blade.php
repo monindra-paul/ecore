@@ -1,5 +1,20 @@
 @extends('frontend.layout.app')
+
+
+
+@section('title')
 <title>Best App Development Company in Kolkata - App Development Company</title>
+
+@endsection
+
+@section('description')
+    <meta name="description" content="ECore TechServ provides fully functional mobile application just for you with the latest technolgy.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="App Development, Application Development, IOS App Development, Android Application Development in Kolkata, App service provider in kolkata.">
+@endsection
 @section('mainsection')
     <div id="wrapper_full" class="content_all_warpper">
         <!----==============content_all_warpper==============--->
@@ -12,6 +27,14 @@
                 <div class="auto-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
+                            <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
+                                <ul class="breadcrumb m-auto">
+                                    <li><a href="{{url('/')}}">Home</a> </li>
+                                    <li class="">Services</li>
+                                    <li class=""><a href="#">App Development</a></li>
+                                </ul>
+                            </div>
+        
                             <div class="section_title type_two">
                                 <h4 class="sm_title">App Development</h4>
                                 <div class="title_whole">

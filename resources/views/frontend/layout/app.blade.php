@@ -7,15 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <!-- PWA  -->
-    <meta name="theme-color" content="#6777ef" />
+    <meta name="theme-color" content="#00a6ff" />
     <link rel="apple-touch-icon" href="{{ asset('assets-front/images/ecore/logo/logo.png') }}">
     <link rel="manifest" href="{{ asset('/manifest.json') }}">
     @yield('title')
     @yield('description')
     @yield('keyword')
     <!-- Fav Icon -->
-    <link rel="icon" href="{{ asset('assets-front/images/ecore/logo/ecore-favicon-round2.webp') }}"
-        type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets-front/images/ecore/logo/ecore-favicon-round2.webp') }}" type="image/x-icon">
     <!-- Fav Icon -->
     <!-- Googel Fonts -->
     <link rel='stylesheet'
@@ -51,19 +50,13 @@
         media='all' />
     <link rel='stylesheet' href="{{ 'assets-front/css/plugins/uicons-regular-straight.css' }}" type='text/css'
         media='all' />
-    <link rel='stylesheet' href="{{ 'assets-front/css/plugins/font-awesome.min.css' }}" type='text/css'
-        media='all' />
-    <link rel='stylesheet' href="{{ 'assets-front//css/plugins/flaticon_vankine.css' }}" type='text/css'
-        media='all' />
-
+    <link rel='stylesheet' href="{{ 'assets-front/css/plugins/font-awesome.min.css' }}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{ 'assets-front//css/plugins/flaticon_vankine.css' }}" type='text/css' media='all' />
 
 
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-
-
 
 
 
@@ -109,7 +102,7 @@
 <script>
     window.__lc = window.__lc || {};
     window.__lc.license = 17103270;;
-    (function(n, t, c) {
+    (function (n, t, c) {
         function i(n) {
             return e._h ? e._h.apply(null, n) : e._q.push(n)
         }
@@ -117,23 +110,23 @@
             _q: [],
             _h: null,
             _v: "2.0",
-            on: function() {
+            on: function () {
                 i(["on", c.call(arguments)])
             },
-            once: function() {
+            once: function () {
                 i(["once", c.call(arguments)])
             },
-            off: function() {
+            off: function () {
                 i(["off", c.call(arguments)])
             },
-            get: function() {
+            get: function () {
                 if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load.");
                 return i(["get", c.call(arguments)])
             },
-            call: function() {
+            call: function () {
                 i(["call", c.call(arguments)])
             },
-            init: function() {
+            init: function () {
                 var n = t.createElement("script");
                 n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js",
                     t.head.appendChild(n)
@@ -145,13 +138,6 @@
 <noscript><a href="https://www.livechat.com/chat-with/17103270/" rel="nofollow">Chat with us</a>, powered by <a
         href="https://www.ecoretechserv.com/" rel="noopener nofollow" target="_blank">ECore TechServ</a></noscript>
 <!-- End of LiveChat code -->
-
-
-
-
-
-
-
 
 
 
@@ -208,7 +194,7 @@
 
 
 
-{{-- 
+{{--
 <script>
     var url = 'https://edna.io/wp-content/plugins/whatsapp-widget-generator/js/generator.js?13484';
     var s = document.createElement('script');
@@ -234,12 +220,48 @@
             "welcomeText": "Welcome to ECore TechServ. Thanks for choosing us."
         }
     };
-    s.onload = function() {
+    s.onload = function () {
         CreateWhatsappChatWidget(options);
     };
     var x = document.getElementsByTagName('script')[0];
     x.parentNode.insertBefore(s, x);
 </script> --}}
+
+
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ECore TechServ",
+      "alternateName": "ECore",
+      "url": "https://ecoretechserv.com/",
+      "logo": "https://ecoretechserv.com/assets-front/images/ecore/logo/ecore-logo.webp",
+      "sameAs": [
+        "https://www.facebook.com/ecoretechserv",
+        "https://x.com/ecoretechserv",
+        "https://www.instagram.com/ecoretechserv/",
+        "https://www.linkedin.com/company/ecoretechserv/",
+        "https://ecoretechserv.com/"
+      ],
+      "description": "ECore TechServ provides best Website Designing services in kolkata. Get your one stop solution for Website Development, IT Support, Graphics Designing, Digital Marketing, CCTV Survelliance Security, Hardware & Network Support.",
+        "email": "info@ecoretechserv.com",
+        "telephone": "+91 9875681413",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "61, Regent Place",
+            "addressLocality": "Ranikuthi, Tollygaunge",
+            "addressCountry": "India",
+            "addressRegion": "Kolkata",
+            "postalCode": "700040"
+        }
+    }
+</script>
+
+
+
+
+
 </body>
 
 </html>
