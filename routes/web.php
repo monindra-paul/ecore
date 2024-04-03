@@ -54,7 +54,6 @@ Route::post('/contact-us', [PagesController::class, 'postContact'])->name('post.
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
 
 
-
 Route::get('/remote-support', [SupportController::class, 'remoteSupport'])->name('support.remote');
 Route::get('/softwares-drivers', [SupportController::class, 'softwareDrivers'])->name('support.drivers');
 Route::get('/view-status', [ViewStatusController::class, 'index'])->name('support.status');
