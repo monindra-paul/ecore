@@ -22,7 +22,7 @@
 
 
         <section class="page_header_default pg_bg_cover alignment_center">
-            <div class="bakground_cover" style="background-image:url({{ asset('assets-front/images/page-image-1-min.jpg') }})"></div>
+            <div class="bakground_cover" style="background-image:url({{ asset('assets-front/images/ecore/contact.webp') }})"></div>
             <div class="page_header_content">
                 <div class="container">
                     <div class="row">
@@ -116,7 +116,7 @@
             <div class="pd_bottom_40"></div>
             <!---============spacing==========--->
         </section>
-        <!---contact end-->\
+        <!---contact end-->
 
         <!--form-->
         <section class="form-section bg_light_1 position-relative">
@@ -133,7 +133,7 @@
                                     Or Looking For
                                     an Agent</h2>
                             </div>
-                            <p> On the other hand denounce righteousy indignation and dislike men</p>
+                            <p> </p>
                         </div>
                         <!---============spacing==========--->
                         <div class="pd_bottom_40"></div>

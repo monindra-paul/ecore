@@ -1316,13 +1316,13 @@
                             <div class="col-sm-12">
                                 <div class="fliter_group">
                                     <ul class="portfolio_filter clearfix">
-                                        <li data-filter="*" class="current trans"> view All</li>
+                                        {{-- <li data-filter="*" class="current trans"> view All</li>
                                         <li class="trans" data-filter=".portfolio_category-car">Hardware Support</li>
                                         <li class="trans" data-filter=".portfolio_category-fire">CCTV Surveillance</li>
                                         <li class="trans" data-filter=".portfolio_category-house">Website Development
                                         </li>
                                         <li class="trans" data-filter=".portfolio_category-life">Graphic Design</li>
-                                        <li class="trans" data-filter=".portfolio_category-medical">App Development</li>
+                                        <li class="trans" data-filter=".portfolio_category-medical">App Development</li> --}}
 
                                     </ul>
                                 </div>
@@ -1333,10 +1333,10 @@
                                 class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-car portfolio_category-travel">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-                                        <img src="{{ asset('assets-front/images/portfolio/project-9-min.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/apex.webp') }}"
                                             class="img-fluid" alt="img" />
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/portfolio/project-8-min.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/apex.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1344,21 +1344,20 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="portfolio-details.html" rel="bookmark">Insurance&nbsp;Groups</a>
+                                                <a href="https://apexbags.in/" target="blank" rel="bookmark">Apex Bags</a>
                                             </h2>
-                                            <p> Policy Renewal </p>
+                                            <p>E-commerce</p>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                             <div class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-house">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/gyp-techno.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/uhk.webp') }}"
                                             class="img-fluid" alt="img" />
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/ecore/portfolio/web/gyp-techno.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/uhk.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1366,10 +1365,9 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="http://gyp-techno.com" target="blank" rel="bookmark">Gyp Techno
-                                                    Solution</a>
+                                                <a href="http://gyp-techno.com" target="blank" rel="bookmark">Udvah Solution Pvt. Ltd.</a>
                                             </h2>
-                                            <p> Gypsum Industry</p>
+                                            <p>Man Power Agency</p>
                                         </div>
 
                                     </div>
@@ -1379,10 +1377,10 @@
                                 class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-car portfolio_category-fire">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-                                        <img src="{{ asset('assets-front/images/portfolio/project-2-min.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/drsteel.webp') }}"
                                             class="img-fluid" alt="img" />
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/portfolio/project-2-min.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/drsteel.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1390,9 +1388,9 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="portfolio-details.html" rel="bookmark">Market Expansion</a>
+                                                <a href="https://drsteel.in/" target="blank" rel="bookmark">DR Steel</a>
                                             </h2>
-                                            <p> Coaching </p>
+                                            <p> Manufaturing Industry </p>
                                         </div>
 
                                     </div>
@@ -1402,10 +1400,10 @@
                                 class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-medical portfolio_category-travel">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-                                        <img src="{{ asset('assets-front/images/portfolio/project-3-min.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/lokenath.webp') }}"
                                             class="img-fluid" alt="img" />
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/portfolio/project-3-min.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/lokenath.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1413,9 +1411,9 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="portfolio-details.html" rel="bookmark">Rise of insurance</a>
+                                                <a href="https://lokenathcomputer.com/" target="blank" rel="bookmark">Lokenath Computer</a>
                                             </h2>
-                                            <p> Business Details </p>
+                                            <p> E-commerce</p>
                                         </div>
 
                                     </div>
@@ -1425,10 +1423,10 @@
                                 class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-car portfolio_category-travel">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-                                        <img src="{{ asset('assets-front/images/portfolio/project-4-min.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/mahaayurvedas.webp') }}"
                                             class="img-fluid" alt="img" />
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/portfolio/project-4-min.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/mahaayurvedas.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1436,9 +1434,9 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="portfolio-details.html" rel="bookmark">Business strategy</a>
+                                                <a href="https://mahaayurvedas.com/" target="blank" rel="bookmark">Maha Ayurvedas</a>
                                             </h2>
-                                            <p> No Claim Bonus </p>
+                                            <p>Doctor Consulting with E-commerce</p>
                                         </div>
 
                                     </div>
@@ -1447,10 +1445,10 @@
                             <div class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-house">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/drsteel.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/bluelagoon.webp') }}"
                                             class="img-fluid" alt="img" />
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/ecore/portfolio/web/drsteel.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/bluelagoon.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1458,10 +1456,9 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="https://drsteel.in" target="blank" rel="bookmark">DR Steel Pvt.
-                                                    Ltd.</a>
+                                                <a href="https://drsteel.in" target="blank" rel="bookmark">Blue Lagoon Salon</a>
                                             </h2>
-                                            <p>Steel Manufacturer</p>
+                                            <p>Beauty Parlour</p>
                                         </div>
 
                                     </div>
@@ -1470,10 +1467,10 @@
                             <div class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-house">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/welltech.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/gyptechno.webp') }}"
                                             class="img-fluid" alt="img" />
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/ecore/portfolio/web/welltech.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/gyptechno.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1481,25 +1478,22 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="https://welltechenviro.com" target="blank"
-                                                    rel="bookmark">WELLTECH ENVIRONMENTAL ENGINEERING PVT LTD</a>
+                                                <a href="http://gyp-techno.com" target="blank"
+                                                    rel="bookmark">Gyp Techno Solutions</a>
                                             </h2>
-                                            <p> Equipment Manufacturer</p>
+                                            <p>Gypsum Industry</p>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-                            <div
-                                class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-car portfolio_category-fire">
+                            <div class="portfolio-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio_category-house">
                                 <div class="portfolio_box type_two">
                                     <div class="image_box ">
-
-                                        <img src="{{ asset('assets-front/images/portfolio/project-7-min.png') }}"
+                                        <img src="{{ asset('assets-front/images/ecore/portfolio/web/asquare.webp') }}"
                                             class="img-fluid" alt="img" />
-
                                         <a data-fancybox="gallery" class="zm_btn trans"
-                                            href="{{ asset('assets-front/images/portfolio/project-7-min.png') }}">
+                                            href="{{ asset('assets-front/images/ecore/portfolio/web/asquare.webp') }}">
                                             <span class="fi-rs-cursor-plus zoom_icon"></span>
                                         </a>
                                     </div>
@@ -1507,14 +1501,16 @@
                                         <div class="bg trans"></div>
                                         <div class="con">
                                             <h2 class="title_30">
-                                                <a href="portfolio-details.html" rel="bookmark">Progressive Insurance</a>
+                                                <a href="https://updatedailynews.com" target="blank"
+                                                    rel="bookmark">Asquare Event</a>
                                             </h2>
-                                            <p> Insurance coverage </p>
+                                            <p>Event Management</p>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+                           
                         </div>
                     </section>
                 </div>

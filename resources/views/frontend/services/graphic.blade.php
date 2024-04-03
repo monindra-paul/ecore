@@ -28,7 +28,7 @@
                 <div class="col-lg-6">
 
                     <div class="image">
-                        <img src="{{ asset('assets-front/images/about/content-image-2.png') }}" class="img-fluid"
+                        <img src="{{ asset('assets-front/images/ecore/graphics/graphics-home.svg') }}" class="img-fluid"
                             alt="img" />
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <h4 class="sm_title">Graphic Designing</h4>
                         <div class="title_whole">
                             <h2 class="title">
-                                Create Your Own Valuable Graphic
+                                Best Graphics Designing Services in Kolkata
                             </h2>
                         </div>
                         <p> ECore TechServ Best is a Graphic Design Company that has a rich team of Young and Experienced
@@ -105,7 +105,7 @@
                         <div class="service_box type_three hover_1_get">
                             <a href="service.html" class="img_bx">
                                 <div class="image trans hover_1">
-                                    <img src="{{ asset('assets-front/images/service/service-1-min-1.jpg') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/graphics/branding.svg') }}"
                                         class="img-fluid" alt="service" />
                                     <div class="oh ho_1"></div>
                                     <div class="oh ho_2"></div>
@@ -136,7 +136,7 @@
                         <div class="service_box type_three hover_1_get">
                             <a href="service.html" class="img_bx">
                                 <div class="image trans hover_1">
-                                    <img src="{{ asset('assets-front/images/service/service-2-min-1.jpg') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/graphics/illustration.svg') }}"
                                         class="img-fluid" alt="service" />
                                     <div class="oh ho_1"></div>
                                     <div class="oh ho_2"></div>
@@ -166,7 +166,7 @@
                         <div class="service_box type_three hover_1_get">
                             <a href="service.html" class="img_bx">
                                 <div class="image trans hover_1">
-                                    <img src="{{ asset('assets-front/images/service/service-3-min.jpg') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/graphics/tshirt.svg') }}"
                                         class="img-fluid" alt="service" />
 
                                     <div class="oh ho_1"></div>
@@ -195,7 +195,7 @@
                         <div class="service_box type_three hover_1_get">
                             <a href="service.html" class="img_bx">
                                 <div class="image trans hover_1">
-                                    <img src="{{ asset('assets-front/images/service/service-4-min.jpg') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/graphics/infographics.svg') }}"
                                         class="img-fluid" alt="service" />
 
                                     <div class="oh ho_1"></div>
@@ -225,7 +225,7 @@
                         <div class="service_box type_three hover_1_get">
                             <a href="service.html" class="img_bx">
                                 <div class="image trans hover_1">
-                                    <img src="{{ asset('assets-front/images/service/service-5-min.jpg') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/graphics/uiux.svg') }}"
                                         class="img-fluid" alt="service" />
 
                                     <div class="oh ho_1"></div>
@@ -257,7 +257,7 @@
                         <div class="service_box type_three hover_1_get">
                             <a href="service.html" class="img_bx">
                                 <div class="image trans hover_1">
-                                    <img src="{{ asset('assets-front/images/service/service-6-min.jpg') }}"
+                                    <img src="{{ asset('assets-front/images/ecore/graphics/logo.svg') }}"
                                         class="img-fluid" alt="service" />
 
                                     <div class="oh ho_1"></div>
