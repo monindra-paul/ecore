@@ -652,4 +652,31 @@
         <div class="pd_bottom_60"></div>
         <!---============spacing==========--->
     </section>
+
+
+
+
+
+
+    
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Which type of graphics ECore TechServ create for their clients marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ECore TechServ specializes in creating a diverse range of graphics with creativity to elevate their clients' marketing efforts. From captivating infographics and engaging social media visuals to eye-catching banners and dynamic video animations, they tailor their graphics to suit each client's unique brand identity and campaign objectives. Whether it's enhancing brand awareness, driving conversions, or conveying complex information in a visually appealing manner, their expert designers deliver high-quality, impactful graphics that resonate with audiences across various platforms, ensuring maximum impact and ROI for our clients."
+        }
+      }]
+    }
+    </script>
+
+
+
+
+
+
 @endsection

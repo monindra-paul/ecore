@@ -754,7 +754,7 @@
         </section>
         <!--funfacts-->
         <!--team-->
-        <section class="team-section">
+        {{-- <section class="team-section">
             <!---============spacing==========--->
             <div class="pd_top_80"></div>
             <!---============spacing==========--->
@@ -939,7 +939,7 @@
             <!---============spacing==========--->
             <div class="pd_bottom_80"></div>
             <!---============spacing==========--->
-        </section>
+        </section> --}}
         <!--team-->
 
 
@@ -1029,9 +1029,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section_title text-center type_one">
-                            <h4 class="sm_title"> Check Your Favorite Insurance</h4>
+                            <h4 class="sm_title"> Clients Review</h4>
                             <div class="title_whole">
-                                <h2 class="title"> Get Started Favorite Insurance</h2>
+                                <h2 class="title"> Our Clients Say About Us</h2>
                             </div>
                         </div>
                     </div>
@@ -1055,18 +1055,18 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-3-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
-                                                <h4 class="title_no_a_24">Fleix Everard</h4>
-                                                <p>HR, Blue Soft Sol</p>
+                                                <h4 class="title_no_a_24">Amit Mukhopadhyay
+                                                </h4>
+                                                {{-- <p>HR, Blue Soft Sol</p> --}}
                                             </div>
                                         </div>
                                         <div class="title_no_a_22 t_comment">
-                                            <sup>“</sup>Sed perspiciatis unonis
-                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
-                                            eaupsa abillo inven veritatis
+                                            <sup>“</sup>I got fantastic service from Shubham Paul who waorks in graphic designing field. He helped me to create company logo & designing ppt. He understood my need quickly and responded promptly. His services are available at very reasonable price. I recommend his services to everyone who needs help in graphic works.
+
                                             <sub>“</sub>
                                         </div>
                                         <div class="box">
@@ -1083,7 +1083,7 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-2-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
@@ -1111,7 +1111,7 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-1-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
@@ -1139,7 +1139,7 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-3-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
@@ -1167,7 +1167,7 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-2-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
@@ -1195,7 +1195,7 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-1-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
@@ -1223,7 +1223,7 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-3-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
@@ -1251,7 +1251,7 @@
                                     <div class="testimonial_box type_two ">
                                         <div class="auth d-flex align-items-center clearfix">
                                             <div class="image_box">
-                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
+                                                <img src="{{asset('assets-front/images/testimonial/test-2-min.png')}}" alt="img"
                                                     class="img-fluid">
                                             </div>
                                             <div class="cont">
@@ -1275,119 +1275,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="owl-item active" style="width: 370px; margin-right: 20px;">
-                                    <div class="testimonial_box type_two ">
-                                        <div class="auth d-flex align-items-center clearfix">
-                                            <div class="image_box">
-                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="cont">
-                                                <h4 class="title_no_a_24">Ivor Herbert</h4>
-                                                <p>Manager, Airlines</p>
-                                            </div>
-                                        </div>
-                                        <div class="title_no_a_22 t_comment">
-                                            <sup>“</sup>Sed perspiciatis unonis
-                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
-                                            eaupsa abillo inven veritatis
-                                            <sub>“</sub>
-                                        </div>
-                                        <div class="box">
-                                            <h6>Jacob Leonardo</h6>
-                                            <p>
-                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
-                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
-                                                    class="fa fa-star empty"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
-                                    <div class="testimonial_box type_two ">
-                                        <div class="auth d-flex align-items-center clearfix">
-                                            <div class="image_box">
-                                                <img src="assets/images/testimonial/test-3-min.png" alt="img"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="cont">
-                                                <h4 class="title_no_a_24">Fleix Everard</h4>
-                                                <p>HR, Blue Soft Sol</p>
-                                            </div>
-                                        </div>
-                                        <div class="title_no_a_22 t_comment">
-                                            <sup>“</sup>Sed perspiciatis unonis
-                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
-                                            eaupsa abillo inven veritatis
-                                            <sub>“</sub>
-                                        </div>
-                                        <div class="box">
-                                            <h6>Jacob Leonardo</h6>
-                                            <p>
-                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
-                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
-                                                    class="fa fa-star empty"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
-                                    <div class="testimonial_box type_two ">
-                                        <div class="auth d-flex align-items-center clearfix">
-                                            <div class="image_box">
-                                                <img src="assets/images/testimonial/test-2-min.png" alt="img"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="cont">
-                                                <h4 class="title_no_a_24">Boris Elbert</h4>
-                                                <p>Green Tech</p>
-                                            </div>
-                                        </div>
-                                        <div class="title_no_a_22 t_comment">
-                                            <sup>“</sup>Sed perspiciatis unonis
-                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
-                                            eaupsa abillo inven veritatis
-                                            <sub>“</sub>
-                                        </div>
-                                        <div class="box">
-                                            <h6>Jacob Leonardo</h6>
-                                            <p>
-                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
-                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
-                                                    class="fa fa-star empty"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 20px;">
-                                    <div class="testimonial_box type_two ">
-                                        <div class="auth d-flex align-items-center clearfix">
-                                            <div class="image_box">
-                                                <img src="assets/images/testimonial/test-1-min.png" alt="img"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="cont">
-                                                <h4 class="title_no_a_24">Ivor Herbert</h4>
-                                                <p>Manager, Airlines</p>
-                                            </div>
-                                        </div>
-                                        <div class="title_no_a_22 t_comment">
-                                            <sup>“</sup>Sed perspiciatis unonis
-                                            este natus error sit volutate accusantium dolor laudant totam rem aperiam
-                                            eaupsa abillo inven veritatis
-                                            <sub>“</sub>
-                                        </div>
-                                        <div class="box">
-                                            <h6>Jacob Leonardo</h6>
-                                            <p>
-                                                <i class="fa fa-star fill"></i><i class="fa fa-star fill"></i><i
-                                                    class="fa fa-star fill"></i><i class="fa fa-star empty"></i><i
-                                                    class="fa fa-star empty"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                              
                         </div>
 
 
@@ -1415,4 +1303,35 @@
         </section>
         <!--testimonial-->
     </div>
+
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{
+            "@type": "Question",
+            "name": "What is ECore TechServ strategy for serve it services?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ECore TechServ's strategy for serving IT services is client-centric, focusing on custom solutions, rapid response, and cutting-edge technology. We prioritize understanding client objectives, delivering scalable solutions, and providing ongoing support to ensure maximum efficiency and satisfaction.\""
+            }
+          },{
+            "@type": "Question",
+            "name": "Why ECore TechServ gives better it services compare to other?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ECore TechServ stands out for its commitment to excellence in IT services. The company prioritizes customer satisfaction, offering personalized solutions tailored to each client's unique needs. Their team comprises highly skilled professionals with extensive experience and expertise across diverse IT domains. First understand clients’ needs as a project then execute it in three steps first one is planning, second is Research and analysis and the last one is executed and development. Company leverages cutting-edge technologies, agile methodologies, and proactive support to deliver superior outcomes efficiently and cost-effectively. With a focus on innovation, reliability, and continuous improvement, they consistently exceed expectations, earning the trust of their clients."
+            }
+          },{
+            "@type": "Question",
+            "name": "It’s true that my company services are cost effective than other companies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, this company takes pride in offering cost-effective IT services without compromising on quality. They streamline processes, leverage economies of scale, and employ efficient resource allocation to keep costs down. Additionally, they prioritize transparency and honesty in pricing, ensuring clients receive fair value for their investment. By eliminating unnecessary expenses and optimizing workflows, they deliver high-quality solutions at competitive rates. Company goal is to provide affordable yet top-notch IT services that empower businesses to thrive in today's competitive landscape, making us a trusted choice for cost-conscious clients seeking maximum return on their investment."
+            }
+          }]
+        }
+        </script>
+
 @endsection

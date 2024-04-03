@@ -1151,4 +1151,29 @@
 
         </div>
     </div>
+
+
+
+
+    
+
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "How ECore TechServ grows clients’ businesses through digital marketing service?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ECore TechServ fuels client business growth through comprehensive digital marketing services. We start by understanding your unique goals, then craft data-driven strategies incorporating SEO, PPC, social media, and content marketing. Through targeted campaigns, we increase brand visibility, drive qualified traffic, and optimize conversions. Our focus on analytics ensures continuous refinement, maximizing ROI and long-term success. Whether it's enhancing online presence, boosting sales, or expanding market reach, our digital expertise propels your business forward in today's competitive landscape."
+            }
+        }]
+        }
+    </script>
+
+
+
+
+
 @endsection

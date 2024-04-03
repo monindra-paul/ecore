@@ -1,4 +1,23 @@
 @extends('frontend.layout.app')
+
+
+@section('title')
+
+<title> Top network service and security Company in Kolkata | ECore TechServ - The Soul of Future Technology</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content=" ECore TechServ Leading network service and security provider. Trusted expertise, reliable solutions, and unparalleled protection for your network infrastructure. Choose us for top-tier support.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content="Network security, Cybersecurity solutions, Network infrastructure, IT security services, Network management, Firewall protection, Network monitoring">
+@endsection
+
+
+
 @section('mainsection')
     <section class="content-section">
         <!---============spacing==========--->
@@ -3001,4 +3020,26 @@
             <img src="{{ asset('assets-front/images/bg-2.png') }}" class="img-fluid" alt="img" />
         </div>
     </section>
+
+
+    
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How ECore TechServ gives network service and network securities?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ECore TechServ delivers comprehensive network services and security solutions tailored to your business needs. We begin by assessing your current network infrastructure, identifying vulnerabilities, and designing scalable solutions. From network setup and configuration to ongoing monitoring and maintenance, we ensure optimal performance and uptime. Their security measures include robust firewalls, intrusion detection systems, and encryption protocols to safeguard data and prevent unauthorized access. With proactive monitoring and timely updates, we provide peace of mind, enabling you to focus on your core business while we manage your network efficiently and securely."
+        }
+      }]
+    }
+    </script>
+
+
+
+
+
 @endsection

@@ -886,9 +886,116 @@
 
 
 
+    
+
+<section class="faq-section">
+    <!---============spacing==========--->
+    <div class="pd_top_90"></div>
+    <!---============spacing==========--->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="section_title type_one">
+                    <h4 class="sm_title"> Faqs</h4>
+                    <div class="title_whole">
+                        <h2 class="title"> Frequently Asked
+                            Questions!</h2>
+                    </div>
+                    {{-- <p> Sed ut perspiciatis unde natus voluptatem accusantium doloremque laudantium
+                        aperiam
+                        inventore veritatis architecto beatae</p> --}}
+                </div>
+                <!---============spacing==========--->
+                <div class="pd_bottom_40"></div>
+                <!---============spacing==========--->
+                <div class="theme_btn_all">
+                    <a href="{{url('/contact-us')}}" class="theme_btn big rotate">
+                        Contact Us <span> <i class=" fi-rr-arrow-small-up"></i></span>
+                    </a>
+                </div>
+                <!---============spacing==========--->
+                <div class="pd_bottom_30"></div>
+                <!---============spacing==========--->
+            </div>
+            <div class="col-lg-7">
+                <section class="block_faq">
+                    <div class="accordion-box">
+                       
+                        <div class="accordion">
+                            <div class="question faq_header">
+                                <div class="question_box">
+                                    <div class="title_no_a_18 trans">What is ECore TechServ strategy for website development ?</div>
+                                    <span class="icon_fq trans fi-rs-arrow-small-right"></span>
+                                </div>
+                            </div>
+                            <div class="answer accordion-content current" style="display: none;">
+                                ECore TechServ‘s strategy for website development revolves around tailored solutions, emphasizing user experience, responsive design, and robust functionality. Company prioritizes understanding client needs, leveraging the latest technologies, and ensuring seamless integration for optimal performance and customer satisfaction.</div>
+                        </div>
+                        <div class="accordion">
+                            <div class="question faq_header">
+                                <div class="question_box">
+                                    <div class="title_no_a_18 trans">Which Technology is Best for a Website Development ?</div>
+                                    <span class="icon_fq trans fi-rs-arrow-small-right"></span>
+                                </div>
+                            </div>
+                            <div class="answer accordion-content current" style="display: none;">
+                                The best technology for website development depends on specific needs. WordPress offers flexibility and ease of use for content-focused sites. For more complex projects requiring scalability and customization, frameworks like React.js or Vue.js combined with Node.js for backend might be suitable. Choose based on project requirements and development expertise.</div>
+                        </div>
+                        
+                        <div class="accordion">
+                            <div class="question faq_header">
+                                <div class="question_box">
+                                    <div class="title_no_a_18 trans">
+                                        Which language is better for a website development among Laravel, WordPress & Manual PHP?</div>
+                                    <span class="icon_fq trans fi-rs-arrow-small-right"></span>
+                                </div>
+                            </div>
+                            <div class="answer accordion-content current" style="display: none;">
+                                Laravel is preferable for complex, custom web applications. WordPress is ideal for content-focused sites with ease of use. Manual PHP is versatile but requires more coding expertise. Choose based on project needs.
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!---============spacing==========--->
+    <div class="pd_bottom_40"></div>
+    <!---============spacing==========--->
+</section>
 
 
 
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is ECore TechServ strategy for website development ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ECore TechServ‘s strategy for website development revolves around tailored solutions, emphasizing user experience, responsive design, and robust functionality. The company prioritizes understanding client needs, leveraging the latest technologies, and ensuring seamless integration for optimal performance and customer satisfaction."
+        }
+      },{
+        "@type": "Question",
+        "name": "Which Technology is Best for a Website Development ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best technology for website development depends on specific needs. WordPress offers flexibility and ease of use for content-focused sites. For more complex projects requiring scalability and customization, frameworks like React.js or Vue.js combined with Node.js for the backend might be suitable. Choose based on project requirements and development expertise."
+        }
+      },{
+        "@type": "Question",
+        "name": "Which language is better for a website development among Laravel, WordPress & Manual PHP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Laravel is preferable for complex, custom web applications. WordPress is ideal for content-focused sites with ease of use. Manual PHP is versatile but requires more coding expertise. Choose based on project needs."
+        }
+      }]
+    }
+    </script>
 
 
 

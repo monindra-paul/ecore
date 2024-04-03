@@ -1,5 +1,19 @@
 @extends('frontend.layout.app')
-<title>Best Software Development Company in Kolkata - Software Development Company</title>
+@section('title')
+
+<title> Top software development Company in Kolkata | ECore TechServ - The Soul of Future Technology</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content=" ECore TechServ premier software development company delivering innovative solutions. Trusted by clients worldwide for cutting-edge software products tailored to their needs. Choose us for excellence in software development.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content=" software development, Software engineering services, Application development, Software solutions provider, Software development firm, Software consulting services, Software development outsourcing">
+@endsection
+
 
 @section('mainsection')
     <section class="content-section">

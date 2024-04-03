@@ -5,12 +5,12 @@
 
 @section('description')
     <meta name="description"
-        content="Protect your area with ecore techserv cctv surveillance. Get your high quality cctv from us. ">
+        content="Leading CCTV and security surveillance service provider in Kolkata. Trusted for cutting-edge solutions, comprehensive monitoring, and superior protection. Safeguard your assets with our expertise.">
 @endsection
 
 @section('keyword')
     <meta name="keywords"
-        content="CCTV Surveillance sevices in kolkata, Hight quality cctv camera providers in kolkata, Protect your area with ECore TechServ.">
+        content="CCTV surveillance, Video surveillance systems, Security monitoring services, CCTV camera solutions, CCTV camera installation, Security surveillance systems, CCTV maintenance services, CCTV camera repair">
 @endsection
 
 
@@ -1282,4 +1282,27 @@
         </div>
 
     </div>
+
+
+
+    
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How ECore TechServ gives security services through CCTV surveillance and security devices?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ECore TechServ ensures comprehensive security through advanced CCTV surveillance and state-of-the-art security devices. They begin by conducting thorough assessments to identify vulnerabilities and tailor solutions to meet specific needs. Their expert technicians install and integrate cutting-edge CCTV systems, access control, and alarm systems, providing round-the-clock monitoring and real-time alerts. With remote access capabilities and advanced analytics, we empower clients to proactively protect their assets and premises. From deterrence to incident response, our holistic approach to security offers peace of mind, safeguarding businesses, homes, and communities against potential threats and intrusions."
+        }
+      }]
+    }
+    </script>
+
+
+
+
+
 @endsection

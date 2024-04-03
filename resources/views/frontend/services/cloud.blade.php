@@ -2,17 +2,16 @@
 
 
 @section('title')
-    <title>Best Cloud Based Service Providers in Kolkata - Cloud Service Provider</title>
+<title>Best Cloud Service Company in Kolkata | ECore TechServ - The Soul of Future Technology</title>
 @endsection
 
 @section('description')
     <meta name="description"
-        content="ECore TechServ is a company in Kolkata who is provide Website development, Graphics designing, Hardware & Networking Support, Digital Markeing services with efficiently.">
+        content="Discover the power of cloud computing with ECore TechServ. Secure, scalable, and efficient solutions tailored to your business needs. Elevate your operations with our expert cloud services.">
 @endsection
-
 @section('keyword')
     <meta name="keywords"
-        content="Website Designing, Website Development Company in Kolkata, Website Designing Company in Kolkata,IT Support Company,IT Support Company in Kolkata, IT Services in Kolkata,  CCTV Survelliance service provider.">
+        content="Cloud computing, Cloud services, Cloud solutions, Cloud hosting, Cloud storage, Cloud infrastructure, Cloud migration, Cloud security">
 @endsection
 
 

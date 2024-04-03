@@ -1,4 +1,24 @@
 @extends('frontend.layout.app')
+
+@section('title')
+<title> Top hardware service provider Company in Kolkata | ECore TechServ - The Soul of Future Technology</title>
+@endsection
+
+@section('description')
+    <meta name="description"
+        content=" Top-tier computer hardware service provider. Trusted by businesses for quality repairs, expert solutions, and superior customer service. Choose us for reliable IT support.">
+@endsection
+
+@section('keyword')
+    <meta name="keywords"
+        content=" Computer hardware service, Hardware repair, IT support services, PC repair services, Hardware troubleshooting, Hardware installation, Hardware Engineer
+">
+@endsection
+
+
+
+
+
 @section('mainsection')
     <section class="content-section">
         <!---============spacing==========--->

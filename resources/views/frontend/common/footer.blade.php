@@ -55,8 +55,7 @@
 
                         <!---============spacing==========--->
                         <div class="position-relative color_white">
-                            Our business depends on your IT systems. We’re confident that we are the only IT solutions
-                            service business in India. The ECore TechServ team genuinely cares about every client.
+                            ECore TechServ provides best Website Designing services in kolkata. Get your one stop solution for Website Development, IT Support, Graphics Designing, Digital Marketing, CCTV Survelliance Security, Hardware & Network Support.
                         </div>
                         <!---============spacing==========--->
                         <div class="pd_bottom_25"></div>

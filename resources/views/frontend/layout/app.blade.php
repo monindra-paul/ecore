@@ -99,7 +99,7 @@
 
 
 <!-- Start of LiveChat (www.livechat.com) code -->
-<script>
+{{-- <script>
     window.__lc = window.__lc || {};
     window.__lc.license = 17103270;;
     (function (n, t, c) {
@@ -134,29 +134,12 @@
         };
         !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e
     }(window, document, [].slice))
-</script>
-<noscript><a href="https://www.livechat.com/chat-with/17103270/" rel="nofollow">Chat with us</a>, powered by <a
-        href="https://www.ecoretechserv.com/" rel="noopener nofollow" target="_blank">ECore TechServ</a></noscript>
+</script> --}}
+{{-- <noscript><a href="https://www.livechat.com/chat-with/17103270/" rel="nofollow">Chat with us</a>, powered by <a
+        href="https://www.ecoretechserv.com/" rel="noopener nofollow" target="_blank">ECore TechServ</a></noscript> --}}
 <!-- End of LiveChat code -->
 
 
-
-<script>
-    if ("serviceWorker" in navigator) {
-        // Register a service worker hosted at the root of the
-        // site using the default scope.
-        navigator.serviceWorker.register("/sw.js").then(
-            (registration) => {
-                console.log("Service worker registration succeeded:", registration);
-            },
-            (error) => {
-                console.error(`Service worker registration failed: ${error}`);
-            },
-        );
-    } else {
-        console.error("Service workers are not supported.");
-    }
-</script>
 
 
 

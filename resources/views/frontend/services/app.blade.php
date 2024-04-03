@@ -1,10 +1,7 @@
 @extends('frontend.layout.app')
 
-
-
 @section('title')
 <title>Best App Development Company in Kolkata - App Development Company</title>
-
 @endsection
 
 @section('description')
