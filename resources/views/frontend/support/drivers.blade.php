@@ -818,7 +818,7 @@
                                         <td>{{ $os->bits }}</td>
                                         <td>{{ $os->version }}</td>
                                         <td class="text-center">
-                                            <a href="{{ $os->link }}">
+                                            <a href="{{ $os->link }}" target="blank">
                                                 {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
                                                     delay="1000" state="hover-slide"
                                                     colors="primary:#30c9e8,secondary:#ebe6ef"
@@ -877,7 +877,7 @@
                                         <td>{{ $off->bits }}</td>
                                         <td>{{ $off->version }}</td>
                                         <td class="text-center">
-                                            <a href="{{ $off->link }}">
+                                            <a href="{{ $off->link }}" target="blank">
                                                 {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
                                                 delay="1000" state="hover-slide"
                                                 colors="primary:#30c9e8,secondary:#ebe6ef"
