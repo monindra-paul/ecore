@@ -823,7 +823,7 @@
                                                     Presentation
                                                 </a>
                                             </div>
-                                            <p>Get free demo and pre presentation for every projects</p>
+                                            <p>Get free demo and pre presentation for every clients project.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -837,7 +837,7 @@
                                                 <a href="#">
                                                     Analysis</a>
                                             </div>
-                                            <p>We have best analyst and reseaech team for you..</p>
+                                            <p>We have best analyst and reseaech team for you.</p>
                                         </div>
                                     </div>
                                 </div>

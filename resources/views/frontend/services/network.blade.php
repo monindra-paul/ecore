@@ -119,7 +119,7 @@
                                     </div>
                                     <div class="title_18">
                                         <p>A client-server network is the medium through which clients access resources and
-                                            services from a central computer.</p>
+                                            services from a central computer system or host.</p>
                                     </div>
 
                                 </div>
@@ -502,6 +502,25 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
+                                <small>Nertwork Sharing</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="one"
+                                            d="M10 0C4.48578 0 0 4.48578 0 10C0 15.5142 4.48578 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48578 15.5142 0 10 0Z"
+                                            fill="#2196F3"></path>
+                                        <path
+                                            d="M15.0692 7.88074L9.6525 13.2973C9.48999 13.4598 9.27667 13.5416 9.06335 13.5416C8.85004 13.5416 8.63672 13.4598 8.47421 13.2973L5.76593 10.589C5.44 10.2632 5.44 9.73651 5.76593 9.41074C6.09171 9.08481 6.61829 9.08481 6.94421 9.41074L9.06335 11.5299L13.8909 6.70245C14.2167 6.37653 14.7433 6.37653 15.0692 6.70245C15.395 7.02823 15.395 7.55481 15.0692 7.88074Z"
+                                            fill="#FAFAFA"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath>
+                                            <rect width="20" height="20" fill="white"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
                                 <small>Small office network setup</small>
                             </div>
 
@@ -606,6 +625,46 @@
                                 <small>Low damage risk</small>
                             </div>
 
+                            <div class="d-flex align-items-center">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="one"
+                                            d="M10 0C4.48578 0 0 4.48578 0 10C0 15.5142 4.48578 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48578 15.5142 0 10 0Z"
+                                            fill="#2196F3"></path>
+                                        <path
+                                            d="M15.0692 7.88074L9.6525 13.2973C9.48999 13.4598 9.27667 13.5416 9.06335 13.5416C8.85004 13.5416 8.63672 13.4598 8.47421 13.2973L5.76593 10.589C5.44 10.2632 5.44 9.73651 5.76593 9.41074C6.09171 9.08481 6.61829 9.08481 6.94421 9.41074L9.06335 11.5299L13.8909 6.70245C14.2167 6.37653 14.7433 6.37653 15.0692 6.70245C15.395 7.02823 15.395 7.55481 15.0692 7.88074Z"
+                                            fill="#FAFAFA"></path>
+                                    </g> 
+                                    <defs>
+                                        <clipPath>
+                                            <rect width="20" height="20" fill="white"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <small>Fiber Optic Cabling</small>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="one"
+                                            d="M10 0C4.48578 0 0 4.48578 0 10C0 15.5142 4.48578 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48578 15.5142 0 10 0Z"
+                                            fill="#2196F3"></path>
+                                        <path
+                                            d="M15.0692 7.88074L9.6525 13.2973C9.48999 13.4598 9.27667 13.5416 9.06335 13.5416C8.85004 13.5416 8.63672 13.4598 8.47421 13.2973L5.76593 10.589C5.44 10.2632 5.44 9.73651 5.76593 9.41074C6.09171 9.08481 6.61829 9.08481 6.94421 9.41074L9.06335 11.5299L13.8909 6.70245C14.2167 6.37653 14.7433 6.37653 15.0692 6.70245C15.395 7.02823 15.395 7.55481 15.0692 7.88074Z"
+                                            fill="#FAFAFA"></path>
+                                    </g> 
+                                    <defs>
+                                        <clipPath>
+                                            <rect width="20" height="20" fill="white"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <small>CAT 6 Cabling</small>
+                            </div>
+
                             <div class="bottom text-center">
                                 <a class="theme_btn" href="#"> Select plan <svg width="12" height="12"
                                         viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -647,7 +706,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <small>LAN Connectivity</small>
+                                <small>Static Routing</small>
                             </div>
                             <div class="d-flex align-items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -666,7 +725,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <small>Wired and wireless LAN</small>
+                                <small>Dynamic Routing</small>
                             </div>
                             <div class="d-flex align-items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -685,7 +744,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <small>Domain configaration</small>
+                                <small>Inter-VLAN Routing</small>
                             </div>
                             <div class="d-flex align-items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -704,7 +763,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <small>Multiple network</small>
+                                <small>Access Control</small>
                             </div>
                             <div class="d-flex align-items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -723,8 +782,32 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <small>Better network & sequrity</small>
+                                <small>Load Balancing</small>
                             </div>
+
+                            <div class="d-flex align-items-center">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="one"
+                                            d="M10 0C4.48578 0 0 4.48578 0 10C0 15.5142 4.48578 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48578 15.5142 0 10 0Z"
+                                            fill="#2196F3"></path>
+                                        <path
+                                            d="M15.0692 7.88074L9.6525 13.2973C9.48999 13.4598 9.27667 13.5416 9.06335 13.5416C8.85004 13.5416 8.63672 13.4598 8.47421 13.2973L5.76593 10.589C5.44 10.2632 5.44 9.73651 5.76593 9.41074C6.09171 9.08481 6.61829 9.08481 6.94421 9.41074L9.06335 11.5299L13.8909 6.70245C14.2167 6.37653 14.7433 6.37653 15.0692 6.70245C15.395 7.02823 15.395 7.55481 15.0692 7.88074Z"
+                                            fill="#FAFAFA"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath>
+                                            <rect width="20" height="20" fill="white"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <small>Traffic Segmentation</small>
+                            </div>
+
+                           
+
+                            
 
                             <div class="bottom text-center">
                                 <a class="theme_btn" href="#"> Select plan <svg width="12" height="12"
@@ -1099,7 +1182,27 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <small>File Services Server</small>
+                                <small>File Server(FTP)</small>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="one"
+                                            d="M10 0C4.48578 0 0 4.48578 0 10C0 15.5142 4.48578 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48578 15.5142 0 10 0Z"
+                                            fill="#2196F3"></path>
+                                        <path
+                                            d="M15.0692 7.88074L9.6525 13.2973C9.48999 13.4598 9.27667 13.5416 9.06335 13.5416C8.85004 13.5416 8.63672 13.4598 8.47421 13.2973L5.76593 10.589C5.44 10.2632 5.44 9.73651 5.76593 9.41074C6.09171 9.08481 6.61829 9.08481 6.94421 9.41074L9.06335 11.5299L13.8909 6.70245C14.2167 6.37653 14.7433 6.37653 15.0692 6.70245C15.395 7.02823 15.395 7.55481 15.0692 7.88074Z"
+                                            fill="#FAFAFA"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath>
+                                            <rect width="20" height="20" fill="white"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <small>Hyper-V</small>
                             </div>
 
                             <div class="bottom text-center">

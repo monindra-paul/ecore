@@ -11,8 +11,7 @@
 
 @section('keyword')
     <meta name="keywords"
-        content=" Computer hardware service, Hardware repair, IT support services, PC repair services, Hardware troubleshooting, Hardware installation, Hardware Engineer
-">
+        content=" Computer hardware service, Hardware repair, IT support services, PC repair services, Hardware troubleshooting, Hardware installation, Hardware Engineer">
 @endsection
 
 
@@ -760,7 +759,7 @@
                     <div class="price_box type_one trans">
                         <div class="top">
                             <h4 class="title_24">
-                                <a class="links" href="#"> On Spot Visit Service </a>
+                                <a class="links" href="#"> On Call Visit Service </a>
                             </h4>
                             <div class="price">
 
@@ -921,15 +920,11 @@
                                 <small>Per visit charge</small>
                             </div>
 
-                            <div class="d-flex align-items-center">
-
-                                <i class="fa fa-times"></i>
-                                <small>Annually or Quaterly Charge</small>
-                            </div>
+                            
 
                         </div>
                         <div class="bottom text-center">
-                            <a class="theme_btn" href="#"> Select plan <svg width="12" height="12"
+                            <a class="theme_btn" href="{{url('/contact-us')}}"> Contact Us<svg width="12" height="12"
                                     viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
@@ -943,7 +938,7 @@
                     <div class="price_box type_one trans">
                         <div class="top">
                             <h4 class="title_24">
-                                <a class="links" href="#">On Call or Monthly Support </a>
+                                <a class="links" href="#">Annual Maintenance Contract</a>
                             </h4>
                             <div class="price">
 
@@ -1105,7 +1100,7 @@
 
                         </div>
                         <div class="bottom text-center">
-                            <a class="theme_btn" href="#"> Select plan <svg width="12" height="12"
+                            <a class="theme_btn" href="{{url('/contact-us')}}"> Contact Us<svg width="12" height="12"
                                     viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1281,7 +1276,7 @@
 
                         </div>
                         <div class="bottom text-center">
-                            <a class="theme_btn" href="#"> Select plan <svg width="12" height="12"
+                            <a class="theme_btn" href="{{url('/contact-us')}}"> Contact Us<svg width="12" height="12"
                                     viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>

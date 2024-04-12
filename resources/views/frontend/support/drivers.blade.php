@@ -21,7 +21,7 @@
 
 
 <section class="page_header_default pg_bg_cover alignment_center">
-    <div class="bakground_cover" style="background-image:url({{ asset('assets-front/images/page-image-1-min.jpg') }})"></div>
+    <div class="bakground_cover" style="background-image:url({{ asset('assets-front/images/ecore/software/hero-soft.webp') }})"></div>
     <div class="page_header_content">
         <div class="container">
             <div class="row">
