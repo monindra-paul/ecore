@@ -23,7 +23,7 @@
                     </a>
 
                 </li>
-                <li>
+                {{-- <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 viewBox="0 0 24 24" fill="none" stroke="white" color="#ffffff" stroke-width="2"
@@ -42,23 +42,22 @@
                             <ul>
                                 <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
-                                <li> <a class="" href="javascript:;"><i
+                                <li> <a class="" href=""><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul>
-                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Website
-                                Development</a>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Graphics Designing</a>
                             <ul>
                                 <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
-                                <li> <a class="" href="javascript:;"><i
+                                <li> <a class="" href="{{ route('portfolio.graphics.create') }}"><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
 
 
                 <li>
@@ -159,6 +158,64 @@
                                             class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
                                 <li> <a class="" href="{{ route('support.printers.create') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    {{-- <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Office</a>
+                            <ul>
+                                <li> <a class="" href="{{ route('support.office.list') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="{{ route('support.office.create') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i
+                                    class="bx bx-right-arrow-alt"></i>Activator</a>
+                            <ul>
+                                <li> <a class="" href="javascript:;"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="javascript:;"><i
+                                            class="bx bx-right-arrow-alt"></i>Create</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> --}}
+                </li>
+
+
+
+
+
+
+
+
+
+
+
+                <li>
+                    <a class="has-arrow" href="javascript:;">
+                        <div class="parent-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em"
+                                height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M18 3H6v4h12m1 5a1 1 0 0 1-1-1a1 1 0 0 1 1-1a1 1 0 0 1 1 1a1 1 0 0 1-1 1m-3 7H8v-5h8m3-6H5a3 3 0 0 0-3 3v6h4v4h12v-4h4v-6a3 3 0 0 0-3-3" />
+                            </svg>
+                        </div>
+                        <div class="menu-title">Softwares & Drivers</div>
+                    </a>
+                    <ul>
+                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>
+                                SOftwares & Drivers</a>
+                            <ul>
+                                <li> <a class="" href="{{ route('support.softwaresdrivers.list') }}"><i
+                                            class="bx bx-right-arrow-alt"></i>Show</a>
+                                </li>
+                                <li> <a class="" href="{{ route('support.softwaresdrivers.create') }}"><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>
                             </ul>
                         </li>

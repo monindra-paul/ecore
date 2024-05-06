@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\MSOffice;
 use App\Models\OS;
 use App\Models\Printer;
+use App\Models\SoftwaresDrivers;
 use Illuminate\Http\Request;
 
 class SupportController extends Controller
@@ -19,6 +20,7 @@ class SupportController extends Controller
     {
         $allos = OS::all();
         $office = MSOffice::all();
+        $softwaresdrivers = SoftwaresDrivers::all();
 
 
         $epson = Printer::where('brand', 'Epson')->orderBy('id', 'DESC')->get();
@@ -33,6 +35,7 @@ class SupportController extends Controller
 
         $data['allos'] = $allos;
         $data['office'] = $office;
+        $data['softwaresdrivers'] = $softwaresdrivers;
 
 
 

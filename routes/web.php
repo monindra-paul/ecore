@@ -6,9 +6,11 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\LoginController;
+use App\Http\Controllers\Admin\Portfolio\GraphicsController;
 use App\Http\Controllers\Admin\Software\MSOfficeController;
 use App\Http\Controllers\Admin\Software\OSController;
 use App\Http\Controllers\Admin\Software\PrintersControllers;
+use App\Http\Controllers\Admin\Software\SoftwaresDriversController;
 use App\Http\Controllers\Admin\ViewStatusController as AdminViewStatusController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PagesController;
@@ -80,6 +82,17 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('/logout', [DashboardController::class, 'logout'])->name('admin.logout');
 
 
+
+
+        Route::group(['prefix' => 'portfolio'], function () {
+
+            Route::group(['prefix' => 'graphics'], function () {
+
+                Route::get('/create', [GraphicsController::class, 'create'])->name('portfolio.graphics.create');
+            });
+        });
+
+
         Route::group(['prefix' => 'os'], function () {
 
             Route::get('/show', [OSController::class, 'show'])->name('support.os.list');
@@ -114,6 +127,21 @@ Route::group(['prefix' => 'admin'], function () {
             Route::get('/show/{printers}', [PrintersControllers::class, 'update'])->name('support.printers.update');
             Route::delete('/show/{printers}', [PrintersControllers::class, 'destroy'])->name('support.printers.delete');
         });
+
+
+
+
+        Route::group(['prefix' => 'softwares-drivers'], function () {
+
+            Route::get('/show', [SoftwaresDriversController::class, 'show'])->name('support.softwaresdrivers.list');
+            Route::get('/create', [SoftwaresDriversController::class, 'create'])->name('support.softwaresdrivers.create');
+            Route::post('/create', [SoftwaresDriversController::class, 'store'])->name('support.softwaresdrivers.store');
+            Route::get('/edit/{softwaresdrivers}', [SoftwaresDriversController::class, 'edit'])->name('support.softwaresdrivers.edit');
+            Route::get('/show/{softwaresdrivers}', [SoftwaresDriversController::class, 'update'])->name('support.softwaresdrivers.update');
+            Route::delete('/show/{softwaresdrivers}', [SoftwaresDriversController::class, 'destroy'])->name('support.softwaresdrivers.delete');
+        });
+
+
 
 
         Route::prefix('bill')->group(function () {

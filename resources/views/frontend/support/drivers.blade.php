@@ -94,7 +94,7 @@
                             <li class="nav-item">
                                 <button class="nav-link" id="vision-tabtab" data-bs-toggle="tab" data-bs-target="#vision"
                                     type="button" role="tab" aria-controls="vision" aria-selected="false">
-                                    Drivers
+                                    Softwares & Drivers
                                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" stroke-width="1.5"
@@ -105,6 +105,9 @@
 
                         </ul>
                         <div class="s_tabs_content tab-content">
+
+
+
                             <div class="tab-pane active" id="aboutuss" role="tabpanel" aria-labelledby="aboutuss-tabtab">
                                 <div class="tab_content_box">
                                     {{-- <div class="content">
@@ -338,6 +341,15 @@
 
                                 </div>
                             </div>
+
+
+
+
+
+
+
+
+
 
                             <div class="tab-pane" id="mission" role="tabpanel" aria-labelledby="mission-tabtab">
                                 <div class="tab_content_box">
@@ -696,9 +708,18 @@
                                 </div>
                             </div>
 
+
+
+
+
+
+
+                            {{-- softwares and drives tab --}}
+
+
                             <div class="tab-pane" id="vision" role="tabpanel" aria-labelledby="vision-tabtab">
                                 <div class="tab_content_box">
-                                    <div class="content">
+                                    {{-- <div class="content">
                                         Our vision guides every aspect of our business by describing what we need to
                                         accomplish to continue achieving sustainable, quality growth..
 
@@ -753,9 +774,53 @@
 
                                         </ul>
 
-                                    </div>
+                                    </div> --}}
+
+
+
+                                    <table class="table col-12">
+                                        <thead>
+                                            <tr>
+                                                {{-- <th class="col-1">SN.</th> --}}
+                                                <th class="col-3">Product Name</th>
+                                                <th class="col-3">Supported Bits</th>
+                                                <th class="col-3">Version</th>
+                                                <th class="col-3">Download</th>
+                                            </tr>
+                                        </thead>
+                                        @foreach ($softwaresdrivers as $sd)
+                                            <tbody>
+                                                <tr>
+                                                    {{-- <th scope="row">{{ $os->id }}</th> --}}
+                                                    <td>{{ $sd->name }}</td>
+                                                    <td>{{ $sd->bits }}</td>
+                                                    <td>{{ $sd->version }}</td>
+                                                    <td class="text-center">
+                                                        <a href="{{ $sd->link }}">
+                                                            {{-- <lord-icon src="https://cdn.lordicon.com/fgsdcsla.json" trigger="loop"
+                                                        delay="1000" state="hover-slide"
+                                                        colors="primary:#30c9e8,secondary:#ebe6ef"
+                                                        style="width:50px;height:50px">
+                                                    </lord-icon> --}}
+                                                            <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                                                viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                                <path fill="#030a6d"
+                                                                    d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                                            </svg>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        @endforeach
+                                    </table>
+
+
+
+
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                     <!---============spacing==========--->
@@ -1052,7 +1117,7 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Download Epson Printers Drivers</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">Download HP Printers Drivers</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
