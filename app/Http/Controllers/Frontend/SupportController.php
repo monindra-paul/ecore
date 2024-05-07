@@ -16,11 +16,21 @@ class SupportController extends Controller
         return view('frontend.support.remote');
     }
 
-    public function softwareDrivers()
+    public function softwareDrivers(Request $request)
     {
         $allos = OS::all();
         $office = MSOffice::all();
         $softwaresdrivers = SoftwaresDrivers::all();
+
+
+
+
+
+        if (!empty($request->get('keyword'))) {
+            $softwaresdrivers =  $softwaresdrivers->where('name', 'like', '%' . $request->get('keyword') . '%');
+        }
+
+
 
 
         $epson = Printer::where('brand', 'Epson')->orderBy('id', 'DESC')->get();

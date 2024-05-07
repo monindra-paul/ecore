@@ -1717,7 +1717,7 @@
   content: "";
   height: 50px;
   top: 0;
-  left: 0;
+  left: -8px;
   background: #fe4c1c;
   width: 5px;
 }
@@ -11083,7 +11083,7 @@ body .slick-dots li:last-child {
     margin-left: 0px;
     pointer-events: none !important;
     background-color: var(--color-white);
-    min-width: 220px;
+    min-width: 235px;
     padding: 15px 30px;
     transform: translateX(-10px);
     -ms-transform: translateX(-10px);

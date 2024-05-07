@@ -61,34 +61,95 @@
                             <button type="submit" class="btn btn-white ec-custom-btn-login">Login</button>
                         </div>
                     </form>
+
+
+
+
+
+
+
+
+
+                    {{-- otpless testing start --}}
+
+
+
+
+
+
+
+
+
+                    {{-- <div id="otpless-login-page"></div> --}}
+
+
+
+
+
+                    {{-- otpless testing ending --}}
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
     </div>
     <!-- end wrapper -->
-
+    
     <script>
         function updateCurrentTime() {
             // Get the current time
             var currentTime = new Date();
-
+            
             // Format the time in AM/PM format
             var formattedTime = currentTime.toLocaleTimeString('en-US', {
                 hour: 'numeric',
                 minute: 'numeric',
                 hour12: true
             });
-
+            
             // Update the content of the element with id "current-time"
             document.getElementById('current-time').innerHTML = formattedTime;
         }
-
+        
         // Update the time initially
         updateCurrentTime();
-
+        
         // Update the time every second
         setInterval(updateCurrentTime, 1000);
-    </script>
+        
+        
+        
+        
+        
+        </script>
+
+
+
+
+
+
+
+
+
+
+        {{-- otpless script --}}
+
+
+        {{-- <script id="otpless-sdk" type="text/javascript" src="https://otpless.com/v2/auth.js" data-appid="D3O2TP5GR2ILMVB0T6JJ"></script> --}}
+
+
+
 </body>
 
 

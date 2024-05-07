@@ -31,7 +31,7 @@
             <div class="auto-container">
                 <div class="row align-items-start">
                     <div class="col-lg-6 col-md-12">
-                        <div class="image_box_only type_seven">
+                        {{-- <div class="image_box_only type_seven">
                             <div class="icon_box_only type_four inline_box trans">
                                 <div class="icon">
                                     <img src="{{ 'assets-front/images/icon-image-1.png' }}" alt="img"
@@ -75,7 +75,21 @@
                                 <img src="{{ 'assets-front/images/ecore/about/ab.webp' }}" alt="img"
                                     class="img-fluid" />
                             </div>
+                        </div> --}}
+
+
+
+                        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                            border-radius: 8px; will-change: transform;">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFdww_adb0&#x2F;34rOutakw7a5nBtj4Z4_5w&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                            </iframe>
                         </div>
+
+
+
+
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 pd_left_30">
                         <div class="col-lg-12 vankine" id="ecore_cs_breadcrumb">
@@ -89,7 +103,7 @@
                             <h4 class="sm_title">About Company</h4>
                             <div class="title_whole">
                                 <h2 class="title">
-                                    Best IT Service Agency in Kolkata
+                                    Best Website Designing & Development Company in Kolkata
                                 </h2>
                             </div>
                         </div>

@@ -776,6 +776,22 @@
 
                                     </div> --}}
 
+                                    {{-- <div class="container">
+                                        <div class="row flex">
+                                            <div class="flex-end col-4">
+                                                <form action="{{url('/softwares-drivers')}}" method="get">
+                                                    <input type="text" value="{{ Request::get('keyword') }}" name="keyword"
+                                                                class="form-control float-right" placeholder="Search">
+
+                                                        <div class="input-group-append">
+                                                           <button type="submit" class="btn btn-default">
+                                                                        <i class="fas fa-search"></i>
+                                                            </button>
+                                                        </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div> --}}
 
 
                                     <table class="table col-12">
