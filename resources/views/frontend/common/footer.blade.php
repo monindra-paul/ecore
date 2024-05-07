@@ -137,16 +137,7 @@
                                                 </a>
                                             </div>
                                         </li>
-                                        <li>
-                                            <div class="d-flex align-items-center">
-                                                <div class="icon trans">
-                                                    <i class="fi-rr-arrow-small-right color_white"></i>
-                                                </div>
-                                                <a class="links color_white" href="{{ url('/app-development-in-kolkata') }}">
-                                                    App Development
-                                                </a>
-                                            </div>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
