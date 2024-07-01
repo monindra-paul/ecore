@@ -223,7 +223,7 @@
                             <a href="#">
                                 Domain & Hosting</a>
                         </div>
-                        <p>Get your domain name and hosting plan with 99% uptime.</p>
+                        <p>Get your domain & hosting plan with 99% uptime.</p>
 
                     </div>
                 </div>
@@ -522,6 +522,69 @@
 
 
 
+    <section class="client-section   mt-5">
+        <!---============spacing==========--->
+        <div class="pd_top_40"></div>
+        <!---============spacing==========--->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12 pd_right_60">
+                    <div class="section_title type_one small">
+                        <h4 class="sm_title">Languages</h4>
+                        <div class="title_whole">
+                            <h2 class="title">Languages<br> we are using</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="iamge mr_bottom_20 mr_top_20">
+                                <img src="{{ asset('assets-front/images/ecore/software/laravel.png') }} " width="70px"
+                                    class="img-fluid m-auto" alt="client" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="iamge mr_bottom_20 mr_top_20">
+                                <img src="{{ asset('assets-front/images/ecore/software/js.png') }}" width="70px"
+                                    class="img-fluid m-auto" alt="client" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="iamge mr_bottom_20 mr_top_20">
+                                <img src="{{ asset('assets-front/images/ecore/software/asp.png') }}" width="130px"
+                                    class="img-fluid m-auto" alt="client" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="iamge mr_bottom_20 mr_top_20">
+                                <img src="{{ asset('assets-front/images/ecore/software/java.png') }}" width="130px"
+                                    class="img-fluid m-auto" alt="client" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="iamge mr_bottom_20 mr_top_20">
+                                <img src="{{ asset('assets-front/images/ecore/software/cplus.png') }}" width="70px"
+                                    class="img-fluid m-auto" alt="client" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="iamge mr_bottom_20 mr_top_20">
+                                <img src="{{ asset('assets-front/images/ecore/software/python.png') }}"
+                                    class="img-fluid m-auto" width="230px" alt="client" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!---============spacing==========--->
+        <div class="pd_bottom_30"></div>
+        <!---============spacing==========--->
+    </section>
 
     <section class="service-section position-relative z_1 ">
         <div class="medium-container-two">

@@ -103,7 +103,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service_box type_three hover_1_get">
-                            <a href="service.html" class="img_bx">
+                            <a href="#" class="img_bx">
                                 <div class="image trans hover_1">
                                     <img src="{{ asset('assets-front/images/ecore/graphics/branding.svg') }}"
                                         class="img-fluid" alt="service" />
@@ -120,7 +120,7 @@
                                     </div>
                                     <div class="steps trans">1</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">
+                                        <a href="#">
                                             Branding & Identity</a>
                                     </h4>
                                     <p class="trans">
@@ -134,7 +134,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service_box type_three hover_1_get">
-                            <a href="service.html" class="img_bx">
+                            <a href="#" class="img_bx">
                                 <div class="image trans hover_1">
                                     <img src="{{ asset('assets-front/images/ecore/graphics/illustration.svg') }}"
                                         class="img-fluid" alt="service" />
@@ -151,7 +151,7 @@
                                     </div>
                                     <div class="steps trans">2</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">Illustration</a>
+                                        <a href="#">Illustration</a>
                                     </h4>
                                     <p class="trans">
                                         Bring life to your project by some unique and interesting illustration and artworks.
@@ -164,7 +164,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service_box type_three hover_1_get">
-                            <a href="service.html" class="img_bx">
+                            <a href="#" class="img_bx">
                                 <div class="image trans hover_1">
                                     <img src="{{ asset('assets-front/images/ecore/graphics/tshirt.svg') }}"
                                         class="img-fluid" alt="service" />
@@ -182,7 +182,7 @@
                                     </div>
                                     <div class="steps trans">3</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">T-Shirt Design</a>
+                                        <a href="#">T-Shirt Design</a>
                                     </h4>
                                     <p class="trans">
                                         Make your Own Customizeable T-Shirt.</p>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service_box type_three hover_1_get">
-                            <a href="service.html" class="img_bx">
+                            <a href="#" class="img_bx">
                                 <div class="image trans hover_1">
                                     <img src="{{ asset('assets-front/images/ecore/graphics/infographics.svg') }}"
                                         class="img-fluid" alt="service" />
@@ -211,7 +211,7 @@
                                     </div>
                                     <div class="steps trans">4</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">Infographics</a>
+                                        <a href="#">Infographics</a>
                                     </h4>
                                     <p class="trans">
                                         Flourish your dense data and make it appealing with our stunning infographics design
@@ -223,7 +223,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service_box type_three hover_1_get">
-                            <a href="service.html" class="img_bx">
+                            <a href="#" class="img_bx">
                                 <div class="image trans hover_1">
                                     <img src="{{ asset('assets-front/images/ecore/graphics/uiux.svg') }}"
                                         class="img-fluid" alt="service" />
@@ -241,7 +241,7 @@
                                     </div>
                                     <div class="steps trans">5</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">UI & UX</a>
+                                        <a href="#">UI & UX</a>
                                     </h4>
                                     <p class="trans">
                                         Get your Applications & Website's pre view before developed. Customize your Website
@@ -255,7 +255,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service_box type_three hover_1_get">
-                            <a href="service.html" class="img_bx">
+                            <a href="#" class="img_bx">
                                 <div class="image trans hover_1">
                                     <img src="{{ asset('assets-front/images/ecore/graphics/logo.svg') }}"
                                         class="img-fluid" alt="service" />
@@ -273,7 +273,7 @@
                                     </div>
                                     <div class="steps trans">6</div>
                                     <h4 class="title_24 trans">
-                                        <a href="service.html">
+                                        <a href="#">
                                             Logo Design</a>
                                     </h4>
                                     <p class="trans">

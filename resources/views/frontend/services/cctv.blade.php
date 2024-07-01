@@ -97,7 +97,7 @@
                                             class="img-fluid" alt="service" />
                                         <div class="left">
                                             <div class="title_26">
-                                                <a href="service-details.html">
+                                                <a href="#">
                                                     Home Security
 
                                                 </a>
@@ -127,7 +127,7 @@
                                             class="img-fluid" alt="service" />
                                         <div class="left">
                                             <div class="title_26">
-                                                <a href="service-details.html">Office Security </a>
+                                                <a href="#">Office Security </a>
                                             </div>
                                             <p class="trans">
                                                 CCTV camera, alarm system, finger print authentication, face recognization,
@@ -155,7 +155,7 @@
                                             class="img-fluid" alt="service" />
                                         <div class="left">
                                             <div class="title_26">
-                                                <a href="service-details.html">Special Security
+                                                <a href="#">Special Security
                                                 </a>
                                             </div>
                                             <p class="trans">

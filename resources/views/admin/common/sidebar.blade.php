@@ -5,7 +5,7 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="{{ asset('assets/images/ecore/logo_main.png') }}" class="logo-icon" alt="logo icon">
+                    <img src="{{ asset('assets-front/images/ecore/logo/ecore-favicon-round2.webp') }}" class="logo-icon" alt="logo icon">
                 </div>
                 <div>
                     <h4 class="logo-text">ECore</h4>
@@ -23,7 +23,7 @@
                     </a>
 
                 </li>
-                {{-- <li>
+                <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 viewBox="0 0 24 24" fill="none" stroke="white" color="#ffffff" stroke-width="2"
@@ -37,12 +37,12 @@
                         <div class="menu-title">Portfolio</div>
                     </a>
                     <ul>
-                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Website
+                        <li> <a class="has-arrow" href=""><i class="bx bx-right-arrow-alt"></i>Website
                                 Development</a>
                             <ul>
                                 <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
-                                <li> <a class="" href=""><i
+                                <li> <a class="" href="{{route('portfolio.website.create')}}"><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>
                             </ul>
                         </li>
@@ -57,7 +57,7 @@
                             </ul>
                         </li>
                     </ul>
-                </li> --}}
+                </li> 
 
 
                 <li>
@@ -210,7 +210,7 @@
                     </a>
                     <ul>
                         <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>
-                                SOftwares & Drivers</a>
+                                Softwares & Drivers</a>
                             <ul>
                                 <li> <a class="" href="{{ route('support.softwaresdrivers.list') }}"><i
                                             class="bx bx-right-arrow-alt"></i>Show</a>

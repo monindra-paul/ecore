@@ -170,7 +170,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Ladumor\LaravelPwa\PWAServiceProvider::class,
+        // Intervention\Image\ImageServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
+
 
     ])->toArray(),
 
@@ -189,6 +191,8 @@ return [
         // 'Example' => App\Facades\Example::class,
         'LaravelPwa' => \Ladumor\LaravelPwa\LaravelPwa::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
+        // 'Image' => Intervention\Image\Facades\Image::class
+
 
     ])->toArray(),
 

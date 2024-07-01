@@ -47,13 +47,14 @@
                     <div class="footer_widgets_box pd_bottom_30">
                         <div class="logo_box">
                             <a href="#" class="logo navbar-brand">
-                                <img src="{{ asset('assets-front/images/ecore/logo/ecore-logo.png') }}" alt="ecore"
-                                    class="logo_default" width="120px">
+                                <img src="{{ asset('assets-front/images/ecore/logo/ecore-wh.png') }}" alt="ecore"
+                                    class="logo_default" width="280px">
                             </a>
                         </div>
                         <!---============spacing==========--->
 
                         <!---============spacing==========--->
+                        <br>
                         <div class="position-relative color_white">
                             ECore TechServ provides best Website Designing services in kolkata. Get your one stop solution for Website Development, IT Support, Graphics Designing, Digital Marketing, CCTV Survelliance Security, Hardware & Network Support.
                         </div>
@@ -194,13 +195,33 @@
                                                 </a>
                                             </div>
                                         </li>
-                                         <li>
+                                        <li>
                                             <div class="d-flex align-items-center">
                                                 <div class="icon trans">
                                                     <i class="fi-rr-arrow-small-right color_white"></i>
                                                 </div>
                                                 <a class="links color_white" href="{{ url('/faq') }}">
                                                     FAQ
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex align-items-center">
+                                                <div class="icon trans">
+                                                    <i class="fi-rr-arrow-small-right color_white"></i>
+                                                </div>
+                                                <a class="links color_white" href="{{url('/terms-and-condition')}}">
+                                                    Terms & Conditions
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex align-items-center">
+                                                <div class="icon trans">
+                                                    <i class="fi-rr-arrow-small-right color_white"></i>
+                                                </div>
+                                                <a class="links color_white" href="{{url('/privacy-policy')}}">
+                                                    Privacy Policy
                                                 </a>
                                             </div>
                                         </li>
@@ -376,12 +397,12 @@
         <div class="option_content scrollbarcolor ">
             <div class="log_bx">
                 <a href="#" class="logo navbar-brand">
-                    <img src="{{ asset('assets-front/images/ecore/logo/ecore-logo.png') }}" alt="ecore"
+                    <img src="{{ asset('assets-front/images/ecore/logo/ecore-favicon-round2.webp') }}" alt="ecore"
                         class="logo_default" width="150px">
                 </a>
                 <div class="about_company">
-                    Our business depends on your IT systems. We’re confident that we are the only IT solutions service
-                    business in India. The ECore TechServ team genuinely cares about every client.
+                    ECore TechServ provides best Website Designing services in kolkata. Get your one stop solution for Website Development, IT Support, Graphics Designing, Digital Marketing, CCTV Survelliance Security, Hardware & Network Support.
+
                 </div>
             </div>
             <div class="contnet_box">

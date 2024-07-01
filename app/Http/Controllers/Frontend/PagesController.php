@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Spatie\FlareClient\View;
 
 class PagesController extends Controller
 {
@@ -57,5 +58,19 @@ class PagesController extends Controller
     public function faq()
     {
         return view('frontend.pages.faq');
+    }
+
+
+
+
+    public function privacy()
+    {
+        return view('frontend.pages.privacy');
+    }
+
+
+    public function terms()
+    {
+        return view('frontend.pages.tc');
     }
 }

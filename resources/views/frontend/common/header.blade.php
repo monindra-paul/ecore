@@ -24,7 +24,7 @@
                                 <div class="logobox">
                                     <a href="{{ url('/') }}" class="logo navbar-brand">
                                         <img src="{{ asset('assets-front/images/ecore/logo/ecore-logo.webp') }}"
-                                            alt="ecore" class="logo_default" width="120px">
+                                            alt="ecore" class="logo_default" width="300px">
                                     </a>
                                 </div>
                             </div>
@@ -149,9 +149,9 @@
                                         </li>
 
                                         <li class="menu-item  nav-item">
-                                            <a href="#" class="nav_link">
+                                            <a href="{{route('portfolio.index')}}" class="nav_link">
                                                 <span class="text-link">
-                                                    Blog
+                                                     Portfolio
                                                 </span>
                                             </a>
                                         </li>
@@ -174,8 +174,8 @@
                                         <span class="line"></span>
                                     </div>
                                     <div class="button m-2">
-                                        <a href="#" class="theme_btn">
-                                            Shop
+                                        <a href="tel:+919875681413" class="theme_btn">
+                                            Call Now
                                             <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white"
@@ -209,10 +209,10 @@
                     <div class="large-container">
                         <div class="row align-items-center">
                             <div class="col-xl-2 col-lg-12 col-md-5 col-sm-5 col-xs-5">
-                                <div class="logobox">
+                                <div class="logobox ">
                                     <a href="{{url('/')}}" class="logo navbar-brand">
                                         <img src="{{ asset('assets-front/images/ecore/logo/ecore-logo.webp') }}"
-                                            alt="ecore" class="logo_default" width="120px">
+                                            alt="ecore" class="logo_default" width="270px">
                                     </a>
                                 </div>
                             </div>
@@ -341,9 +341,9 @@
 
                                         </li>
                                         <li class="menu-item  menu-item">
-                                            <a href="#" class="nav_link">
+                                            <a href="{{route('portfolio.index')}}" class="nav_link">
                                                 <span class="text-link">
-                                                    Blog
+                                                     Portfolio
                                                 </span>
                                             </a>
 
@@ -370,8 +370,8 @@
                                     </div>
                                     <!--menu icon-->
                                     <div class="button m-2">
-                                        <a href="#" class="theme_btn">
-                                            Shop
+                                        <a href="tel:+919875681413" class="theme_btn">
+                                            Call Now
                                             <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white"

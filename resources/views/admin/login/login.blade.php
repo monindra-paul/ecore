@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="{{ asset('assets/images/ecore/logo_main.png') }}" type="image/png" />
+    <link rel="icon" href="{{ asset('assets-front/images/ecore/logo/ecore-favicon-round2.webp') }}" type="image/png" />
     <!-- loader-->
     <link href="{{ asset('assets/css/pace.min.css') }}" rel="stylesheet" />
     {{-- <script src="{{asset('assets/js/pace.min.js')}}"></script> --}}
@@ -31,7 +31,7 @@
                     {{-- <h2 class="text-white">{{ now()->setTimezone('Asia/Kolkata')->format('h:i A') }}</h2> --}}
                     <h5 class="text-white">{{ now()->setTimezone('Asia/Kolkata')->format('l, F d, Y') }}</h5>
                     <div class="">
-                        <img src="{{ asset('assets/images/ecore/logo_ecore.png') }}" class="mt-5" width="150"
+                        <img src="{{ asset('assets-front/images/ecore/logo/ecore-favicon-round2.webp') }}" class="mt-5" width="100"
                             alt="" />
                     </div>
                     <p class="mt-2 text-white">ECore Tech Serv Administrator</p>

@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\Admin\Portfolio\GraphicsController;
+use App\Http\Controllers\Admin\Portfolio\WebsiteController;
 use App\Http\Controllers\Admin\Software\MSOfficeController;
 use App\Http\Controllers\Admin\Software\OSController;
 use App\Http\Controllers\Admin\Software\PrintersControllers;
@@ -14,9 +15,11 @@ use App\Http\Controllers\Admin\Software\SoftwaresDriversController;
 use App\Http\Controllers\Admin\ViewStatusController as AdminViewStatusController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PagesController;
+use App\Http\Controllers\Frontend\PortfolioController;
 use App\Http\Controllers\Frontend\ServiceController;
 use App\Http\Controllers\Frontend\SupportController;
 use App\Http\Controllers\Frontend\ViewStatusController;
+use App\Models\WebsitePortfolio;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,7 +57,13 @@ Route::get('/about-us', [PagesController::class, 'about'])->name('about');
 Route::get('/contact-us', [PagesController::class, 'contact'])->name('contact');
 Route::post('/contact-us', [PagesController::class, 'postContact'])->name('post.contact');
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
+// Route::get('/terms-conditions', [PagesController::class, 'terms'])->name('terms-conditions');
+// Route::get('/privacy-policy', [PagesController::class, 'privacy'])->name('privacy-policy');
 
+// Route::get('/terms-and-condition', [PagesController::class, 'terms'])->name('terms-condition');
+
+Route::get('/privacy-policy', [PagesController::class, 'privacy'])->name('privacy');
+Route::get('/terms-conditions', [PagesController::class, 'terms'])->name('terms');
 
 Route::get('/remote-support', [SupportController::class, 'remoteSupport'])->name('support.remote');
 Route::get('/softwares-drivers', [SupportController::class, 'softwareDrivers'])->name('support.drivers');
@@ -64,6 +73,8 @@ Route::get('/download-pdf/{bill_no}', [ViewStatusController::class, 'downloadPdf
 // Route::get('/view-status', [ViewStatusController::class, 'qrcode'])->name('support.qrcode');
 
 
+
+Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio.index');
 
 
 
@@ -89,6 +100,13 @@ Route::group(['prefix' => 'admin'], function () {
             Route::group(['prefix' => 'graphics'], function () {
 
                 Route::get('/create', [GraphicsController::class, 'create'])->name('portfolio.graphics.create');
+            });
+
+            Route::group(['prefix' => 'website'], function () {
+                Route::get('/create', [WebsiteController::class, 'create'])->name('portfolio.website.create');
+                // Route::post('/store', [WebsitePortfolio::class, 'store'])->name('portfolio.website.store');
+
+                Route::post('/store', [WebsiteController::class, 'store'])->name('portfolio.website.store');
             });
         });
 
