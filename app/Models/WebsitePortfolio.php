@@ -15,7 +15,7 @@ class WebsitePortfolio extends Model
     protected $fillable = [
         'name',
         'link',
-        'upload',
+        'image',
         'category',
         'status',
     ];

@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\Software\MSOfficeController;
 use App\Http\Controllers\Admin\Software\OSController;
 use App\Http\Controllers\Admin\Software\PrintersControllers;
 use App\Http\Controllers\Admin\Software\SoftwaresDriversController;
+use App\Http\Controllers\Admin\TempImagesController;
 use App\Http\Controllers\Admin\ViewStatusController as AdminViewStatusController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PagesController;
@@ -103,10 +104,12 @@ Route::group(['prefix' => 'admin'], function () {
             });
 
             Route::group(['prefix' => 'website'], function () {
+                Route::get('/show', [WebsiteController::class, 'list'])->name('portfolio.website.list');
                 Route::get('/create', [WebsiteController::class, 'create'])->name('portfolio.website.create');
                 // Route::post('/store', [WebsitePortfolio::class, 'store'])->name('portfolio.website.store');
+                Route::get('/store', [WebsiteController::class, 'store'])->name('portfolio.website.store');
 
-                Route::post('/store', [WebsiteController::class, 'store'])->name('portfolio.website.store');
+                Route::post('/upload-temp-image', [TempImagesController::class, 'create'])->name('temp-images.create');
             });
         });
 

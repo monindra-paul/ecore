@@ -10,8 +10,19 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\File;
 use Image;
 
+
 class WebsiteController extends Controller
 {
+
+
+    public function list()
+    {
+        $allwebsite = WebsitePortfolio::latest('id')->get();
+
+        return view('admin.portfolio.website.list', compact('allwebsite'));
+    }
+
+
     public function create()
     {
         return view('admin.portfolio.website.create');
@@ -33,33 +44,47 @@ class WebsiteController extends Controller
 
         if ($validator->passes()) {
 
-            // $moved_image = null;
-
-            if ($request->hasFile('upload')) {
-                $this->validate($request, [
-                    'upload' => 'mimes:jpeg,png,jpg,gif,docx,pdf,svg|max:2048'
-                ], [
-                    'upload.max' => 'Please select document within 2 MB'
-                ]);
-
-                $upload = $request->file('upload');
-                $imageName = date('his') . '-' . date('his') . '-' . date('his') . '.' . request()->upload->getClientOriginalExtension();
-                $upload->move(public_path('portfolio/website/'), $imageName);
-                // $mimg = 'portfolio/website/' . $imageName;
-                $moved_image = 'portfolio/website/' . $imageName;
-            }
-
-
 
             $websiteportfolio = new WebsitePortfolio();
             $websiteportfolio->name = $request->name;
             $websiteportfolio->link = $request->link;
             $websiteportfolio->category = $request->category;
-            $websiteportfolio->upload = $moved_image;
             $websiteportfolio->status = 1;
             $websiteportfolio->save();
 
-            $request->session()->flash('success', 'Website Portfolio Added Successfully');
+
+
+
+            //save image
+
+            if (!empty($request->image_id)) {
+                $tempImage = TempImage::find($request->image_id);
+                $extArray = explode('.', $tempImage->name);
+                $ext = last($extArray);
+
+                $newImageName = $websiteportfolio->id . '.' . $ext;
+
+                $sPath = public_path() . '/temp/' . $tempImage->name;
+                $dPath = public_path() . '/portfolio/website/' . $newImageName;
+                File::copy($sPath, $dPath);
+
+                //resize
+
+                $dPath = public_path() . '/portfolio/website/thumb/' . $newImageName;
+                // $img = Image::make($sPath);
+                // // $img->resize(300, 200);
+                // $img->fit(540, function ($constraint) {
+                //     $constraint->upsize();
+                // });
+                // $img->save($dPath);
+
+
+                $websiteportfolio->image = $newImageName;
+                $websiteportfolio->save();
+            }
+
+
+            // $request->session()->flash('success', 'Website Portfolio Added Successfully');
 
             return response()->json([
                 'status' => true,

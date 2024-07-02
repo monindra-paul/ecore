@@ -41,8 +41,8 @@
                                 <h5 class="mb-0 text-danger">Create Website Portfolio</h5>
                             </div>
                             <hr>
-                            <form class="row g-3" action="{{ route('portfolio.website.store') }}" method="post">
-                                @csrf
+                            <form class="row g-3" action="" method="" id="websiteportfolio" name="websiteportfolio">
+                               
                                 <div class="col-md-12">
 
                                     <label for="name" class="form-label">Website Name</label>
@@ -55,6 +55,7 @@
                                         </span>
                                         <input type="text" class="form-control border-start-0" id="name"
                                             name="name" placeholder="Website name" />
+                                            <p></p>
                                     </div>
                                 </div>
 
@@ -68,6 +69,7 @@
                                                 class='bx bxs-microphone'></i></span>
                                         <input type="text" class="form-control border-start-0" id="link"
                                             name="link" placeholder="Website Link" />
+                                            <p></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -79,9 +81,10 @@
                                                 class='bx bxs-message'></i></span>
                                         <input type="text" class="form-control border-start-0" id="category"
                                             name="category" placeholder="Website category" />
+                                            <p></p>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <label for="upload" class="form-label">Upload the Image</label>
                                     @if ($errors->has('upload'))
                                         <span class="text-danger">{{ $errors->first('upload') }}</span>
@@ -91,7 +94,22 @@
                                         <input type="file" class="form-control border-start-0" id="upload"
                                             name="upload" placeholder="image" />
                                     </div>
+                                </div> --}}
+
+
+
+
+
+                                <div class="col-md-12">
+                                    <input type="hidden" id="image_id" name="image_id" value="">
+                                    <label for="Image">Image</label>
+                                    <div id="image" class="dropzone dz-clickable" name="image">
+                                        <div class="dz-message needsclick">    
+                                            <br>Drop files here or click to upload.<br><br>                                            
+                                        </div>
+                                    </div>
                                 </div>
+
 
                                 <div class="col-12">
                                     <button type="submit" class="btn btn-danger px-5">Submit Portfolio</button>
@@ -109,4 +127,115 @@
         </div>
     </div>
     <!--end page wrapper -->
+@endsection
+
+
+@section('customJs')
+<script>
+
+
+$("#websiteportfolio").submit(function (event) {
+
+event.preventDefault();
+var element = $(this);
+$("button[type=submit]").prop('disabled', true);
+$.ajax({
+    url: '{{route("portfolio.website.store")}}',
+    type: 'get',
+    data: element.serializeArray(),
+    dataType: 'json',
+    success: function (response) {
+
+        if (response["status"] == true) {
+
+            $("button[type=submit]").prop('disabled', false);
+            window.location.href = "{{route('portfolio.website.list')}}";
+
+
+            $("#name").removeClass('is-invalid')
+                .siblings('p')
+                .removeClass('invalid-feedback')
+                .html(errors['name']);
+
+            $("#slug").addClass('is-invalid')
+                .siblings('p')
+                .addClass('invalid-feedback')
+                .html(errors['slug']);
+
+        }
+        else {
+
+            var errors = response['errors'];
+
+            if (errors['name']) {
+                $("#name").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['name']);
+            }
+            else {
+                $("#name").removeClass('is-invalid')
+                    .siblings('p')
+                    .removeClass('invalid-feedback')
+                    .html(errors['name']);
+
+            }
+
+            if (errors['link']) {
+                $("#link").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['link']);
+            } else {
+                $("#link").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['link']);
+            }
+
+            if (errors['category']) {
+                $("#slug").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['category']);
+            } else {
+                $("#category").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['category']);
+            }
+        }
+
+
+    }, error: function (jqXHR, exception) {
+        console.log("Something went wrong");
+    }
+})
+});
+
+
+
+
+        Dropzone.autoDiscover = false;    
+            const dropzone = $("#image").dropzone({ 
+            init: function() {
+                this.on('addedfile', function(file) {
+                    if (this.files.length > 1) {
+                        this.removeFile(this.files[0]);
+                    }
+                });
+            },
+            url:  "{{route('temp-images.create')}}",
+            maxFiles: 1,
+            paramName: 'image',
+            addRemoveLinks: true,
+            acceptedFiles: "image/jpeg,image/png,image/gif,image/webp",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }, success: function(file, response){
+                 $("#image_id").val(response.image_id);
+                //console.log(response)
+            }
+        });
+</script>
 @endsection
