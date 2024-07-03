@@ -5,7 +5,7 @@
         <div class="page-content">
             <!--breadcrumb-->
             <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-                <div class="breadcrumb-title pe-3">Portfolio</div>
+                <div class="breadcrumb-title pe-3">Graphics Portfolio</div>
                 <div class="ps-3">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb mb-0 p-0">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="ms-auto">
                     <div class="btn-group">
-                        <a href="{{ route('support.os.list') }}" type="button" class="btn btn-primary">List</a>
+                        <a href="{{ route('portfolio.graphics.list') }}" type="button" class="btn btn-primary">List</a>
 
                     </div>
                 </div>
@@ -41,8 +41,8 @@
                                 <h5 class="mb-0 text-danger">Create Graphics Portfolio</h5>
                             </div>
                             <hr>
-                            <form class="row g-3" action="{{ route('support.office.store') }}" method="post">
-                                @csrf
+                            <form class="row g-3" action="" method="" id="graphicsportfolio" name="graphicsportfolio">
+                               
                                 <div class="col-md-12">
 
                                     <label for="name" class="form-label">Graphics Name</label>
@@ -54,61 +54,55 @@
                                             <i class='bx bxs-user'></i>
                                         </span>
                                         <input type="text" class="form-control border-start-0" id="name"
-                                            name="name" placeholder="MS Office name" />
+                                            name="name" placeholder="Graphics name" />
+                                            <p></p>
                                     </div>
                                 </div>
 
-                                {{-- <div class="col-md-5">
-                                    <div class="mb-3">
-                                        <input type="hidden" id="image_id" name="image_id" value="">
-                                        <label for="image">Image</label>
-                                        <div id="image" class="dropzone dz-clickable">
-                                            <div class="dz-message needsclick">
-                                                <br>Drop files here or click to upload.<br><br>
-                                            </div>
+                                
+                                <div class="col-12">
+
+                                    <label for="Graphics Category" class="form-label">Graphics Category</label>
+                                    {{-- @if ($errors->has('brand'))
+                                        <span class="text-danger">{{ $errors->first('brand') }}</span>
+                                    @endif --}}
+                                    <div class="input-group">
+                                        <select class="form-select mb-3" aria-label="Default select example" name="category">
+                                            <span class="input-group-text bg-transparent"><i class='bx bxs-microphone'></i>
+                                            </span>
+
+                                            {{-- <option selected>Open this select menu</option> --}}
+                                            <option value="Logo">Logo</option>
+                                            <option value="Soacial Media Poster">Soacial Media Poster</option>
+                                            <option value="Printable Banner">Printable Banner</option>
+                                            <option value="Youtube Thumbnail">Youtube Thumbnail</option>
+                                            <option value="Brochure">Brochure</option>
+                                            <option value="Leaftet">Leaftet</option>
+                                            <option value="Package Designing">Package Designing</option>
+                                            <option value="UI/UX">UI/UX</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                            
+
+
+
+
+
+                                <div class="col-md-12">
+                                    <input type="hidden" id="image_id" name="image_id" value="">
+                                    <label for="Image">Image</label>
+                                    <div id="image" class="dropzone dz-clickable" name="image">
+                                        <div class="dz-message needsclick">    
+                                            <br>Drop files here or click to upload.<br><br>                                            
                                         </div>
                                     </div>
-                                </div> --}}
-
-                                <div class="col-12">
-
-                                    <label for="bits" class="form-label">Office Bits</label>
-                                    @if ($errors->has('bits'))
-                                        <span class="text-danger">{{ $errors->first('bits') }}</span>
-                                    @endif
-                                    <div class="input-group"> <span class="input-group-text bg-transparent"><i
-                                                class='bx bxs-microphone'></i></span>
-                                        <input type="text" class="form-control border-start-0" id="bits"
-                                            name="bits" placeholder="Office Bits" />
-                                    </div>
-                                </div>
-                                <div class="col-12">
-
-                                    <label for="version" class="form-label">Version</label>
-                                    @if ($errors->has('version'))
-                                        <span class="text-danger">{{ $errors->first('version') }}</span>
-                                    @endif
-                                    <div class="input-group"> <span class="input-group-text bg-transparent"><i
-                                                class='bx bxs-message'></i></span>
-                                        <input type="text" class="form-control border-start-0" id="version"
-                                            name="version" placeholder="Version" />
-                                    </div>
-                                </div>
-                                <div class="col-12">
-
-                                    <label for="link" class="form-label">Provide the Link</label>
-                                    @if ($errors->has('link'))
-                                        <span class="text-danger">{{ $errors->first('link') }}</span>
-                                    @endif
-                                    <div class="input-group"> <span class="input-group-text bg-transparent"><i
-                                                class='bx bxs-lock'></i></span>
-                                        <input type="text" class="form-control border-start-0" id="link"
-                                            name="link" placeholder="Link" />
-                                    </div>
                                 </div>
 
+
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-danger px-5">Create MS Office</button>
+                                    <button type="submit" class="btn btn-danger px-5">Submit Portfolio</button>
                                 </div>
                             </form>
                         </div>
@@ -123,4 +117,98 @@
         </div>
     </div>
     <!--end page wrapper -->
+@endsection
+
+
+@section('customJs')
+<script>
+
+
+$("#graphicsportfolio").submit(function (event) {
+
+event.preventDefault();
+var element = $(this);
+$("button[type=submit]").prop('disabled', true);
+$.ajax({
+    url: '{{route("portfolio.graphics.store")}}',
+    type: 'get',
+    data: element.serializeArray(),
+    dataType: 'json',
+    success: function (response) {
+
+        if (response["status"] == true) {
+
+            $("button[type=submit]").prop('disabled', false);
+            window.location.href = "{{route('portfolio.graphics.list')}}";
+
+
+            $("#name").removeClass('is-invalid')
+                .siblings('p')
+                .removeClass('invalid-feedback')
+                .html(errors['name']);
+
+           
+        }
+        else {
+
+            var errors = response['errors'];
+
+            if (errors['name']) {
+                $("#name").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['name']);
+            }
+            else {
+                $("#name").removeClass('is-invalid')
+                    .siblings('p')
+                    .removeClass('invalid-feedback')
+                    .html(errors['name']);
+
+            }
+
+           
+            if (errors['category']) {
+                $("#slug").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['category']);
+            } else {
+                $("#category").addClass('is-invalid')
+                    .siblings('p')
+                    .addClass('invalid-feedback')
+                    .html(errors['category']);
+            }
+        }
+
+
+    }, error: function (jqXHR, exception) {
+        console.log("Something went wrong");
+    }
+})
+});
+
+
+        Dropzone.autoDiscover = false;    
+            const dropzone = $("#image").dropzone({ 
+            init: function() {
+                this.on('addedfile', function(file) {
+                    if (this.files.length > 1) {
+                        this.removeFile(this.files[0]);
+                    }
+                });
+            },
+            url:  "{{route('temp-images.create')}}",
+            maxFiles: 1,
+            paramName: 'image',
+            addRemoveLinks: true,
+            acceptedFiles: "image/jpeg,image/png,image/gif,image/webp",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }, success: function(file, response){
+                 $("#image_id").val(response.image_id);
+                //console.log(response)
+            }
+        });
+</script>
 @endsection

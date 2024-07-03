@@ -40,7 +40,7 @@
                         <li> <a class="has-arrow" href=""><i class="bx bx-right-arrow-alt"></i>Website
                                 Development</a>
                             <ul>
-                                <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
+                                <li> <a class="" href="{{route('portfolio.website.list')}}"><i class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
                                 <li> <a class="" href="{{route('portfolio.website.create')}}"><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>
@@ -48,9 +48,9 @@
                         </li>
                     </ul>
                     <ul>
-                        <li> <a class="has-arrow" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Graphics Designing</a>
+                        <li> <a class="has-arrow" href="#"><i class="bx bx-right-arrow-alt"></i>Graphics Designing</a>
                             <ul>
-                                <li> <a class="" href="javascript:;"><i class="bx bx-right-arrow-alt"></i>Show</a>
+                                <li> <a class="" href="{{route('portfolio.graphics.list')}}"><i class="bx bx-right-arrow-alt"></i>Show</a>
                                 </li>
                                 <li> <a class="" href="{{ route('portfolio.graphics.create') }}"><i
                                             class="bx bx-right-arrow-alt"></i>Create</a></li>

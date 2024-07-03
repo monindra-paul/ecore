@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('image')->nullable();
+            $table->enum('category', ['Logo', 'Soacial Media Poster', 'Printable Banner', 'Youtube Thumbnail', 'Brochure', 'Leaftet', 'Package Designing', 'UI/UX']);
             $table->boolean('status')->default(1);
             $table->timestamps();
         });

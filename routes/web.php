@@ -20,7 +20,6 @@ use App\Http\Controllers\Frontend\PortfolioController;
 use App\Http\Controllers\Frontend\ServiceController;
 use App\Http\Controllers\Frontend\SupportController;
 use App\Http\Controllers\Frontend\ViewStatusController;
-use App\Models\WebsitePortfolio;
 
 /*
 |--------------------------------------------------------------------------
@@ -101,22 +100,23 @@ Route::group(['prefix' => 'admin'], function () {
         Route::group(['prefix' => 'portfolio'], function () {
 
             Route::group(['prefix' => 'graphics'], function () {
-
+                Route::get('/show', [GraphicsController::class, 'list'])->name('portfolio.graphics.list');
                 Route::get('/create', [GraphicsController::class, 'create'])->name('portfolio.graphics.create');
+                Route::get('/store', [GraphicsController::class, 'store'])->name('portfolio.graphics.store');
+                Route::get('/{id}/edit', [GraphicsController::class, 'edit'])->name('portfolio.graphics.edit');
+                Route::put('/show/{id}', [GraphicsController::class, 'update'])->name('portfolio.graphics.update');
+                Route::delete('/show/{id}', [GraphicsController::class, 'destroy'])->name('portfolio.graphics.delete');
             });
 
             Route::group(['prefix' => 'website'], function () {
                 Route::get('/show', [WebsiteController::class, 'list'])->name('portfolio.website.list');
                 Route::get('/create', [WebsiteController::class, 'create'])->name('portfolio.website.create');
-                // Route::post('/store', [WebsitePortfolio::class, 'store'])->name('portfolio.website.store');
                 Route::get('/store', [WebsiteController::class, 'store'])->name('portfolio.website.store');
                 Route::get('/{id}/edit', [WebsiteController::class, 'edit'])->name('portfolio.website.edit');
                 Route::put('/show/{id}', [WebsiteController::class, 'update'])->name('portfolio.website.update');
                 Route::delete('/show/{id}', [WebsiteController::class, 'destroy'])->name('portfolio.website.delete');
-
-
-                Route::post('/upload-temp-image', [TempImagesController::class, 'create'])->name('temp-images.create');
             });
+            Route::post('/upload-temp-image', [TempImagesController::class, 'create'])->name('temp-images.create');
         });
 
 
