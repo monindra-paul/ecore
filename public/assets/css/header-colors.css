@@ -1,15 +1,14 @@
-
 html.color-header .topbar .navbar-nav .nav-link {
 
 	color: #ffffff;
 
 }
 
-html.color-header .topbar .top-menu-left .nav-item .nav-link ,
+html.color-header .topbar .top-menu-left .nav-item .nav-link,
 html.color-header .topbar .top-menu-left .nav-item .nav-link:hover {
 
 	color: #ffffff;
-	
+
 }
 
 html.color-header .search-bar input {
@@ -27,7 +26,6 @@ html.color-header .search-bar input {
 html.color-header .search-bar input:focus {
 
 	box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25)
-
 }
 
 html.color-header .search-bar input::placeholder {
@@ -84,7 +82,7 @@ html.color-header .topbar .navbar .navbar-nav .nav-link:focus {
 
 	background-color: rgba(255, 255, 255, 0.12);
 
-    color: #ffffff;
+	color: #ffffff;
 
 }
 
@@ -92,7 +90,7 @@ html.color-header .topbar .navbar .navbar-nav .nav-link:focus {
 html.color-header .user-box {
 
 	border-left: 1px solid rgb(255 255 255 / 0.35) !important;
-    border-right: 1px solid rgb(255 255 255 / 0.35) !important;
+	border-right: 1px solid rgb(255 255 255 / 0.35) !important;
 
 }
 
@@ -206,29 +204,31 @@ html.headercolor8 .topbar {
 /* sidebar color */
 
 
-html.color-sidebar .sidebar-wrapper{
+html.color-sidebar .sidebar-wrapper {
 	background-color: #171717;
-    border-right: 1px solid rgb(228 228 228 / 0%);
-}
-html.color-sidebar .sidebar-header{
-	background-color: transparent;
-    border-right: 1px solid #e4e4e400;
-    border-bottom: 1px solid rgb(255 255 255 / 15%);
-}
-html.color-sidebar .logo-icon {
-    filter: invert(1) grayscale(100%) brightness(200%);
+	border-right: 1px solid rgb(228 228 228 / 0%);
 }
 
-html.color-sidebar .menu-label{
+html.color-sidebar .sidebar-header {
+	background-color: transparent;
+	border-right: 1px solid #e4e4e400;
+	border-bottom: 1px solid rgb(255 255 255 / 15%);
+}
+
+html.color-sidebar .logo-icon {
+	filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+html.color-sidebar .menu-label {
 	color: rgb(255 255 255 / 65%);
 }
 
 html.color-sidebar .sidebar-wrapper .sidebar-header .logo-text {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 html.color-sidebar .sidebar-wrapper .sidebar-header .toggle-icon {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 html.color-sidebar .sidebar-wrapper .sidebar-header .toggle-icon:hover {
@@ -239,51 +239,62 @@ html.color-sidebar .simplebar-scrollbar:before {
 	background: rgba(255, 255, 255, .4)
 }
 
-html.color-sidebar .sidebar-wrapper .metismenu .mm-active>a, html.color-sidebar .sidebar-wrapper .metismenu a:active, html.color-sidebar .sidebar-wrapper .metismenu a:focus, html.color-sidebar .sidebar-wrapper .metismenu a:hover {
-    color: #fff;
-    text-decoration: none;
-    background: rgb(255 255 255 / 18%);
+html.color-sidebar .sidebar-wrapper .metismenu .mm-active>a,
+html.color-sidebar .sidebar-wrapper .metismenu a:active,
+html.color-sidebar .sidebar-wrapper .metismenu a:focus,
+html.color-sidebar .sidebar-wrapper .metismenu a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #418DFB;
+	border-radius: 6px;
 }
 
 html.color-sidebar .sidebar-wrapper .metismenu a {
-    color: rgb(255 255 255 / 85%);
+	color: rgb(255 255 255 / 85%);
 }
 
 html.color-sidebar .sidebar-wrapper .metismenu ul {
-    border: 1px solid #ffffff00;
-    background: rgb(255 255 255 / 8%);
+	border: 1px solid #ffffff00;
+	background: rgb(255 255 255 / 8%);
 }
 
 
 html.color-sidebar .sidebar-wrapper {
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
 .switcher-wrapper .sidebarcolor1 {
 	background-image: url(../images/bg-themes/1.png);
 }
+
 .switcher-wrapper .sidebarcolor2 {
 	background-image: url(../images/bg-themes/2.png);
 }
+
 .switcher-wrapper .sidebarcolor3 {
 	background-image: url(../images/bg-themes/3.png);
 }
+
 .switcher-wrapper .sidebarcolor4 {
 	background-image: url(../images/bg-themes/4.png);
 }
+
 .switcher-wrapper .sidebarcolor5 {
 	background-image: url(../images/bg-themes/5.png);
 }
+
 .switcher-wrapper .sidebarcolor6 {
 	background-image: url(../images/bg-themes/6.png);
 }
+
 .switcher-wrapper .sidebarcolor7 {
 	background-image: url(../images/bg-themes/7.png);
 }
+
 .switcher-wrapper .sidebarcolor8 {
 	background-image: url(../images/bg-themes/8.png);
 }
@@ -292,35 +303,33 @@ html.color-sidebar .sidebar-wrapper {
 
 
 html.color-sidebar.sidebarcolor1 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/1.png);
+	background-image: url(../images/bg-themes/1.png);
 }
 
 html.color-sidebar.sidebarcolor2 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/2.png);
+	background-image: url(../images/bg-themes/2.png);
 }
 
 html.color-sidebar.sidebarcolor3 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/3.png);
+	background-image: url(../images/bg-themes/3.png);
 }
 
 html.color-sidebar.sidebarcolor4 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/4.png);
+	background-image: url(../images/bg-themes/4.png);
 }
 
 html.color-sidebar.sidebarcolor5 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/5.png);
+	background-image: url(../images/bg-themes/5.png);
 }
 
 html.color-sidebar.sidebarcolor6 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/6.png);
+	background-image: url(../images/bg-themes/6.png);
 }
 
 html.color-sidebar.sidebarcolor7 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/7.png);
+	background-image: url(../images/bg-themes/7.png);
 }
 
 html.color-sidebar.sidebarcolor8 .sidebar-wrapper {
-    background-image: url(../images/bg-themes/8.png);
+	background-image: url(../images/bg-themes/8.png);
 }
-
-

@@ -25,7 +25,7 @@
                 </li>
                 <li>
                     <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        <div class="parent-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                 viewBox="0 0 24 24" fill="none" stroke="white" color="#ffffff" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="feather feather-airplay text-primary">
@@ -37,7 +37,7 @@
                         <div class="menu-title">Portfolio</div>
                     </a>
                     <ul>
-                        <li> <a class="has-arrow" href=""><i class="bx bx-right-arrow-alt"></i>Website
+                        <li> <a class="has-arrow" href="#"><i class="bx bx-right-arrow-alt"></i>Website
                                 Development</a>
                             <ul>
                                 <li> <a class="" href="{{route('portfolio.website.list')}}"><i class="bx bx-right-arrow-alt"></i>Show</a>
@@ -62,7 +62,7 @@
 
                 <li>
                     <a href="javascript:;" class="has-arrow">
-                        <div class="parent-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        <div class="parent-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                 viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
                                 class="feather feather-file-text text-primary">
