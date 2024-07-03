@@ -149,7 +149,7 @@
                                         </li>
 
                                         <li class="menu-item  nav-item">
-                                            <a href="{{route('portfolio.index')}}" class="nav_link">
+                                            <a href="{{url('/portfolios')}}" class="nav_link">
                                                 <span class="text-link">
                                                      Portfolio
                                                 </span>
@@ -341,7 +341,7 @@
 
                                         </li>
                                         <li class="menu-item  menu-item">
-                                            <a href="{{route('portfolio.index')}}" class="nav_link">
+                                            <a href="{{url('/portfolios')}}" class="nav_link">
                                                 <span class="text-link">
                                                      Portfolio
                                                 </span>

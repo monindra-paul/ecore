@@ -58,7 +58,7 @@
                                                 <td>{{ $web->category }}</td>
                                                 <td class="">
 
-                                                    <a href="{{ route('support.office.edit', $web->id) }}" class="pr-2">
+                                                    <a href="{{ route('portfolio.website.edit', $web->id) }}" class="pr-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" height="18"
                                                             width="18"
                                                             viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -96,7 +96,7 @@
 @section('customJs')
     <script>
         function deleteOffice(id) {
-            var url = '{{ route('support.office.delete', 'ID') }}';
+            var url = '{{ route('portfolio.website.delete', 'ID') }}';
             var newUrl = url.replace("ID", id);
 
             if (confirm("Are You Sure to Delete?")) {
@@ -112,7 +112,7 @@
                     success: function(response) {
 
                         if (response["status"]) {
-                            window.location.href = "{{ route('support.office.list') }}";
+                            window.location.href = "{{ route('portfolio.website.list') }}";
                         }
                     }
                 });

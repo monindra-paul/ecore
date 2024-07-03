@@ -58,13 +58,14 @@ Route::get('/about-us', [PagesController::class, 'about'])->name('about');
 Route::get('/contact-us', [PagesController::class, 'contact'])->name('contact');
 Route::post('/contact-us', [PagesController::class, 'postContact'])->name('post.contact');
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
-// Route::get('/terms-conditions', [PagesController::class, 'terms'])->name('terms-conditions');
-// Route::get('/privacy-policy', [PagesController::class, 'privacy'])->name('privacy-policy');
-
-// Route::get('/terms-and-condition', [PagesController::class, 'terms'])->name('terms-condition');
-
 Route::get('/privacy-policy', [PagesController::class, 'privacy'])->name('privacy');
 Route::get('/terms-conditions', [PagesController::class, 'terms'])->name('terms');
+Route::get('/portfolios', [PortfolioController::class, 'portfolio'])->name('portfolio');
+
+
+
+
+
 
 Route::get('/remote-support', [SupportController::class, 'remoteSupport'])->name('support.remote');
 Route::get('/softwares-drivers', [SupportController::class, 'softwareDrivers'])->name('support.drivers');
@@ -75,7 +76,8 @@ Route::get('/download-pdf/{bill_no}', [ViewStatusController::class, 'downloadPdf
 
 
 
-Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio.index');
+
+
 
 
 
@@ -108,6 +110,10 @@ Route::group(['prefix' => 'admin'], function () {
                 Route::get('/create', [WebsiteController::class, 'create'])->name('portfolio.website.create');
                 // Route::post('/store', [WebsitePortfolio::class, 'store'])->name('portfolio.website.store');
                 Route::get('/store', [WebsiteController::class, 'store'])->name('portfolio.website.store');
+                Route::get('/{id}/edit', [WebsiteController::class, 'edit'])->name('portfolio.website.edit');
+                Route::put('/show/{id}', [WebsiteController::class, 'update'])->name('portfolio.website.update');
+                Route::delete('/show/{id}', [WebsiteController::class, 'destroy'])->name('portfolio.website.delete');
+
 
                 Route::post('/upload-temp-image', [TempImagesController::class, 'create'])->name('temp-images.create');
             });

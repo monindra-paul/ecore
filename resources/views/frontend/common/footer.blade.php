@@ -19,8 +19,8 @@
                 </div>
             </div>
             <div class="theme_btn_all">
-                <a href="#" class="theme_btn">
-                    Free Call Now<span> <i class=" fi-rr-arrow-small-up"></i></span>
+                <a href="mailto:info@ecoretechserv.com" class="theme_btn">
+                    Mail Us Now<span> <i class=" fi-rr-arrow-small-up"></i></span>
                 </a>
             </div>
             <div class="d-flex align-items-center contact_header_one">
