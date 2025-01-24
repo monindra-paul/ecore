@@ -59,8 +59,14 @@ Route::post('/contact-us', [PagesController::class, 'postContact'])->name('post.
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
 Route::get('/privacy-policy', [PagesController::class, 'privacy'])->name('privacy');
 Route::get('/terms-conditions', [PagesController::class, 'terms'])->name('terms');
-Route::get('/portfolios', [PortfolioController::class, 'portfolio'])->name('portfolio');
 
+
+
+
+
+
+Route::get('/portfolios', [PortfolioController::class, 'portfolio'])->name('portfolio');
+Route::get('/portfolios/websites', [PortfolioController::class, 'websites'])->name('portfolio.websites');
 
 
 

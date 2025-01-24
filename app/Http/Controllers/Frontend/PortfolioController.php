@@ -14,4 +14,12 @@ class PortfolioController extends Controller
 
         return view('frontend.portfolio.portfolio', compact('allportfolios'));
     }
+
+
+
+    public function websites()
+    {
+        $allwebsites = WebsitePortfolio::latest()->get();
+        return view('frontend.portfolio.websites', compact('allwebsites'));
+    }
 }
